@@ -24,4 +24,8 @@ public class NoteBookToggle : MonoBehaviour
         downButton.SetActive(false);
         upButton.SetActive(true);
     }
+    public void AddNotes()
+    {
+        Debug.Log("Add Notes");
+    }
 }
