@@ -1,4 +1,5 @@
 using System;
+using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -7,6 +8,9 @@ public class TakeNotes : MonoBehaviour
     private Camera cam;
 
     [SerializeField] private NoteBookToggle noteBookToggle;
+    [SerializeField] private string clueDescription;
+
+    [SerializeField] private NoteContentManager noteContentManager;
     void Start()
     {
         cam = Camera.main;
@@ -41,8 +45,10 @@ public class TakeNotes : MonoBehaviour
         }
     }
 
-    private void WriteDownNotes()
+    private async void WriteDownNotes()
     {
-        Debug.Log("Writing down notes...");
+        noteBookToggle.NoteBookUp();
+        await Task.Delay(1000);
+        noteContentManager.takeNotes(clueDescription);
     }
 }
