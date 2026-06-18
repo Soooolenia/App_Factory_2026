@@ -54,6 +54,7 @@ public class CameraControl : MonoBehaviour
             foreach (var boxColliders in boxColliders)
             {
                 if (boxColliders.enabled == false) continue;
+
                 Vector3 cameraPosition = cam.transform.position;
                 Vector3 cameraClampedPosition = boxColliders.bounds.ClosestPoint(cameraPosition);
                 cameraClampedPosition.z = cameraPosition.z;

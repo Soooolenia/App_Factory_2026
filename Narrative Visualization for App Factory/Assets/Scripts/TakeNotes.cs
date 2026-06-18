@@ -1,47 +1,27 @@
+using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class NoteTakeToggle : MonoBehaviour
+public class TakeNotes : MonoBehaviour
 {
-    [SerializeField] private NoteBookToggle noteBookToggle;
-    [SerializeField] private GameObject takeNotesButton;
-
     private Camera cam;
 
-    [SerializeField] private int holdCounter = 0;
-    [SerializeField] private bool noteIsTaken = false;
-    private void Start()
+    [SerializeField] private NoteBookToggle noteBookToggle;
+    void Start()
     {
         cam = Camera.main;
-        takeNotesButton.SetActive(false);
     }
     void Update()
     {
-        if (noteIsTaken) { return;}
         //If there is a touchscreen and the button is currently being pressed
-        if (Touchscreen.current != null && Touchscreen.current.primaryTouch.press.isPressed)
+        if (Touchscreen.current != null && Touchscreen.current.primaryTouch.press.wasPressedThisFrame)
         {
             CheckTap(Touchscreen.current.primaryTouch.position.ReadValue());
-
-            if (Touchscreen.current.primaryTouch.press.wasReleasedThisFrame)
-            {
-                holdCounter = 0;
-            }
         }
         //Else if, there is a mouse and left mouse button is being pressed
-        else if (Mouse.current != null && Mouse.current.leftButton.isPressed)
+        else if (Mouse.current != null && Mouse.current.leftButton.wasPressedThisFrame)
         {
             CheckTap(Mouse.current.position.ReadValue());
-
-            if (Mouse.current.leftButton.wasReleasedThisFrame)
-            {
-                holdCounter = 0;
-            }
-        }
-
-        else
-        {
-            holdCounter = 0;
         }
     }
     void CheckTap(Vector2 screenPos)
@@ -55,14 +35,14 @@ public class NoteTakeToggle : MonoBehaviour
         //If the raycast hit something and the thing it hit is the game object
         if (hit.collider != null && hit.collider.gameObject == gameObject)
         {
-            holdCounter += 1;
-
-            if (holdCounter >= 60)
-            {
-                noteIsTaken = true;
-                holdCounter = 0;
-                takeNotesButton.SetActive(true);
-            }
+            noteBookToggle.NoteBookUp();
+            WriteDownNotes();
+            gameObject.SetActive(false);
         }
+    }
+
+    private void WriteDownNotes()
+    {
+        Debug.Log("Writing down notes...");
     }
 }
