@@ -7,6 +7,9 @@ public class NoteContentManager : MonoBehaviour
 {
     private bool noteIsFull = false;
 
+    //private GameObject noteBookToggle;
+    private bool isInEraseMode = false;
+
     [SerializeField] private TMP_Text[] noteSlots = new TMP_Text[15];
     public void takeNotes(string description)
     {
@@ -35,7 +38,7 @@ public class NoteContentManager : MonoBehaviour
 
         else
         {
-            Debug.Log("Note is full, cannot take more notes.");
+            EnterEraseMode();
         }
     }
     private void checkIfFull()
@@ -52,5 +55,14 @@ public class NoteContentManager : MonoBehaviour
                 return;
             }
         }
+    }
+
+    private void EnterEraseMode()
+    {
+        noteBookToggle.SetActive(false);
+    }
+    public void eraseLine(int index)
+    {
+        noteSlots[index].text = "";
     }
 }
