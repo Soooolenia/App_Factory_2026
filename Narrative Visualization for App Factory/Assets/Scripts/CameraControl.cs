@@ -21,7 +21,7 @@ public class CameraControl : MonoBehaviour
 
         foreach (var touch in Touch.activeTouches)
         {
-            Debug.Log(touch.screenPosition + " " + touch.phase);    
+            //Debug.Log(touch.screenPosition + " " + touch.phase);    
         }
     }
     private void PanCamera()
@@ -43,7 +43,7 @@ public class CameraControl : MonoBehaviour
         {
             Vector3 difference = dragOrigin - cam.ScreenToWorldPoint(touch.screenPosition);
 
-            print("origin " + dragOrigin + " newPosition " + cam.ScreenToWorldPoint(touch.screenPosition) + " =difference " + difference);
+            //print("origin " + dragOrigin + " newPosition " + cam.ScreenToWorldPoint(touch.screenPosition) + " =difference " + difference);
 
             //Move camera by drag distance
             cam.transform.position += difference;
