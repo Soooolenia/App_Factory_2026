@@ -1,19 +1,23 @@
 using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 public class NoteContentManager : MonoBehaviour
 {
     private bool noteIsFull = false;
 
     private string pendingNote = "";
 
-    [SerializeField] private GameObject eraseButton;
-    [SerializeField] private GameObject replaceButton;
+    //[SerializeField] private GameObject eraseButton;
+    //[SerializeField] private GameObject replaceButton;
+
+    [SerializeField] private Button[] eraseButtons = new Button[15];
+    [SerializeField] private Button[] replaceButtons = new Button[15];
 
     [SerializeField] private TMP_Text[] noteSlots = new TMP_Text[15];
     private void Start()
     {
-        eraseButton.SetActive(true);
-        replaceButton.SetActive(false);
+        //eraseButton.SetActive(true);
+        //replaceButton.SetActive(false);
     }
     public void takeNotes(string description)
     {
@@ -65,8 +69,11 @@ public class NoteContentManager : MonoBehaviour
     private void EnterReplaceMode(string description)
     {
         pendingNote = description;
-        eraseButton.SetActive(false);
-        replaceButton.SetActive(true);
+
+        foreach (Button button in eraseButtons)
+            button.gameObject.SetActive(false);
+        foreach (Button button in replaceButtons)
+            button.gameObject.SetActive(true);
     }
     public void eraseLine(int index)
     {
@@ -79,7 +86,9 @@ public class NoteContentManager : MonoBehaviour
         pendingNote = "";
 
         //Exit replace mode after replacing a line
-        replaceButton.SetActive(false);
-        eraseButton.SetActive(true);
+        foreach (Button button in replaceButtons)
+            button.gameObject.SetActive(false);
+        foreach (Button button in eraseButtons)
+            button.gameObject.SetActive(true);
     }
 }
