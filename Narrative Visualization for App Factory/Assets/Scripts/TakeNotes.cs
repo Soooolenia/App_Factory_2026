@@ -11,6 +11,13 @@ public class TakeNotes : MonoBehaviour
     [SerializeField] private string clueDescription;
 
     [SerializeField] private NoteContentManager noteContentManager;
+
+    [SerializeField] private bool isMainClue;
+    [SerializeField] private GameObject nextCameraBounds;
+
+    [SerializeField] private bool isMainClueTaken = false;
+
+    [SerializeField] private BoundsManager boundsManager;
     void Start()
     {
         cam = Camera.main;
@@ -39,9 +46,24 @@ public class TakeNotes : MonoBehaviour
         //If the raycast hit something and the thing it hit is the game object
         if (hit.collider != null && hit.collider.gameObject == gameObject)
         {
-            noteBookToggle.NoteBookUp();
-            WriteDownNotes();
-            gameObject.SetActive(false);
+            if (isMainClue)
+            {
+                noteBookToggle.NoteBookUp();
+                WriteDownNotes();
+
+                gameObject.SetActive(false);
+
+                isMainClueTaken = true;
+                //Notify secondary manager
+                nextCameraBounds.SetActive(true);
+            }
+            else
+            {
+                noteBookToggle.NoteBookUp();
+                WriteDownNotes();
+                gameObject.SetActive(false);
+                Debug.Log("Not main clue, failed to unlock next chapter!");
+            }
         }
     }
 

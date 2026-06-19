@@ -65,7 +65,6 @@ public class NoteContentManager : MonoBehaviour
             }
         }
     }
-
     private void EnterReplaceMode(string description)
     {
         pendingNote = description;
