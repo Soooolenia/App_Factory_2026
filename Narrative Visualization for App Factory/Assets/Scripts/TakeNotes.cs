@@ -1,7 +1,4 @@
-using System;
 using System.Threading.Tasks;
-using Unity.VisualScripting;
-using UnityEditor.Build.Content;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -20,6 +17,8 @@ public class TakeNotes : MonoBehaviour
     [SerializeField] private bool isMainClueTaken = false;
 
     [SerializeField] private BoundsManager boundsManager;
+
+    [SerializeField] private NoteTakeToggle noteTakeToggle;
     void Start()
     {
         cam = Camera.main;
@@ -81,6 +80,8 @@ public class TakeNotes : MonoBehaviour
     }
     private void onNoteWritten()
     {
+        noteTakeToggle.NoteTaken();
+
         if (isMainClue)
         {
             isMainClueTaken = true;

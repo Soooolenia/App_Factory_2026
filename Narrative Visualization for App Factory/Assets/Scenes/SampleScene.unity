@@ -704,7 +704,8 @@ MonoBehaviour:
   isMainClue: 0
   nextCameraBounds: {fileID: 1096214274}
   isMainClueTaken: 0
-  boundsManager: {fileID: 0}
+  boundsManager: {fileID: 409183680}
+  noteTakeToggle: {fileID: 1814263810}
 --- !u!61 &179162569
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1535,7 +1536,8 @@ MonoBehaviour:
   isMainClue: 1
   nextCameraBounds: {fileID: 558439518}
   isMainClueTaken: 0
-  boundsManager: {fileID: 0}
+  boundsManager: {fileID: 409183680}
+  noteTakeToggle: {fileID: 2143894052}
 --- !u!1 &306402204
 GameObject:
   m_ObjectHideFlags: 0
@@ -6624,7 +6626,8 @@ MonoBehaviour:
   isMainClue: 0
   nextCameraBounds: {fileID: 1096214274}
   isMainClueTaken: 0
-  boundsManager: {fileID: 0}
+  boundsManager: {fileID: 409183680}
+  noteTakeToggle: {fileID: 805446981}
 --- !u!61 &1201053751
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7761,7 +7764,8 @@ MonoBehaviour:
   isMainClue: 1
   nextCameraBounds: {fileID: 131820897}
   isMainClueTaken: 0
-  boundsManager: {fileID: 0}
+  boundsManager: {fileID: 409183680}
+  noteTakeToggle: {fileID: 2038152422}
 --- !u!61 &1440853978
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8955,7 +8959,8 @@ MonoBehaviour:
   isMainClue: 1
   nextCameraBounds: {fileID: 1096214274}
   isMainClueTaken: 0
-  boundsManager: {fileID: 0}
+  boundsManager: {fileID: 409183680}
+  noteTakeToggle: {fileID: 937650873}
 --- !u!61 &1751125655
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9246,7 +9251,8 @@ MonoBehaviour:
   isMainClue: 0
   nextCameraBounds: {fileID: 1096214274}
   isMainClueTaken: 0
-  boundsManager: {fileID: 0}
+  boundsManager: {fileID: 409183680}
+  noteTakeToggle: {fileID: 804327799}
 --- !u!61 &1810859775
 BoxCollider2D:
   m_ObjectHideFlags: 0
