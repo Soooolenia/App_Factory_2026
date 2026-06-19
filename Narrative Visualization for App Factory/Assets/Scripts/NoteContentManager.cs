@@ -1,3 +1,4 @@
+using System;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -6,6 +7,8 @@ public class NoteContentManager : MonoBehaviour
     private bool noteIsFull = false;
 
     private string pendingNote = "";
+
+    private Action pendingCallback;
 
     //[SerializeField] private GameObject eraseButton;
     //[SerializeField] private GameObject replaceButton;
@@ -19,7 +22,7 @@ public class NoteContentManager : MonoBehaviour
         //eraseButton.SetActive(true);
         //replaceButton.SetActive(false);
     }
-    public void takeNotes(string description)
+    public void takeNotes(string description, Action onNoteWritten = null)
     {
         checkIfFull();
 
@@ -28,6 +31,8 @@ public class NoteContentManager : MonoBehaviour
             if (slot.text == description)
             {
                 Debug.Log("Note already taken, cannot take duplicate notes.");
+
+                onNoteWritten?.Invoke();
                 return;
             }
         }
@@ -39,6 +44,9 @@ public class NoteContentManager : MonoBehaviour
                 if (slot.text == "")
                 {
                     slot.text = description;
+
+                    //Run function
+                    onNoteWritten?.Invoke();
                     return;
                 }
             }
@@ -47,7 +55,7 @@ public class NoteContentManager : MonoBehaviour
         else
         {
             Debug.Log("List is full, entering replace mode. Pending note: " + description);
-            EnterReplaceMode(description);
+            EnterReplaceMode(description, onNoteWritten);
         }
     }
     private void checkIfFull()
@@ -65,9 +73,10 @@ public class NoteContentManager : MonoBehaviour
             }
         }
     }
-    private void EnterReplaceMode(string description)
+    private void EnterReplaceMode(string description, Action onNoteWritten)
     {
         pendingNote = description;
+        pendingCallback = onNoteWritten;
 
         foreach (Button button in eraseButtons)
             button.gameObject.SetActive(false);
@@ -89,5 +98,9 @@ public class NoteContentManager : MonoBehaviour
             button.gameObject.SetActive(false);
         foreach (Button button in eraseButtons)
             button.gameObject.SetActive(true);
+
+        //Fire callback
+        pendingCallback?.Invoke();
+        pendingCallback = null;
     }
 }

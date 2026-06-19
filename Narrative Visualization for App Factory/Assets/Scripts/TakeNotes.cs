@@ -1,5 +1,7 @@
 using System;
 using System.Threading.Tasks;
+using Unity.VisualScripting;
+using UnityEditor.Build.Content;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -46,24 +48,27 @@ public class TakeNotes : MonoBehaviour
         //If the raycast hit something and the thing it hit is the game object
         if (hit.collider != null && hit.collider.gameObject == gameObject)
         {
-            if (isMainClue)
-            {
-                noteBookToggle.NoteBookUp();
-                WriteDownNotes();
+            //if (isMainClue)
+            //{
+            //    noteBookToggle.NoteBookUp();
+            //    WriteDownNotes();
 
-                gameObject.SetActive(false);
+            //    gameObject.SetActive(false);
 
-                isMainClueTaken = true;
-                //Notify secondary manager
-                nextCameraBounds.SetActive(true);
-            }
-            else
-            {
-                noteBookToggle.NoteBookUp();
-                WriteDownNotes();
-                gameObject.SetActive(false);
-                Debug.Log("Not main clue, failed to unlock next chapter!");
-            }
+            //    isMainClueTaken = true;
+            //    //Notify secondary manager
+            //    nextCameraBounds.SetActive(true);
+            //}
+            //else
+            //{
+            //    noteBookToggle.NoteBookUp();
+            //    WriteDownNotes();
+            //    gameObject.SetActive(false);
+            //    Debug.Log("Not main clue, failed to unlock next chapter!");
+            //}
+
+            WriteDownNotes();
+            gameObject.SetActive(false);
         }
     }
 
@@ -71,6 +76,19 @@ public class TakeNotes : MonoBehaviour
     {
         noteBookToggle.NoteBookUp();
         await Task.Delay(1000);
-        noteContentManager.takeNotes(clueDescription);
+
+        noteContentManager.takeNotes(clueDescription, onNoteWritten);
+    }
+    private void onNoteWritten()
+    {
+        if (isMainClue)
+        {
+            isMainClueTaken = true;
+            nextCameraBounds.SetActive(true);
+        }
+        else
+        {
+            Debug.Log("Not main clue, failed to unlock next chapter!");
+        }
     }
 }
