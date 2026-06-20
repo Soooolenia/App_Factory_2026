@@ -390,6 +390,54 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 55465028}
   m_CullTransparentMesh: 1
+--- !u!1 &81645821
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 81645823}
+  - component: {fileID: 81645822}
+  m_Layer: 0
+  m_Name: Clue Manager Chapter 01
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &81645822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 81645821}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1fbc6023a45b2d8449b5335ac7fc92ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: '::'
+  _mainClueIsNoted: 0
+  secondaryClueCounter: 0
+  secondaryClueRequiredAmount: 2
+  _secondaryClueIsNoted: 0
+--- !u!4 &81645823
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 81645821}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &109463860
 GameObject:
   m_ObjectHideFlags: 0
@@ -701,10 +749,8 @@ MonoBehaviour:
   noteBookToggle: {fileID: 1973253454}
   clueDescription: First secondary clue
   noteContentManager: {fileID: 1973253458}
-  isMainClue: 0
-  nextCameraBounds: {fileID: 1096214274}
-  isMainClueTaken: 0
-  boundsManager: {fileID: 409183680}
+  clueType: 1
+  clueManager: {fileID: 81645822}
   noteTakeToggle: {fileID: 1814263810}
 --- !u!61 &179162569
 BoxCollider2D:
@@ -1674,10 +1720,8 @@ MonoBehaviour:
   noteBookToggle: {fileID: 1973253454}
   clueDescription: Test first clue description
   noteContentManager: {fileID: 1973253458}
-  isMainClue: 1
-  nextCameraBounds: {fileID: 558439518}
-  isMainClueTaken: 0
-  boundsManager: {fileID: 409183680}
+  clueType: 0
+  clueManager: {fileID: 81645822}
   noteTakeToggle: {fileID: 2143894052}
 --- !u!1 &306402204
 GameObject:
@@ -2198,7 +2242,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6675b7eef248a947870c917e9b9881c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
-  nextBounds: {fileID: 0}
+  clueManager: {fileID: 81645822}
+  nextMapBound: {fileID: 558439518}
 --- !u!4 &409183681
 Transform:
   m_ObjectHideFlags: 0
@@ -6987,10 +7032,8 @@ MonoBehaviour:
   noteBookToggle: {fileID: 1973253454}
   clueDescription: Second secondary clue description!!!
   noteContentManager: {fileID: 1973253458}
-  isMainClue: 0
-  nextCameraBounds: {fileID: 1096214274}
-  isMainClueTaken: 0
-  boundsManager: {fileID: 409183680}
+  clueType: 1
+  clueManager: {fileID: 81645822}
   noteTakeToggle: {fileID: 805446981}
 --- !u!61 &1201053751
 BoxCollider2D:
@@ -8125,10 +8168,8 @@ MonoBehaviour:
   noteBookToggle: {fileID: 1973253454}
   clueDescription: Experiences have confronting sides.
   noteContentManager: {fileID: 1973253458}
-  isMainClue: 1
-  nextCameraBounds: {fileID: 131820897}
-  isMainClueTaken: 0
-  boundsManager: {fileID: 409183680}
+  clueType: 0
+  clueManager: {fileID: 0}
   noteTakeToggle: {fileID: 2038152422}
 --- !u!61 &1440853978
 BoxCollider2D:
@@ -9320,10 +9361,8 @@ MonoBehaviour:
   noteBookToggle: {fileID: 1973253454}
   clueDescription: Final testing clue description!
   noteContentManager: {fileID: 1973253458}
-  isMainClue: 1
-  nextCameraBounds: {fileID: 1096214274}
-  isMainClueTaken: 0
-  boundsManager: {fileID: 409183680}
+  clueType: 0
+  clueManager: {fileID: 0}
   noteTakeToggle: {fileID: 937650873}
 --- !u!61 &1751125655
 BoxCollider2D:
@@ -9612,10 +9651,8 @@ MonoBehaviour:
   noteBookToggle: {fileID: 1973253454}
   clueDescription: Third testing document description
   noteContentManager: {fileID: 1973253458}
-  isMainClue: 0
-  nextCameraBounds: {fileID: 1096214274}
-  isMainClueTaken: 0
-  boundsManager: {fileID: 409183680}
+  clueType: 0
+  clueManager: {fileID: 0}
   noteTakeToggle: {fileID: 804327799}
 --- !u!61 &1810859775
 BoxCollider2D:
@@ -12513,5 +12550,6 @@ SceneRoots:
   - {fileID: 2085300865}
   - {fileID: 306402206}
   - {fileID: 1274978008}
-  - {fileID: 409183681}
   - {fileID: 606191118}
+  - {fileID: 81645823}
+  - {fileID: 409183681}
