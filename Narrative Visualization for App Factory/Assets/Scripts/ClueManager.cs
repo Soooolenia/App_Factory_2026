@@ -24,7 +24,7 @@ public class ClueManager : MonoBehaviour
         }
     }
 
-    public bool SecondaryClueIsNoted
+    public bool secondaryClueIsNoted
     {
         get => _secondaryClueIsNoted;
         set
@@ -52,7 +52,13 @@ public class ClueManager : MonoBehaviour
         secondaryClueCounter += points;
         if (secondaryClueCounter >= secondaryClueRequiredAmount)
         {
-            SecondaryClueIsNoted = true; 
+            secondaryClueIsNoted = true; 
         }
+    }
+    public void ResetClue(int newSecondaryAmount)
+    {
+        MainClueNoted = false;
+        secondaryClueRequiredAmount = newSecondaryAmount;
+        secondaryClueIsNoted = false;
     }
 }

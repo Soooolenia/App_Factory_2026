@@ -4,6 +4,9 @@ public class BoundsManager : MonoBehaviour
 {
     [SerializeField] private ClueManager clueManager;
     [SerializeField] private GameObject nextMapBound;
+    [SerializeField] private GameObject nextBoundManager;
+
+    [SerializeField] private int nextSecondaryClueAmount;
 
     private bool isUnlocked = false;
 
@@ -29,7 +32,7 @@ public class BoundsManager : MonoBehaviour
     {
         if (isUnlocked) return;
 
-        if (clueManager != null && clueManager.MainClueNoted && clueManager.SecondaryClueIsNoted)
+        if (clueManager != null && clueManager.MainClueNoted && clueManager.secondaryClueIsNoted)
         {
             UnlockNextBound();
         }
@@ -42,6 +45,8 @@ public class BoundsManager : MonoBehaviour
         if (nextMapBound != null)
         {
             nextMapBound.SetActive(true);
+            nextBoundManager.SetActive(true);
+            clueManager.ResetClue(nextSecondaryClueAmount);
         }
     }
 }
