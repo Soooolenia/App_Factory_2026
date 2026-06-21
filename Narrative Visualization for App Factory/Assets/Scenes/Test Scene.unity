@@ -287,6 +287,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52ee7e70561876646ba3ca3f538b6d39, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  dragAxis: {x: 1, y: 1}
+  maxDragDistance: 1
+  bounceSpeed: 100
+  bounceDamping: 10
 --- !u!212 &1892235827
 SpriteRenderer:
   serializedVersion: 2
@@ -336,7 +340,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
+  m_Sprite: {fileID: 7482667652216324306, guid: 48e93eef0688c4a259cb0eddcd8661f7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
