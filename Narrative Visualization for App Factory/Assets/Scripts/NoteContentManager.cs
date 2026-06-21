@@ -12,6 +12,8 @@ public class NoteContentManager : MonoBehaviour
 
     private Slot.SlotStatus pendingClueType;
 
+    private NoteTakeToggle pendingOwner;
+
     [SerializeField] private Button[] eraseButtons = new Button[15];
     [SerializeField] private Button[] replaceButtons = new Button[15];
 
@@ -21,7 +23,9 @@ public class NoteContentManager : MonoBehaviour
         //eraseButton.SetActive(true);
         //replaceButton.SetActive(false);
     }
-    public void takeNotes(string description, Slot.SlotStatus clueType, Action onNoteWritten = null)
+
+    //Stores all information about interactable, description, clue type, and the object itself
+    public void takeNotes(string description, Slot.SlotStatus clueType, NoteTakeToggle owner, Action onNoteWritten = null)
     {
         checkIfFull();
 
@@ -46,7 +50,9 @@ public class NoteContentManager : MonoBehaviour
                 {
                     slot.text = description;
 
-                    slot.GetComponent<Slot>().StatusUpdate(clueType);
+                    Slot slotComponent = slot.GetComponent<Slot>();
+                    slotComponent.StatusUpdate(clueType);
+                    slotComponent.ownerToggle = owner;
 
                     //Run function
                     onNoteWritten?.Invoke();
@@ -59,7 +65,7 @@ public class NoteContentManager : MonoBehaviour
         else
         {
             Debug.Log("List is full, entering replace mode. Pending note: " + description);
-            EnterReplaceMode(description, clueType, onNoteWritten);
+            EnterReplaceMode(description, clueType, owner, onNoteWritten);
         }
     }
     private void checkIfFull()
@@ -79,11 +85,12 @@ public class NoteContentManager : MonoBehaviour
     }
 
     //Replace selected slot via button onclick
-    private void EnterReplaceMode(string description, Slot.SlotStatus clueType, Action onNoteWritten)
+    private void EnterReplaceMode(string description, Slot.SlotStatus clueType, NoteTakeToggle owner, Action onNoteWritten)
     {
         pendingNote = description;
         //Same logic as storing the description
         pendingClueType = clueType;
+        pendingOwner = owner;
         pendingCallback = onNoteWritten;
 
         foreach (Button button in eraseButtons)
@@ -93,19 +100,38 @@ public class NoteContentManager : MonoBehaviour
     }
     public void eraseLine(int index)
     {
+        Slot slotComponent = noteSlots[index].GetComponent<Slot>();
+        if (slotComponent.ownerToggle != null)
+        {
+            //Unlock interactable and set to null 
+            slotComponent.ownerToggle.NoteUnTaken(); 
+            slotComponent.ownerToggle = null;
+        }
+
         noteSlots[index].text = "";
 
         //Sets slot status to empty
-        noteSlots[index].GetComponent<Slot>().StatusUpdate(Slot.SlotStatus.Empty);
+        slotComponent.StatusUpdate(Slot.SlotStatus.Empty);
     }
 
     //The onclick event triggered by replace buttons (Where the actual replacement happens)
     public void replaceLine(int index)
     {
         Debug.Log("Replacing line " + index + " with note: " + pendingNote);
+
+        Slot slotComponent = noteSlots[index].GetComponent<Slot>();
+
+        if (slotComponent.ownerToggle != null)
+        {
+            //Unlock interactable
+            slotComponent.ownerToggle.NoteUnTaken(); 
+        }
+
         noteSlots[index].text = pendingNote;
-        noteSlots[index].GetComponent<Slot>().StatusUpdate(pendingClueType);
+        slotComponent.StatusUpdate(pendingClueType);
+        slotComponent.ownerToggle = pendingOwner;
         pendingNote = "";
+        pendingOwner = null;
 
         //Exit replace mode after replacing a line
         foreach (Button button in replaceButtons)

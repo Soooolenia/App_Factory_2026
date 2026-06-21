@@ -11,6 +11,9 @@ public class Slot : MonoBehaviour
         Empty
     }
 
+    //New Field, need to ask about Unity Fields
+    public NoteTakeToggle ownerToggle;
+
     public SlotStatus currentStatus = SlotStatus.Empty;
     public void StatusUpdate(SlotStatus newstatus)
     {

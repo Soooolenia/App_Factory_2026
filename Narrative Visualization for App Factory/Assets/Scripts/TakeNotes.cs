@@ -1,6 +1,7 @@
+using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using System.Threading.Tasks;
+using static UnityEditor.ShaderData;
 
 //public enum ClueType
 //{
@@ -48,7 +49,9 @@ public class TakeNotes : MonoBehaviour
     {
         noteBookToggle.NoteBookUp();
         await Task.Delay(1000);
-        noteContentManager.takeNotes(clueDescription, clueType, onNoteWritten);
+
+        //Passing through all info about object
+        noteContentManager.takeNotes(clueDescription, clueType, noteTakeToggle, onNoteWritten);
     }
 
     private void onNoteWritten()
