@@ -1788,6 +1788,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Replace Button 03
       objectReference: {fileID: 0}
+    - target: {fileID: 3206112038516852614, guid: 013af48260bd003438003b172e16f69b, type: 3}
+      propertyPath: clueManager
+      value: 
+      objectReference: {fileID: 81645822}
     - target: {fileID: 4564773669300244801, guid: 013af48260bd003438003b172e16f69b, type: 3}
       propertyPath: m_Name
       value: Erase Button 03
@@ -1888,10 +1892,7 @@ PrefabInstance:
     - {fileID: 5458431568676406010, guid: 013af48260bd003438003b172e16f69b, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 8886964441130206278, guid: 013af48260bd003438003b172e16f69b, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 425023809}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 013af48260bd003438003b172e16f69b, type: 3}
 --- !u!224 &425023804 stripped
 RectTransform:
@@ -1903,7 +1904,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1962358880408222020, guid: 013af48260bd003438003b172e16f69b, type: 3}
   m_PrefabInstance: {fileID: 425023803}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 425023808}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
@@ -1931,24 +1932,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
---- !u!1 &425023808 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8886964441130206278, guid: 013af48260bd003438003b172e16f69b, type: 3}
-  m_PrefabInstance: {fileID: 425023803}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &425023809
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 425023808}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bfbbfe676b60d348befb224b492de67, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Slot
-  currentStatus: 2
 --- !u!1 &447464721
 GameObject:
   m_ObjectHideFlags: 0
@@ -2475,6 +2458,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Replace Button 07
       objectReference: {fileID: 0}
+    - target: {fileID: 3206112038516852614, guid: 013af48260bd003438003b172e16f69b, type: 3}
+      propertyPath: clueManager
+      value: 
+      objectReference: {fileID: 81645822}
     - target: {fileID: 4564773669300244801, guid: 013af48260bd003438003b172e16f69b, type: 3}
       propertyPath: m_Name
       value: Erase Button 07
@@ -2575,10 +2562,7 @@ PrefabInstance:
     - {fileID: 5458431568676406010, guid: 013af48260bd003438003b172e16f69b, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 8886964441130206278, guid: 013af48260bd003438003b172e16f69b, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 529973280}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 013af48260bd003438003b172e16f69b, type: 3}
 --- !u!224 &529973275 stripped
 RectTransform:
@@ -2590,7 +2574,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1962358880408222020, guid: 013af48260bd003438003b172e16f69b, type: 3}
   m_PrefabInstance: {fileID: 529973274}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 529973279}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
@@ -2618,24 +2602,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
---- !u!1 &529973279 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8886964441130206278, guid: 013af48260bd003438003b172e16f69b, type: 3}
-  m_PrefabInstance: {fileID: 529973274}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &529973280
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 529973279}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bfbbfe676b60d348befb224b492de67, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Slot
-  currentStatus: 2
 --- !u!1001 &558095317
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2656,6 +2622,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Replace Button 05
       objectReference: {fileID: 0}
+    - target: {fileID: 3206112038516852614, guid: 013af48260bd003438003b172e16f69b, type: 3}
+      propertyPath: clueManager
+      value: 
+      objectReference: {fileID: 81645822}
     - target: {fileID: 4564773669300244801, guid: 013af48260bd003438003b172e16f69b, type: 3}
       propertyPath: m_Name
       value: Erase Button 05
@@ -2756,10 +2726,7 @@ PrefabInstance:
     - {fileID: 5458431568676406010, guid: 013af48260bd003438003b172e16f69b, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 8886964441130206278, guid: 013af48260bd003438003b172e16f69b, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 558095323}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 013af48260bd003438003b172e16f69b, type: 3}
 --- !u!224 &558095318 stripped
 RectTransform:
@@ -2771,7 +2738,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1962358880408222020, guid: 013af48260bd003438003b172e16f69b, type: 3}
   m_PrefabInstance: {fileID: 558095317}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 558095322}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
@@ -2799,24 +2766,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
---- !u!1 &558095322 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8886964441130206278, guid: 013af48260bd003438003b172e16f69b, type: 3}
-  m_PrefabInstance: {fileID: 558095317}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &558095323
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 558095322}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bfbbfe676b60d348befb224b492de67, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Slot
-  currentStatus: 2
 --- !u!1 &558439518
 GameObject:
   m_ObjectHideFlags: 0
@@ -3294,6 +3243,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Replace Button 14
       objectReference: {fileID: 0}
+    - target: {fileID: 3206112038516852614, guid: 013af48260bd003438003b172e16f69b, type: 3}
+      propertyPath: clueManager
+      value: 
+      objectReference: {fileID: 81645822}
     - target: {fileID: 4564773669300244801, guid: 013af48260bd003438003b172e16f69b, type: 3}
       propertyPath: m_Name
       value: Erase Button 14
@@ -3394,10 +3347,7 @@ PrefabInstance:
     - {fileID: 5458431568676406010, guid: 013af48260bd003438003b172e16f69b, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 8886964441130206278, guid: 013af48260bd003438003b172e16f69b, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 605817499}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 013af48260bd003438003b172e16f69b, type: 3}
 --- !u!224 &605817494 stripped
 RectTransform:
@@ -3409,7 +3359,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1962358880408222020, guid: 013af48260bd003438003b172e16f69b, type: 3}
   m_PrefabInstance: {fileID: 605817493}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 605817498}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
@@ -3437,24 +3387,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
---- !u!1 &605817498 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8886964441130206278, guid: 013af48260bd003438003b172e16f69b, type: 3}
-  m_PrefabInstance: {fileID: 605817493}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &605817499
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 605817498}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bfbbfe676b60d348befb224b492de67, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Slot
-  currentStatus: 2
 --- !u!1 &606191117
 GameObject:
   m_ObjectHideFlags: 0
@@ -3639,6 +3571,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Replace Button 11
       objectReference: {fileID: 0}
+    - target: {fileID: 3206112038516852614, guid: 013af48260bd003438003b172e16f69b, type: 3}
+      propertyPath: clueManager
+      value: 
+      objectReference: {fileID: 81645822}
     - target: {fileID: 4564773669300244801, guid: 013af48260bd003438003b172e16f69b, type: 3}
       propertyPath: m_Name
       value: Erase Button 11
@@ -3739,10 +3675,7 @@ PrefabInstance:
     - {fileID: 5458431568676406010, guid: 013af48260bd003438003b172e16f69b, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 8886964441130206278, guid: 013af48260bd003438003b172e16f69b, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 653972092}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 013af48260bd003438003b172e16f69b, type: 3}
 --- !u!224 &653972087 stripped
 RectTransform:
@@ -3754,7 +3687,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1962358880408222020, guid: 013af48260bd003438003b172e16f69b, type: 3}
   m_PrefabInstance: {fileID: 653972086}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 653972091}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
@@ -3782,24 +3715,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
---- !u!1 &653972091 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8886964441130206278, guid: 013af48260bd003438003b172e16f69b, type: 3}
-  m_PrefabInstance: {fileID: 653972086}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &653972092
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 653972091}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bfbbfe676b60d348befb224b492de67, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Slot
-  currentStatus: 2
 --- !u!1 &703912006
 GameObject:
   m_ObjectHideFlags: 0
@@ -4396,6 +4311,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Replace Button 04
       objectReference: {fileID: 0}
+    - target: {fileID: 3206112038516852614, guid: 013af48260bd003438003b172e16f69b, type: 3}
+      propertyPath: clueManager
+      value: 
+      objectReference: {fileID: 81645822}
     - target: {fileID: 4564773669300244801, guid: 013af48260bd003438003b172e16f69b, type: 3}
       propertyPath: m_Name
       value: Erase Button 04
@@ -4496,10 +4415,7 @@ PrefabInstance:
     - {fileID: 5458431568676406010, guid: 013af48260bd003438003b172e16f69b, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 8886964441130206278, guid: 013af48260bd003438003b172e16f69b, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 820693298}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 013af48260bd003438003b172e16f69b, type: 3}
 --- !u!224 &820693293 stripped
 RectTransform:
@@ -4511,7 +4427,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1962358880408222020, guid: 013af48260bd003438003b172e16f69b, type: 3}
   m_PrefabInstance: {fileID: 820693292}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 820693297}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
@@ -4539,24 +4455,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
---- !u!1 &820693297 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8886964441130206278, guid: 013af48260bd003438003b172e16f69b, type: 3}
-  m_PrefabInstance: {fileID: 820693292}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &820693298
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 820693297}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bfbbfe676b60d348befb224b492de67, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Slot
-  currentStatus: 2
 --- !u!1 &852016505
 GameObject:
   m_ObjectHideFlags: 0
@@ -4735,6 +4633,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Replace Button 09
       objectReference: {fileID: 0}
+    - target: {fileID: 3206112038516852614, guid: 013af48260bd003438003b172e16f69b, type: 3}
+      propertyPath: clueManager
+      value: 
+      objectReference: {fileID: 81645822}
     - target: {fileID: 4564773669300244801, guid: 013af48260bd003438003b172e16f69b, type: 3}
       propertyPath: m_Name
       value: Erase Button 09
@@ -4835,10 +4737,7 @@ PrefabInstance:
     - {fileID: 5458431568676406010, guid: 013af48260bd003438003b172e16f69b, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 8886964441130206278, guid: 013af48260bd003438003b172e16f69b, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 873152089}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 013af48260bd003438003b172e16f69b, type: 3}
 --- !u!224 &873152084 stripped
 RectTransform:
@@ -4850,7 +4749,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1962358880408222020, guid: 013af48260bd003438003b172e16f69b, type: 3}
   m_PrefabInstance: {fileID: 873152083}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 873152088}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
@@ -4878,24 +4777,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
---- !u!1 &873152088 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8886964441130206278, guid: 013af48260bd003438003b172e16f69b, type: 3}
-  m_PrefabInstance: {fileID: 873152083}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &873152089
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 873152088}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bfbbfe676b60d348befb224b492de67, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Slot
-  currentStatus: 2
 --- !u!1 &905808679
 GameObject:
   m_ObjectHideFlags: 0
@@ -5062,7 +4943,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1962358880408222020, guid: 013af48260bd003438003b172e16f69b, type: 3}
   m_PrefabInstance: {fileID: 5236822976775525027}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5236822976775525028}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
@@ -6767,6 +6648,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Replace Button 13
       objectReference: {fileID: 0}
+    - target: {fileID: 3206112038516852614, guid: 013af48260bd003438003b172e16f69b, type: 3}
+      propertyPath: clueManager
+      value: 
+      objectReference: {fileID: 81645822}
     - target: {fileID: 4564773669300244801, guid: 013af48260bd003438003b172e16f69b, type: 3}
       propertyPath: m_Name
       value: Erase Button 13
@@ -6867,10 +6752,7 @@ PrefabInstance:
     - {fileID: 5458431568676406010, guid: 013af48260bd003438003b172e16f69b, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 8886964441130206278, guid: 013af48260bd003438003b172e16f69b, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1174541628}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 013af48260bd003438003b172e16f69b, type: 3}
 --- !u!224 &1174541623 stripped
 RectTransform:
@@ -6882,7 +6764,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1962358880408222020, guid: 013af48260bd003438003b172e16f69b, type: 3}
   m_PrefabInstance: {fileID: 1174541622}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1174541627}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
@@ -6910,24 +6792,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
---- !u!1 &1174541627 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8886964441130206278, guid: 013af48260bd003438003b172e16f69b, type: 3}
-  m_PrefabInstance: {fileID: 1174541622}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1174541628
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1174541627}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bfbbfe676b60d348befb224b492de67, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Slot
-  currentStatus: 2
 --- !u!1 &1201053749
 GameObject:
   m_ObjectHideFlags: 0
@@ -7284,6 +7148,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Replace Button 06
       objectReference: {fileID: 0}
+    - target: {fileID: 3206112038516852614, guid: 013af48260bd003438003b172e16f69b, type: 3}
+      propertyPath: clueManager
+      value: 
+      objectReference: {fileID: 81645822}
     - target: {fileID: 4564773669300244801, guid: 013af48260bd003438003b172e16f69b, type: 3}
       propertyPath: m_Name
       value: Erase Button 06
@@ -7384,10 +7252,7 @@ PrefabInstance:
     - {fileID: 5458431568676406010, guid: 013af48260bd003438003b172e16f69b, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 8886964441130206278, guid: 013af48260bd003438003b172e16f69b, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1280810416}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 013af48260bd003438003b172e16f69b, type: 3}
 --- !u!224 &1280810411 stripped
 RectTransform:
@@ -7399,7 +7264,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1962358880408222020, guid: 013af48260bd003438003b172e16f69b, type: 3}
   m_PrefabInstance: {fileID: 1280810410}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1280810415}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
@@ -7427,24 +7292,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
---- !u!1 &1280810415 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8886964441130206278, guid: 013af48260bd003438003b172e16f69b, type: 3}
-  m_PrefabInstance: {fileID: 1280810410}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1280810416
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1280810415}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bfbbfe676b60d348befb224b492de67, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Slot
-  currentStatus: 2
 --- !u!1 &1314540643
 GameObject:
   m_ObjectHideFlags: 0
@@ -7908,6 +7755,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Replace Button 01
       objectReference: {fileID: 0}
+    - target: {fileID: 3206112038516852614, guid: 013af48260bd003438003b172e16f69b, type: 3}
+      propertyPath: clueManager
+      value: 
+      objectReference: {fileID: 81645822}
     - target: {fileID: 4564773669300244801, guid: 013af48260bd003438003b172e16f69b, type: 3}
       propertyPath: m_Name
       value: Erase Button 01
@@ -8008,10 +7859,7 @@ PrefabInstance:
     - {fileID: 5458431568676406010, guid: 013af48260bd003438003b172e16f69b, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 8886964441130206278, guid: 013af48260bd003438003b172e16f69b, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1446891241}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 013af48260bd003438003b172e16f69b, type: 3}
 --- !u!224 &1446891236 stripped
 RectTransform:
@@ -8023,7 +7871,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1962358880408222020, guid: 013af48260bd003438003b172e16f69b, type: 3}
   m_PrefabInstance: {fileID: 1446891235}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1446891240}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
@@ -8051,24 +7899,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
---- !u!1 &1446891240 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8886964441130206278, guid: 013af48260bd003438003b172e16f69b, type: 3}
-  m_PrefabInstance: {fileID: 1446891235}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1446891241
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1446891240}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bfbbfe676b60d348befb224b492de67, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Slot
-  currentStatus: 2
 --- !u!1 &1569923919
 GameObject:
   m_ObjectHideFlags: 0
@@ -8383,6 +8213,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Replace Button 12
       objectReference: {fileID: 0}
+    - target: {fileID: 3206112038516852614, guid: 013af48260bd003438003b172e16f69b, type: 3}
+      propertyPath: clueManager
+      value: 
+      objectReference: {fileID: 81645822}
     - target: {fileID: 4564773669300244801, guid: 013af48260bd003438003b172e16f69b, type: 3}
       propertyPath: m_Name
       value: Erase Button 12
@@ -8483,10 +8317,7 @@ PrefabInstance:
     - {fileID: 5458431568676406010, guid: 013af48260bd003438003b172e16f69b, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 8886964441130206278, guid: 013af48260bd003438003b172e16f69b, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1641496850}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 013af48260bd003438003b172e16f69b, type: 3}
 --- !u!224 &1641496845 stripped
 RectTransform:
@@ -8498,7 +8329,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1962358880408222020, guid: 013af48260bd003438003b172e16f69b, type: 3}
   m_PrefabInstance: {fileID: 1641496844}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1641496849}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
@@ -8526,24 +8357,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
---- !u!1 &1641496849 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8886964441130206278, guid: 013af48260bd003438003b172e16f69b, type: 3}
-  m_PrefabInstance: {fileID: 1641496844}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1641496850
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1641496849}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bfbbfe676b60d348befb224b492de67, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Slot
-  currentStatus: 2
 --- !u!1 &1646055980
 GameObject:
   m_ObjectHideFlags: 0
@@ -8639,6 +8452,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Replace Button 10
       objectReference: {fileID: 0}
+    - target: {fileID: 3206112038516852614, guid: 013af48260bd003438003b172e16f69b, type: 3}
+      propertyPath: clueManager
+      value: 
+      objectReference: {fileID: 81645822}
     - target: {fileID: 4564773669300244801, guid: 013af48260bd003438003b172e16f69b, type: 3}
       propertyPath: m_Name
       value: Erase Button 10
@@ -8739,10 +8556,7 @@ PrefabInstance:
     - {fileID: 5458431568676406010, guid: 013af48260bd003438003b172e16f69b, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 8886964441130206278, guid: 013af48260bd003438003b172e16f69b, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1660300452}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 013af48260bd003438003b172e16f69b, type: 3}
 --- !u!224 &1660300447 stripped
 RectTransform:
@@ -8754,7 +8568,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1962358880408222020, guid: 013af48260bd003438003b172e16f69b, type: 3}
   m_PrefabInstance: {fileID: 1660300446}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1660300451}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
@@ -8782,24 +8596,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
---- !u!1 &1660300451 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8886964441130206278, guid: 013af48260bd003438003b172e16f69b, type: 3}
-  m_PrefabInstance: {fileID: 1660300446}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1660300452
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1660300451}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bfbbfe676b60d348befb224b492de67, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Slot
-  currentStatus: 2
 --- !u!1 &1689567151
 GameObject:
   m_ObjectHideFlags: 0
@@ -9148,6 +8944,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Replace Button 02
       objectReference: {fileID: 0}
+    - target: {fileID: 3206112038516852614, guid: 013af48260bd003438003b172e16f69b, type: 3}
+      propertyPath: clueManager
+      value: 
+      objectReference: {fileID: 81645822}
     - target: {fileID: 4564773669300244801, guid: 013af48260bd003438003b172e16f69b, type: 3}
       propertyPath: m_Name
       value: Erase Button 02
@@ -9248,10 +9048,7 @@ PrefabInstance:
     - {fileID: 5458431568676406010, guid: 013af48260bd003438003b172e16f69b, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 8886964441130206278, guid: 013af48260bd003438003b172e16f69b, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1772043644}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 013af48260bd003438003b172e16f69b, type: 3}
 --- !u!224 &1772043639 stripped
 RectTransform:
@@ -9263,7 +9060,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1962358880408222020, guid: 013af48260bd003438003b172e16f69b, type: 3}
   m_PrefabInstance: {fileID: 1772043638}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1772043643}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
@@ -9291,24 +9088,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
---- !u!1 &1772043643 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8886964441130206278, guid: 013af48260bd003438003b172e16f69b, type: 3}
-  m_PrefabInstance: {fileID: 1772043638}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1772043644
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1772043643}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bfbbfe676b60d348befb224b492de67, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Slot
-  currentStatus: 2
 --- !u!1 &1788460847
 GameObject:
   m_ObjectHideFlags: 0
@@ -9824,6 +9603,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Replace Button 08
       objectReference: {fileID: 0}
+    - target: {fileID: 3206112038516852614, guid: 013af48260bd003438003b172e16f69b, type: 3}
+      propertyPath: clueManager
+      value: 
+      objectReference: {fileID: 81645822}
     - target: {fileID: 4564773669300244801, guid: 013af48260bd003438003b172e16f69b, type: 3}
       propertyPath: m_Name
       value: Erase Button 08
@@ -9924,10 +9707,7 @@ PrefabInstance:
     - {fileID: 5458431568676406010, guid: 013af48260bd003438003b172e16f69b, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 8886964441130206278, guid: 013af48260bd003438003b172e16f69b, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1871697669}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 013af48260bd003438003b172e16f69b, type: 3}
 --- !u!224 &1871697664 stripped
 RectTransform:
@@ -9939,7 +9719,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1962358880408222020, guid: 013af48260bd003438003b172e16f69b, type: 3}
   m_PrefabInstance: {fileID: 1871697663}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1871697668}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
@@ -9967,24 +9747,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
   m_Name: 
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
---- !u!1 &1871697668 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8886964441130206278, guid: 013af48260bd003438003b172e16f69b, type: 3}
-  m_PrefabInstance: {fileID: 1871697663}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1871697669
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1871697668}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bfbbfe676b60d348befb224b492de67, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Slot
-  currentStatus: 2
 --- !u!1 &1872854588
 GameObject:
   m_ObjectHideFlags: 0
@@ -11352,6 +11114,10 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
       objectReference: {fileID: 1973253458}
+    - target: {fileID: 3206112038516852614, guid: 013af48260bd003438003b172e16f69b, type: 3}
+      propertyPath: clueManager
+      value: 
+      objectReference: {fileID: 81645822}
     - target: {fileID: 6363005972490036543, guid: 013af48260bd003438003b172e16f69b, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -11440,33 +11206,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Slot
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 5458431568676406010, guid: 013af48260bd003438003b172e16f69b, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 8886964441130206278, guid: 013af48260bd003438003b172e16f69b, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 5236822976775525029}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 013af48260bd003438003b172e16f69b, type: 3}
---- !u!1 &5236822976775525028 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8886964441130206278, guid: 013af48260bd003438003b172e16f69b, type: 3}
-  m_PrefabInstance: {fileID: 5236822976775525027}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &5236822976775525029
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5236822976775525028}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9bfbbfe676b60d348befb224b492de67, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: '::'
-  currentStatus: 2
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0

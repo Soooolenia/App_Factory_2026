@@ -16,7 +16,7 @@ public class TakeNotes : MonoBehaviour
     [SerializeField] private string clueDescription;
     [SerializeField] private NoteContentManager noteContentManager;
     [SerializeField] private Slot.SlotStatus clueType;
-    [SerializeField] private ClueManager clueManager;
+    //[SerializeField] private ClueManager clueManager;
     [SerializeField] private NoteTakeToggle noteTakeToggle;
 
     void Start()
@@ -55,18 +55,18 @@ public class TakeNotes : MonoBehaviour
     {
         noteTakeToggle.NoteTaken();
 
-        switch (clueType)
-        {
-            case Slot.SlotStatus.Main:
-                clueManager.MainClueNote();
-                break;
-            case Slot.SlotStatus.Secondary:
-                clueManager.SecondaryClueUpdate(1);
-                break;
-            case Slot.SlotStatus.None:
-                break;
-            case Slot.SlotStatus.Empty:
-                break;
-        }
+        //switch (clueType)
+        //{
+        //    case Slot.SlotStatus.Main:
+        //        clueManager.MainClueNote();
+        //        break;
+        //    case Slot.SlotStatus.Secondary:
+        //        clueManager.SecondaryClueUpdate(1);
+        //        break;
+        //    case Slot.SlotStatus.None:
+        //        break;
+        //    case Slot.SlotStatus.Empty:
+        //        break;
+        //}
     }
 }
