@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.InputSystem.EnhancedTouch;
 
 public class NoteTakeToggle : MonoBehaviour
 {
@@ -10,6 +11,11 @@ public class NoteTakeToggle : MonoBehaviour
 
     [SerializeField] private int holdCounter = 0;
     [SerializeField] private bool noteIsTaken = false;
+
+    void Awake()
+    {
+        EnhancedTouchSupport.Enable();
+    }
     private void Start()
     {
         cam = Camera.main;

@@ -1,7 +1,6 @@
 using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.InputSystem;
-using static UnityEditor.ShaderData;
 
 //public enum ClueType
 //{
