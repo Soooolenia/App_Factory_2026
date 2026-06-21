@@ -340,7 +340,6 @@ MonoBehaviour:
   clueDescription: First secondary clue
   noteContentManager: {fileID: 1973253458}
   clueType: 1
-  clueManager: {fileID: 81645822}
   noteTakeToggle: {fileID: 1814263810}
 --- !u!61 &179162569
 BoxCollider2D:
@@ -1492,7 +1491,6 @@ MonoBehaviour:
   clueDescription: Test first clue description
   noteContentManager: {fileID: 1973253458}
   clueType: 0
-  clueManager: {fileID: 81645822}
   noteTakeToggle: {fileID: 2143894052}
 --- !u!1 &306402204
 GameObject:
@@ -1967,7 +1965,6 @@ MonoBehaviour:
   clueDescription: Final Secondary Clue
   noteContentManager: {fileID: 1973253458}
   clueType: 1
-  clueManager: {fileID: 81645822}
   noteTakeToggle: {fileID: 1032135043}
 --- !u!61 &447464723
 BoxCollider2D:
@@ -3886,6 +3883,144 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1314540644}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &747601905
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 747601910}
+  - component: {fileID: 747601909}
+  - component: {fileID: 747601908}
+  m_Layer: 0
+  m_Name: Test Document Blocker
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &747601908
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 747601905}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!212 &747601909
+SpriteRenderer:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 747601905}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 7
+  m_MaskInteraction: 0
+  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Color: {r: 0.78113204, g: 0.78113204, b: 0.78113204, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_SpriteSortPoint: 0
+--- !u!4 &747601910
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 747601905}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: 0.093699396, w: 0.9956006}
+  m_LocalPosition: {x: -7.18, y: -14.78, z: 0}
+  m_LocalScale: {x: 2.292, y: 3.0887, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 10.753}
 --- !u!1 &804327798
 GameObject:
   m_ObjectHideFlags: 0
@@ -4054,6 +4189,7 @@ GameObject:
   - component: {fileID: 805446983}
   - component: {fileID: 805446982}
   - component: {fileID: 805446981}
+  - component: {fileID: 805446985}
   m_Layer: 0
   m_Name: Secondary Clue 02
   m_TagString: Untagged
@@ -4191,13 +4327,29 @@ Transform:
   m_GameObject: {fileID: 805446980}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.35, y: -15.99, z: 0}
+  m_LocalPosition: {x: -7.22, y: -15.36, z: 0}
   m_LocalScale: {x: 2.292, y: 3.0887, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1201053753}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &805446985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 805446980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52ee7e70561876646ba3ca3f538b6d39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectDrag
+  dragAxis: {x: 0, y: -1}
+  maxDragDistance: 2
+  bounceSpeed: 100
+  bounceDamping: 10
 --- !u!1 &808320637
 GameObject:
   m_ObjectHideFlags: 0
@@ -4490,7 +4642,6 @@ MonoBehaviour:
   clueDescription: The Absolute Last Main Clue for winning condition
   noteContentManager: {fileID: 1973253458}
   clueType: 0
-  clueManager: {fileID: 81645822}
   noteTakeToggle: {fileID: 1049042597}
 --- !u!61 &852016507
 BoxCollider2D:
@@ -6490,6 +6641,144 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!1 &1075774812
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1075774817}
+  - component: {fileID: 1075774816}
+  - component: {fileID: 1075774815}
+  m_Layer: 0
+  m_Name: Test Document Blocker (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!61 &1075774815
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1075774812}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0
+--- !u!212 &1075774816
+SpriteRenderer:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1075774812}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 13
+  m_MaskInteraction: 0
+  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Color: {r: 0.9245283, g: 0.9245283, b: 0.9245283, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 1, y: 1}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_SpriteSortPoint: 0
+--- !u!4 &1075774817
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1075774812}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0.10190623, w: 0.994794}
+  m_LocalPosition: {x: -6.223, y: -13.898, z: 0}
+  m_LocalScale: {x: 2.292, y: 3.0887, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -11.698}
 --- !u!1 &1096214274
 GameObject:
   m_ObjectHideFlags: 0
@@ -6827,7 +7116,6 @@ MonoBehaviour:
   clueDescription: Second secondary clue description!!!
   noteContentManager: {fileID: 1973253458}
   clueType: 1
-  clueManager: {fileID: 81645822}
   noteTakeToggle: {fileID: 805446981}
 --- !u!61 &1201053751
 BoxCollider2D:
@@ -7454,7 +7742,6 @@ MonoBehaviour:
   clueDescription: Secondary Clue Number 5!!!
   noteContentManager: {fileID: 1973253458}
   clueType: 1
-  clueManager: {fileID: 81645822}
   noteTakeToggle: {fileID: 905808680}
 --- !u!61 &1388727405
 BoxCollider2D:
@@ -7612,7 +7899,6 @@ MonoBehaviour:
   clueDescription: Experiences have confronting sides.
   noteContentManager: {fileID: 1973253458}
   clueType: 0
-  clueManager: {fileID: 81645822}
   noteTakeToggle: {fileID: 2038152422}
 --- !u!61 &1440853978
 BoxCollider2D:
@@ -7934,7 +8220,6 @@ MonoBehaviour:
   clueDescription: Third Secondary Clue
   noteContentManager: {fileID: 1973253458}
   clueType: 1
-  clueManager: {fileID: 81645822}
   noteTakeToggle: {fileID: 968611720}
 --- !u!61 &1569923921
 BoxCollider2D:
@@ -8801,7 +9086,6 @@ MonoBehaviour:
   clueDescription: Final testing clue description!
   noteContentManager: {fileID: 1973253458}
   clueType: 0
-  clueManager: {fileID: 81645822}
   noteTakeToggle: {fileID: 937650873}
 --- !u!61 &1751125655
 BoxCollider2D:
@@ -9304,7 +9588,6 @@ MonoBehaviour:
   clueDescription: Secondary 04 test
   noteContentManager: {fileID: 1973253458}
   clueType: 1
-  clueManager: {fileID: 81645822}
   noteTakeToggle: {fileID: 804327799}
 --- !u!61 &1810859775
 BoxCollider2D:
@@ -11229,6 +11512,8 @@ SceneRoots:
   - {fileID: 1032135046}
   - {fileID: 1814263813}
   - {fileID: 805446984}
+  - {fileID: 747601910}
+  - {fileID: 1075774817}
   - {fileID: 968611723}
   - {fileID: 1033756890}
   - {fileID: 703912007}

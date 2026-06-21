@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem.EnhancedTouch;
 using Touch = UnityEngine.InputSystem.EnhancedTouch.Touch;
@@ -26,8 +25,11 @@ public class CameraControl : MonoBehaviour
     }
     private void PanCamera()
     {
+        //Check if player is dragging something
+        if (ObjectDrag.IsDragging) return;
+
         //Early return, check if current active touches are zero
-        if(Touch.activeTouches.Count == 0) return;
+        if (Touch.activeTouches.Count == 0) return;
 
         //Save the first touch point and store it in a local variable named touch
         //touches in Input is an array of points currently touching the screen, so we access the first point with index 0

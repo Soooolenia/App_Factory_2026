@@ -61,6 +61,8 @@ public class NoteTakeToggle : MonoBehaviour
         //If the raycast hit something and the thing it hit is the game object
         if (hit.collider != null && hit.collider.gameObject == gameObject)
         {
+            if (ObjectDrag.IsDragging) return;
+
             holdCounter += 1;
 
             if (holdCounter >= 60)
