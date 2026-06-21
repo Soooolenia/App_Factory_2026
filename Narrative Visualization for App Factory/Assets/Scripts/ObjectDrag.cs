@@ -15,7 +15,7 @@ public class ObjectDrag : MonoBehaviour
 
         if (pressed && !dragging)
         {
-            // Check if we pressed down on this object
+            //Check if pressed down
             Ray ray = Camera.main.ScreenPointToRay(screenPos);
             RaycastHit2D hit = Physics2D.GetRayIntersection(ray);
             if (hit.collider != null && hit.collider.gameObject == gameObject)
