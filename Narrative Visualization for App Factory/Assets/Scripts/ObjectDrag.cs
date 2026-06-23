@@ -9,14 +9,15 @@ public class ObjectDrag : MonoBehaviour
     [Header("Drag Constraints")]
     //Drag line
     [SerializeField] private Vector2 dragAxis = Vector2.right; 
-    [SerializeField] private float maxDragDistance = 2f;       
+    [SerializeField] private float maxDragDistance = 2f;
 
     [Header("Bounce Back")]
+    [SerializeField] private bool bounceBack = true;
     [SerializeField] private float bounceSpeed = 10f;
     [SerializeField] private float bounceDamping = 0.5f; 
 
     private Camera cam;
-    private Vector3 startPosition;
+    private Vector3 startLocalPosition;
     private Vector3 offset;
     private bool dragging;
 
@@ -32,7 +33,7 @@ public class ObjectDrag : MonoBehaviour
     void Start()
     {
         cam = Camera.main;
-        startPosition = transform.position;
+        startLocalPosition = transform.localPosition;
         dragAxis = dragAxis.normalized;
     }
 
@@ -65,9 +66,28 @@ public class ObjectDrag : MonoBehaviour
     private void TryStartDrag(Vector2 screenPos)
     {
         Vector2 worldPos = cam.ScreenToWorldPoint(screenPos);
-        RaycastHit2D hit = Physics2D.Raycast(worldPos, Vector2.zero);
+        
+        //Use raycast all so the collided object isn't randomly selected
+        RaycastHit2D[] hits = Physics2D.RaycastAll(worldPos, Vector2.zero);
 
-        if (hit.collider != null && hit.collider.gameObject == gameObject)
+        if (hits.Length == 0) return; 
+
+        //The first one the raycast hit is the top one
+        RaycastHit2D topHit = hits[0];
+        float closestZ = Mathf.Abs(hits[0].collider.transform.position.z - cam.transform.position.z);
+
+        //Find smallest raycast distance in all hits
+        foreach (var hit in hits)
+        {
+            float zDist = Mathf.Abs(hit.collider.transform.position.z - cam.transform.position.z);
+            if (zDist < closestZ)
+            {
+                closestZ = zDist;   
+                topHit = hit;        
+            }
+        }
+
+        if (topHit.collider.gameObject == gameObject)
         {
             pendingDrag = true;
             bouncingBack = false;
@@ -82,7 +102,7 @@ public class ObjectDrag : MonoBehaviour
         {
             //Check drag threshold
             float moveDist = Vector2.Distance(cam.ScreenToWorldPoint(screenPos), cam.ScreenToWorldPoint(pressScreenPos));
-            if (moveDist < dragThreshold) return; 
+            if (moveDist < dragThreshold) return;
 
             //Passed
             pendingDrag = false;
@@ -92,11 +112,15 @@ public class ObjectDrag : MonoBehaviour
 
         if (!dragging) return;
 
-        Vector3 targetPos = GetWorldPosition(screenPos) + offset;
-        Vector3 displacement = targetPos - startPosition;
+        Vector3 targetWorldPos = GetWorldPosition(screenPos) + offset;
+        Vector3 targetLocalPos = transform.parent != null
+            ? transform.parent.InverseTransformPoint(targetWorldPos)
+            : targetWorldPos;
+
+        Vector3 displacement = targetLocalPos - startLocalPosition;
         float distanceAlongAxis = Vector3.Dot(displacement, dragAxis);
         distanceAlongAxis = Mathf.Clamp(distanceAlongAxis, 0f, maxDragDistance);
-        transform.position = startPosition + (Vector3)(dragAxis * distanceAlongAxis);
+        transform.localPosition = startLocalPosition + (Vector3)(dragAxis * distanceAlongAxis);
     }
 
     private void EndDrag()
@@ -104,23 +128,28 @@ public class ObjectDrag : MonoBehaviour
         pendingDrag = false;
         dragging = false;
         IsDragging = false;
-        bouncingBack = true;
-        velocity = Vector3.zero;
+
+        if (bounceBack)
+        {
+            bouncingBack = true;
+            velocity = Vector3.zero;
+        }
+        
     }
 
     private void BounceTowardsStart()
     {
         //Spring-damper simulation (Not sure how this works :( )
-        Vector3 toStart = startPosition - transform.position;
+        Vector3 toStart = startLocalPosition - transform.localPosition;
         Vector3 springForce = toStart * bounceSpeed;
         velocity += springForce * Time.deltaTime;
         velocity *= (1f - bounceDamping * Time.deltaTime);
 
-        transform.position += velocity * Time.deltaTime;
+        transform.localPosition += velocity * Time.deltaTime;
 
         if (toStart.sqrMagnitude < 0.0001f && velocity.sqrMagnitude < 0.0001f)
         {
-            transform.position = startPosition;
+            transform.localPosition = startLocalPosition;
             bouncingBack = false;
         }
     }
