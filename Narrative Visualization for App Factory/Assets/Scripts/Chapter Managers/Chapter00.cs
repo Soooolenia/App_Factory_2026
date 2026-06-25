@@ -7,4 +7,8 @@ public class Chapter00 : MonoBehaviour
     {
         cameraControl.enabled = false;
     }
+    public void StartGame()
+    {
+        cameraControl.enabled = true;
+    }
 }

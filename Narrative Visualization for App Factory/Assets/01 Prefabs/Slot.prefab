@@ -334,15 +334,15 @@ MonoBehaviour:
       m_Calls: []
   m_text: Setting of mushrooms
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 6d14f1c7a3a98034790d74a81de31ff6, type: 2}
+  m_sharedMaterial: {fileID: -3465440004552210015, guid: 6d14f1c7a3a98034790d74a81de31ff6, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4283058762
-  m_fontColor: {r: 0.2905661, g: 0.2905661, b: 0.2905661, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -417,4 +417,5 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   clueManager: {fileID: 0}
+  ownerToggle: {fileID: 0}
   currentStatus: 2
