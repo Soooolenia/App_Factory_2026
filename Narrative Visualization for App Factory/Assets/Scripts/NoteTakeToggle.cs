@@ -4,7 +4,6 @@ using UnityEngine.InputSystem.EnhancedTouch;
 
 public class NoteTakeToggle : MonoBehaviour
 {
-    [SerializeField] private NoteBookToggle noteBookToggle;
     [SerializeField] private GameObject takeNotesButton;
 
     private Camera cam;
@@ -80,5 +79,4 @@ public class NoteTakeToggle : MonoBehaviour
     {
         noteIsTaken = false;
     }
-
 }

@@ -1,14 +1,6 @@
 using System.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.InputSystem;
-
-//public enum ClueType
-//{
-//    Main,
-//    Secondary,
-//    None
-//}
-
 public class TakeNotes : MonoBehaviour
 {
     private Camera cam;
@@ -56,19 +48,5 @@ public class TakeNotes : MonoBehaviour
     private void onNoteWritten()
     {
         noteTakeToggle.NoteTaken();
-
-        //switch (clueType)
-        //{
-        //    case Slot.SlotStatus.Main:
-        //        clueManager.MainClueNote();
-        //        break;
-        //    case Slot.SlotStatus.Secondary:
-        //        clueManager.SecondaryClueUpdate(1);
-        //        break;
-        //    case Slot.SlotStatus.None:
-        //        break;
-        //    case Slot.SlotStatus.Empty:
-        //        break;
-        //}
     }
 }

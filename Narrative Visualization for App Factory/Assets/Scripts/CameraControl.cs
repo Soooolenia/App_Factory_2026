@@ -6,22 +6,29 @@ using TouchPhase = UnityEngine.InputSystem.TouchPhase;
 
 public class CameraControl : MonoBehaviour
 {
+
     [SerializeField] private Camera cam;
     [SerializeField] private List<BoxCollider2D> boxColliders;
 
     private Vector3 dragOrigin;
+    private bool hasDragOrigin = false;
     private void Awake()
     {
         EnhancedTouchSupport.Enable();
+    }
+    private void OnEnable()
+    {
+        //Make has drag origin false so we are not caught mid tap when pressing play
+        hasDragOrigin = false;
     }
     private void Update()
     {
         PanCamera();
 
-        foreach (var touch in Touch.activeTouches)
-        {
-            //Debug.Log(touch.screenPosition + " " + touch.phase);    
-        }
+        //foreach (var touch in Touch.activeTouches)
+        //{
+        //    //Debug.Log(touch.screenPosition + " " + touch.phase);    
+        //}
     }
     private void PanCamera()
     {
@@ -29,7 +36,11 @@ public class CameraControl : MonoBehaviour
         if (ObjectDrag.IsDragging) return;
 
         //Early return, check if current active touches are zero
-        if (Touch.activeTouches.Count == 0) return;
+        if (Touch.activeTouches.Count == 0)
+        {
+            hasDragOrigin = false;
+            return;
+        }
 
         //Save the first touch point and store it in a local variable named touch
         //touches in Input is an array of points currently touching the screen, so we access the first point with index 0
@@ -39,10 +50,20 @@ public class CameraControl : MonoBehaviour
         {
             //Save position of point when drag starts
             dragOrigin = cam.ScreenToWorldPoint(touch.screenPosition);
+            hasDragOrigin = true;
+            return;
         }
 
         if (touch.phase == TouchPhase.Moved)
         {
+            //Establish drag origin if started mid touch
+            if (!hasDragOrigin)
+            {
+                dragOrigin = cam.ScreenToWorldPoint(touch.screenPosition);
+                hasDragOrigin = true;
+                return;
+            }
+
             Vector3 difference = dragOrigin - cam.ScreenToWorldPoint(touch.screenPosition);
 
             //print("origin " + dragOrigin + " newPosition " + cam.ScreenToWorldPoint(touch.screenPosition) + " =difference " + difference);
@@ -70,6 +91,13 @@ public class CameraControl : MonoBehaviour
             }
 
             cam.transform.position = closestPosition;
+
+            //Update drag origin for next frame
+            dragOrigin = cam.ScreenToWorldPoint(touch.screenPosition);
+        }
+        if (touch.phase == TouchPhase.Ended || touch.phase == TouchPhase.Canceled)
+        {
+            hasDragOrigin = false;
         }
     }
 }
