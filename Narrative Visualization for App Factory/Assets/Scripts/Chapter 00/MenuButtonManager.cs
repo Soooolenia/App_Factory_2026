@@ -16,11 +16,10 @@ public class MenuButtonManager : MonoBehaviour
 
     [SerializeField] Chapter00 chapter00;
 
-    private IndicationSystem indicationSystem;
+    [SerializeField] private GameObject indicationArrow;
     private void Start()
     {
         cam = Camera.main;
-        indicationSystem = GetComponentInChildren<IndicationSystem>();
     }
     void Update()
     {
@@ -51,7 +50,7 @@ public class MenuButtonManager : MonoBehaviour
                 case buttonType.Play:
                     Debug.Log($"{type} Button Pressed!");
                     chapter00.StartGame();
-                    indicationSystem.IndicationOn();
+                    indicationArrow.SetActive(true);
                     break;
                 case buttonType.Options:
                     Debug.Log($"{type} Button Pressed!");
