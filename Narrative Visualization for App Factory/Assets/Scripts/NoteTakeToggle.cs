@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.EnhancedTouch;
@@ -60,7 +61,7 @@ public class NoteTakeToggle : MonoBehaviour
         //If the raycast hit something and the thing it hit is the game object
         if (hit.collider != null && hit.collider.gameObject == gameObject)
         {
-            if (ObjectDrag.IsDragging) return;
+            if (ObjectDrag.IsDragging || CameraControl.IsPanning) return;
 
             holdCounter += 1;
 
@@ -68,6 +69,8 @@ public class NoteTakeToggle : MonoBehaviour
             {
                 holdCounter = 0;
                 takeNotesButton.SetActive(true);
+
+                StartCoroutine(TurnOffButton());
             }
         }
     }
@@ -78,5 +81,21 @@ public class NoteTakeToggle : MonoBehaviour
     public void NoteUnTaken()
     {
         noteIsTaken = false;
+    }
+
+    IEnumerator TurnOffButton()
+    {
+        float buttonTimer = 0f;
+
+        //While the button is active and the button timer is up...
+        while(takeNotesButton.activeSelf && buttonTimer <= 5f && CameraControl.IsPanning == false)
+        {
+            buttonTimer += Time.deltaTime;
+
+            //Wait until next frame
+            yield return null;
+        }
+
+        takeNotesButton.SetActive(false);
     }
 }

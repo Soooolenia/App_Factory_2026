@@ -12,6 +12,8 @@ public class CameraControl : MonoBehaviour
 
     private Vector3 dragOrigin;
     private bool hasDragOrigin = false;
+
+    public static bool IsPanning = false;
     private void Awake()
     {
         EnhancedTouchSupport.Enable();
@@ -56,6 +58,8 @@ public class CameraControl : MonoBehaviour
 
         if (touch.phase == TouchPhase.Moved)
         {
+            IsPanning = true;
+
             //Establish drag origin if started mid touch
             if (!hasDragOrigin)
             {
@@ -65,8 +69,6 @@ public class CameraControl : MonoBehaviour
             }
 
             Vector3 difference = dragOrigin - cam.ScreenToWorldPoint(touch.screenPosition);
-
-            //print("origin " + dragOrigin + " newPosition " + cam.ScreenToWorldPoint(touch.screenPosition) + " =difference " + difference);
 
             //Move camera by drag distance
             cam.transform.position += difference;
@@ -95,6 +97,12 @@ public class CameraControl : MonoBehaviour
             //Update drag origin for next frame
             dragOrigin = cam.ScreenToWorldPoint(touch.screenPosition);
         }
+
+        else
+        {
+            IsPanning = false;
+        }
+
         if (touch.phase == TouchPhase.Ended || touch.phase == TouchPhase.Canceled)
         {
             hasDragOrigin = false;
