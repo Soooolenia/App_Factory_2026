@@ -17,6 +17,9 @@ public class NoteContentManager : MonoBehaviour
     //private bool firstTimeReplaceNotes = true;
     //private bool firstTimeReplaceNotesUI = true;
 
+    private bool firstTimeErasing = true;
+    [SerializeField] private GameObject eraseUI;
+
     [SerializeField] private Button[] eraseButtons = new Button[15];
     [SerializeField] private Button[] replaceButtons = new Button[15];
 
@@ -107,13 +110,20 @@ public class NoteContentManager : MonoBehaviour
         foreach (Button button in replaceButtons)
             button.gameObject.SetActive(true);
     }
-    public void eraseLine(int index)
+    public void EraseLine(int index)
     {
+        //if (firstTimeErasing)
+        //{
+        //    eraseUI.SetActive(false);
+        //    firstTimeErasing = false;
+        //    Debug.Log("EraseUI Deleted Here!");
+        //}
+
         Slot slotComponent = noteSlots[index].GetComponent<Slot>();
         if (slotComponent.ownerToggle != null)
         {
             //Unlock interactable and set to null 
-            slotComponent.ownerToggle.NoteUnTaken(); 
+            slotComponent.ownerToggle.NoteUnTaken();
             slotComponent.ownerToggle = null;
         }
 
@@ -132,6 +142,13 @@ public class NoteContentManager : MonoBehaviour
         //    firstTimeReplaceNotesUI = false;
         //}
 
+        if (firstTimeErasing)
+        {
+            eraseUI.SetActive(false);
+            firstTimeErasing = false;
+            Debug.Log("EraseUI Deleted Here!");
+        }
+
         Debug.Log("Replacing line " + index + " with note: " + pendingNote);
 
         Slot slotComponent = noteSlots[index].GetComponent<Slot>();
@@ -139,7 +156,7 @@ public class NoteContentManager : MonoBehaviour
         if (slotComponent.ownerToggle != null)
         {
             //Unlock interactable
-            slotComponent.ownerToggle.NoteUnTaken(); 
+            slotComponent.ownerToggle.NoteUnTaken();
         }
 
         noteSlots[index].text = pendingNote;

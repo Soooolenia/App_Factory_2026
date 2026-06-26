@@ -11,6 +11,8 @@ public class NoteBookToggle : MonoBehaviour
     [SerializeField] private GameObject downButton;
 
     [SerializeField] private GameObject NotebookUI;
+
+    [SerializeField] private EraseUI eraseUI;
     private void Start()
     {
         animator = GetComponent<Animator>();
@@ -33,6 +35,7 @@ public class NoteBookToggle : MonoBehaviour
     private void Initialize()
     {
         NotebookUI.SetActive(false);
+        eraseUI.StartAnimation();
     }
 
     public void NoteBookDown()
