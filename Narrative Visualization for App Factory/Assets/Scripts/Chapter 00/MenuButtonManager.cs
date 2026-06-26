@@ -17,6 +17,11 @@ public class MenuButtonManager : MonoBehaviour
     [SerializeField] Chapter00 chapter00;
 
     [SerializeField] private GameObject indicationArrow;
+    [SerializeField] private GameObject NotebookUI;
+
+    [SerializeField] private NoteBookToggle noteBookToggle;
+
+    private bool initialized = false;
     private void Start()
     {
         cam = Camera.main;
@@ -48,9 +53,16 @@ public class MenuButtonManager : MonoBehaviour
             switch (type)
             {
                 case buttonType.Play:
-                    Debug.Log($"{type} Button Pressed!");
-                    chapter00.StartGame();
-                    indicationArrow.SetActive(true);
+                    if (!initialized)
+                    {
+                        Debug.Log($"{type} Button Pressed!");
+                        chapter00.StartGame();
+                        indicationArrow.SetActive(true);
+                        NotebookUI.SetActive(true);
+                        noteBookToggle.enabled = true;
+
+                        initialized = true;
+                    }
                     break;
                 case buttonType.Options:
                     Debug.Log($"{type} Button Pressed!");

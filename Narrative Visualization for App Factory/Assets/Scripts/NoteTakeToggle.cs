@@ -12,6 +12,8 @@ public class NoteTakeToggle : MonoBehaviour
     [SerializeField] private int holdCounter = 0;
     [SerializeField] private bool noteIsTaken = false;
 
+    private Coroutine turnOffButtonCoroutine;
+
     void Awake()
     {
         EnhancedTouchSupport.Enable();
@@ -27,6 +29,7 @@ public class NoteTakeToggle : MonoBehaviour
         //If there is a touchscreen and the button is currently being pressed
         if (Touchscreen.current != null && Touchscreen.current.primaryTouch.press.isPressed)
         {
+
             CheckTap(Touchscreen.current.primaryTouch.position.ReadValue());
 
             if (Touchscreen.current.primaryTouch.press.wasReleasedThisFrame)
@@ -58,6 +61,8 @@ public class NoteTakeToggle : MonoBehaviour
         //Creates a raycast thing named hit, which is shot from the worldPos and has a direction of Vector2.zero (which means it will only check for collisions at that point)
         RaycastHit2D hit = Physics2D.Raycast(worldPos, Vector2.zero);
 
+        Debug.Log($"Hit collider: {hit.collider}");
+
         //If the raycast hit something and the thing it hit is the game object
         if (hit.collider != null && hit.collider.gameObject == gameObject)
         {
@@ -67,10 +72,16 @@ public class NoteTakeToggle : MonoBehaviour
 
             if (holdCounter >= 60)
             {
+                if (turnOffButtonCoroutine != null)
+                {
+                    StopCoroutine(turnOffButtonCoroutine);
+                    turnOffButtonCoroutine = null;
+                }
+
                 holdCounter = 0;
                 takeNotesButton.SetActive(true);
 
-                StartCoroutine(TurnOffButton());
+                turnOffButtonCoroutine = StartCoroutine(TurnOffButton());
             }
         }
     }
@@ -97,5 +108,7 @@ public class NoteTakeToggle : MonoBehaviour
         }
 
         takeNotesButton.SetActive(false);
+
+        turnOffButtonCoroutine = null;
     }
 }

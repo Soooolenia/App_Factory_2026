@@ -14,6 +14,9 @@ public class NoteContentManager : MonoBehaviour
 
     private NoteTakeToggle pendingOwner;
 
+    //private bool firstTimeReplaceNotes = true;
+    //private bool firstTimeReplaceNotesUI = true;
+
     [SerializeField] private Button[] eraseButtons = new Button[15];
     [SerializeField] private Button[] replaceButtons = new Button[15];
 
@@ -87,6 +90,12 @@ public class NoteContentManager : MonoBehaviour
     //Replace selected slot via button onclick
     private void EnterReplaceMode(string description, Slot.SlotStatus clueType, NoteTakeToggle owner, Action onNoteWritten)
     {
+        //if (firstTimeReplaceNotes)
+        //{
+        //    Debug.Log("First time replacing, show UI");
+        //    firstTimeReplaceNotes = false;
+        //}
+
         pendingNote = description;
         //Same logic as storing the description
         pendingClueType = clueType;
@@ -117,6 +126,12 @@ public class NoteContentManager : MonoBehaviour
     //The onclick event triggered by replace buttons (Where the actual replacement happens)
     public void replaceLine(int index)
     {
+        //if (firstTimeReplaceNotesUI)
+        //{
+        //    Debug.Log("Replace Notes Initial UI Gone!");
+        //    firstTimeReplaceNotesUI = false;
+        //}
+
         Debug.Log("Replacing line " + index + " with note: " + pendingNote);
 
         Slot slotComponent = noteSlots[index].GetComponent<Slot>();
