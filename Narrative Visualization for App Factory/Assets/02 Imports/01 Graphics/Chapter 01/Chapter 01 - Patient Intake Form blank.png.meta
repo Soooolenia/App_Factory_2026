@@ -1,0 +1,377 @@
+fileFormatVersion: 2
+guid: dfe482b9aef1050448e47e8787d16824
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4385896839989304843
+    second: Chapter 01 - Patient Intake Form blank_0
+  - first:
+      213: 4173547732647112621
+    second: Chapter 01 - Patient Intake Form blank_1
+  - first:
+      213: -8754267945541685224
+    second: Chapter 01 - Patient Intake Form blank_2
+  - first:
+      213: 3463710850086350546
+    second: Chapter 01 - Patient Intake Form blank_3
+  - first:
+      213: -4389018917689393614
+    second: Chapter 01 - Patient Intake Form blank_4
+  - first:
+      213: 7175819918721621206
+    second: Chapter 01 - Patient Intake Form blank_5
+  - first:
+      213: -5471172951471808070
+    second: Chapter 01 - Patient Intake Form blank_6
+  - first:
+      213: 2466618658349295441
+    second: Chapter 01 - Patient Intake Form blank_7
+  - first:
+      213: 7296709899159462144
+    second: Chapter 01 - Patient Intake Form blank_8
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Chapter 01 - Patient Intake Form blank_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 0
+        width: 2602
+        height: 1660
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0e121140f5dddc30800000000000000
+      internalID: 4385896839989304843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapter 01 - Patient Intake Form blank_1
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 1655
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daf6199ec8b6be930800000000000000
+      internalID: 4173547732647112621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapter 01 - Patient Intake Form blank_2
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 1652
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81036658fa7928680800000000000000
+      internalID: -8754267945541685224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapter 01 - Patient Intake Form blank_3
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 1653
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2de2018aaa2911030800000000000000
+      internalID: 3463710850086350546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapter 01 - Patient Intake Form blank_4
+      rect:
+        serializedVersion: 2
+        x: 636
+        y: 1655
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23e77a26c821713c0800000000000000
+      internalID: -4389018917689393614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapter 01 - Patient Intake Form blank_5
+      rect:
+        serializedVersion: 2
+        x: 780
+        y: 1655
+        width: 8
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dc139b6232a59360800000000000000
+      internalID: 7175819918721621206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapter 01 - Patient Intake Form blank_6
+      rect:
+        serializedVersion: 2
+        x: 1025
+        y: 1654
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab12cca203d7214b0800000000000000
+      internalID: -5471172951471808070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapter 01 - Patient Intake Form blank_7
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 1655
+        width: 6
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 157a24fd9903b3220800000000000000
+      internalID: 2466618658349295441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Chapter 01 - Patient Intake Form blank_8
+      rect:
+        serializedVersion: 2
+        x: 2192
+        y: 1654
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 001e9706efe134560800000000000000
+      internalID: 7296709899159462144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Chapter 01 - Patient Intake Form blank_0: 4385896839989304843
+      Chapter 01 - Patient Intake Form blank_1: 4173547732647112621
+      Chapter 01 - Patient Intake Form blank_2: -8754267945541685224
+      Chapter 01 - Patient Intake Form blank_3: 3463710850086350546
+      Chapter 01 - Patient Intake Form blank_4: -4389018917689393614
+      Chapter 01 - Patient Intake Form blank_5: 7175819918721621206
+      Chapter 01 - Patient Intake Form blank_6: -5471172951471808070
+      Chapter 01 - Patient Intake Form blank_7: 2466618658349295441
+      Chapter 01 - Patient Intake Form blank_8: 7296709899159462144
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
