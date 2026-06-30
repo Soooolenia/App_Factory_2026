@@ -5,7 +5,9 @@ public class LightToggle : MonoBehaviour
 {
     private Camera cam;
 
-    [SerializeField] private GameObject light;
+    [SerializeField] private new GameObject light;
+
+    [SerializeField] private NoteTakeToggle interactable;
 
     void Start()
     {
@@ -39,6 +41,7 @@ public class LightToggle : MonoBehaviour
         if (hit.collider != null && hit.collider.gameObject == gameObject)
         {
             light.SetActive(!light.activeSelf);
+            interactable.ToggleInteractability();
         }
     }
 }

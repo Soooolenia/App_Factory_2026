@@ -14,6 +14,8 @@ public class NoteTakeToggle : MonoBehaviour
 
     private Coroutine turnOffButtonCoroutine;
 
+    [SerializeField] private bool canInteract;
+
     void Awake()
     {
         EnhancedTouchSupport.Enable();
@@ -66,6 +68,8 @@ public class NoteTakeToggle : MonoBehaviour
         //If the raycast hit something and the thing it hit is the game object
         if (hit.collider != null && hit.collider.gameObject == gameObject)
         {
+            if (!canInteract) return;
+
             if (ObjectDrag.IsDragging || CameraControl.IsPanning) return;
 
             holdCounter += 1;
@@ -110,5 +114,9 @@ public class NoteTakeToggle : MonoBehaviour
         takeNotesButton.SetActive(false);
 
         turnOffButtonCoroutine = null;
+    }
+    public void ToggleInteractability()
+    {
+        canInteract = !canInteract;
     }
 }
