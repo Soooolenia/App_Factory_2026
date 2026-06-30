@@ -567,6 +567,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::TappableCircle
   light: {fileID: 312773746}
+  interactable: {fileID: 0}
 --- !u!1 &206701568
 GameObject:
   m_ObjectHideFlags: 0
@@ -2336,7 +2337,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &735928342
 SpriteRenderer:
   serializedVersion: 2
@@ -2583,6 +2584,7 @@ MonoBehaviour:
   takeNotesButton: {fileID: 1810859773}
   holdCounter: 0
   noteIsTaken: 0
+  canInteract: 0
 --- !u!61 &804327800
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2739,6 +2741,7 @@ MonoBehaviour:
   takeNotesButton: {fileID: 1201053749}
   holdCounter: 0
   noteIsTaken: 0
+  canInteract: 0
 --- !u!61 &805446982
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3160,6 +3163,7 @@ MonoBehaviour:
   takeNotesButton: {fileID: 1388727403}
   holdCounter: 0
   noteIsTaken: 0
+  canInteract: 0
 --- !u!61 &905808681
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3315,6 +3319,7 @@ MonoBehaviour:
   takeNotesButton: {fileID: 1751125653}
   holdCounter: 0
   noteIsTaken: 0
+  canInteract: 0
 --- !u!61 &937650874
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3931,6 +3936,7 @@ MonoBehaviour:
   takeNotesButton: {fileID: 1569923919}
   holdCounter: 0
   noteIsTaken: 0
+  canInteract: 0
 --- !u!61 &968611721
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4194,6 +4200,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   light: {fileID: 1321573651}
+  interactable: {fileID: 0}
 --- !u!1 &1008300456
 GameObject:
   m_ObjectHideFlags: 0
@@ -4591,6 +4598,7 @@ MonoBehaviour:
   takeNotesButton: {fileID: 447464721}
   holdCounter: 0
   noteIsTaken: 0
+  canInteract: 0
 --- !u!61 &1032135044
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4794,6 +4802,7 @@ MonoBehaviour:
   takeNotesButton: {fileID: 852016505}
   holdCounter: 0
   noteIsTaken: 0
+  canInteract: 0
 --- !u!61 &1049042598
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6820,6 +6829,7 @@ MonoBehaviour:
   takeNotesButton: {fileID: 179162567}
   holdCounter: 0
   noteIsTaken: 0
+  canInteract: 0
 --- !u!61 &1814263811
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7386,6 +7396,7 @@ MonoBehaviour:
   takeNotesButton: {fileID: 1440853976}
   holdCounter: 0
   noteIsTaken: 0
+  canInteract: 0
 --- !u!61 &2038152423
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8013,6 +8024,7 @@ MonoBehaviour:
   takeNotesButton: {fileID: 278553825}
   holdCounter: 0
   noteIsTaken: 0
+  canInteract: 0
 --- !u!1001 &392518811401761860
 PrefabInstance:
   m_ObjectHideFlags: 0
