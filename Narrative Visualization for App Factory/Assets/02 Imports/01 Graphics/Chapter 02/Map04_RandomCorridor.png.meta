@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 2e35f96ea70cd304da67b758e3d0df87
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8631077407172925673
+    second: Map04_RandomCorridor_0
+  - first:
+      213: -8045647347517754472
+    second: Map04_RandomCorridor_1
+  - first:
+      213: 6672497360292270138
+    second: Map04_RandomCorridor_2
+  - first:
+      213: -1997228954027097556
+    second: Map04_RandomCorridor_3
+  - first:
+      213: 3519810499347907168
+    second: Map04_RandomCorridor_4
+  - first:
+      213: 8615144399047995371
+    second: Map04_RandomCorridor_5
+  - first:
+      213: -1357582553292314390
+    second: Map04_RandomCorridor_6
+  - first:
+      213: 3501571782923114363
+    second: Map04_RandomCorridor_7
+  - first:
+      213: -6957663563647428185
+    second: Map04_RandomCorridor_8
+  - first:
+      213: -2697268825482308893
+    second: Map04_RandomCorridor_9
+  - first:
+      213: 5417124761431650000
+    second: Map04_RandomCorridor_10
+  - first:
+      213: 4129754213957959401
+    second: Map04_RandomCorridor_11
+  - first:
+      213: -2978822878132400692
+    second: Map04_RandomCorridor_12
+  - first:
+      213: 2575421808812406941
+    second: Map04_RandomCorridor_13
+  - first:
+      213: 8412477125490927223
+    second: Map04_RandomCorridor_14
+  - first:
+      213: 7411987690462525573
+    second: Map04_RandomCorridor_15
+  - first:
+      213: -2726126139411167399
+    second: Map04_RandomCorridor_16
+  - first:
+      213: -5018722878624663161
+    second: Map04_RandomCorridor_17
+  - first:
+      213: -8316908142610220740
+    second: Map04_RandomCorridor_18
+  - first:
+      213: 1356846358929449790
+    second: Map04_RandomCorridor_19
+  - first:
+      213: -5841642123378990828
+    second: Map04_RandomCorridor_20
+  - first:
+      213: -3907637350491274850
+    second: Map04_RandomCorridor_21
+  - first:
+      213: 4430489201816642398
+    second: Map04_RandomCorridor_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Map04_RandomCorridor_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 2450
+        height: 1660
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e811732c2fb7c770800000000000000
+      internalID: 8631077407172925673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map04_RandomCorridor_1
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 0
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 893f3277d5e185090800000000000000
+      internalID: -8045647347517754472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map04_RandomCorridor_2
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 0
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a30d3fc2ff8799c50800000000000000
+      internalID: 6672497360292270138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map04_RandomCorridor_3
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 0
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c22071c19da6844e0800000000000000
+      internalID: -1997228954027097556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map04_RandomCorridor_4
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 0
+        width: 32
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 062825a1001e8d030800000000000000
+      internalID: 3519810499347907168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map04_RandomCorridor_5
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 0
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: befa3f99f242f8770800000000000000
+      internalID: 8615144399047995371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map04_RandomCorridor_6
+      rect:
+        serializedVersion: 2
+        x: 935
+        y: 0
+        width: 13
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae86ebd4cd5e82de0800000000000000
+      internalID: -1357582553292314390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map04_RandomCorridor_7
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 0
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b77d9a40cf4189030800000000000000
+      internalID: 3501571782923114363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map04_RandomCorridor_8
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 0
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a9dd162ad9617f90800000000000000
+      internalID: -6957663563647428185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map04_RandomCorridor_9
+      rect:
+        serializedVersion: 2
+        x: 969
+        y: 0
+        width: 15
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e254614b40619ad0800000000000000
+      internalID: -2697268825482308893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map04_RandomCorridor_10
+      rect:
+        serializedVersion: 2
+        x: 972
+        y: 0
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0de2b15f44e7d2b40800000000000000
+      internalID: 5417124761431650000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map04_RandomCorridor_11
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 0
+        width: 16
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eef2a4c395df4930800000000000000
+      internalID: 4129754213957959401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map04_RandomCorridor_12
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 0
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccd8c14ff5819a6d0800000000000000
+      internalID: -2978822878132400692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map04_RandomCorridor_13
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 0
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d98be0d6d7cbdb320800000000000000
+      internalID: 2575421808812406941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map04_RandomCorridor_14
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 0
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7766cf9df5f1fb470800000000000000
+      internalID: 8412477125490927223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map04_RandomCorridor_15
+      rect:
+        serializedVersion: 2
+        x: 1068
+        y: 0
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5883699b88bacd660800000000000000
+      internalID: 7411987690462525573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map04_RandomCorridor_16
+      rect:
+        serializedVersion: 2
+        x: 1089
+        y: 0
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9578d7748bada2ad0800000000000000
+      internalID: -2726126139411167399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map04_RandomCorridor_17
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 0
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7897379d12ae95ab0800000000000000
+      internalID: -5018722878624663161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map04_RandomCorridor_18
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 0
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c39f922fb18649c80800000000000000
+      internalID: -8316908142610220740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map04_RandomCorridor_19
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 0
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e33a5c6139c74d210800000000000000
+      internalID: 1356846358929449790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map04_RandomCorridor_20
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 0
+        width: 9
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 411690b60715eeea0800000000000000
+      internalID: -5841642123378990828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map04_RandomCorridor_21
+      rect:
+        serializedVersion: 2
+        x: 1241
+        y: 0
+        width: 7
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e914be4888845c9c0800000000000000
+      internalID: -3907637350491274850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map04_RandomCorridor_22
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 0
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e532c7f84724c7d30800000000000000
+      internalID: 4430489201816642398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Map04_RandomCorridor_0: 8631077407172925673
+      Map04_RandomCorridor_1: -8045647347517754472
+      Map04_RandomCorridor_10: 5417124761431650000
+      Map04_RandomCorridor_11: 4129754213957959401
+      Map04_RandomCorridor_12: -2978822878132400692
+      Map04_RandomCorridor_13: 2575421808812406941
+      Map04_RandomCorridor_14: 8412477125490927223
+      Map04_RandomCorridor_15: 7411987690462525573
+      Map04_RandomCorridor_16: -2726126139411167399
+      Map04_RandomCorridor_17: -5018722878624663161
+      Map04_RandomCorridor_18: -8316908142610220740
+      Map04_RandomCorridor_19: 1356846358929449790
+      Map04_RandomCorridor_2: 6672497360292270138
+      Map04_RandomCorridor_20: -5841642123378990828
+      Map04_RandomCorridor_21: -3907637350491274850
+      Map04_RandomCorridor_22: 4430489201816642398
+      Map04_RandomCorridor_3: -1997228954027097556
+      Map04_RandomCorridor_4: 3519810499347907168
+      Map04_RandomCorridor_5: 8615144399047995371
+      Map04_RandomCorridor_6: -1357582553292314390
+      Map04_RandomCorridor_7: 3501571782923114363
+      Map04_RandomCorridor_8: -6957663563647428185
+      Map04_RandomCorridor_9: -2697268825482308893
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

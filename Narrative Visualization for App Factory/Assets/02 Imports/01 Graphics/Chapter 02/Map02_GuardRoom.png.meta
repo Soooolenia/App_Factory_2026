@@ -1,0 +1,611 @@
+fileFormatVersion: 2
+guid: 175ca9673f67e314f88f7041012dc17d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8260404158608684631
+    second: Map02_GuardRoom_0
+  - first:
+      213: 8945620349711482554
+    second: Map02_GuardRoom_1
+  - first:
+      213: -3532003025652826842
+    second: Map02_GuardRoom_2
+  - first:
+      213: -6571446209074119714
+    second: Map02_GuardRoom_3
+  - first:
+      213: 2181002807980367676
+    second: Map02_GuardRoom_4
+  - first:
+      213: -2141190157335075199
+    second: Map02_GuardRoom_5
+  - first:
+      213: 4652890554767564791
+    second: Map02_GuardRoom_6
+  - first:
+      213: -4447962558392946230
+    second: Map02_GuardRoom_7
+  - first:
+      213: 629133286799513894
+    second: Map02_GuardRoom_8
+  - first:
+      213: -8529497755510769451
+    second: Map02_GuardRoom_9
+  - first:
+      213: 586799113724774788
+    second: Map02_GuardRoom_10
+  - first:
+      213: 8823552767363287744
+    second: Map02_GuardRoom_11
+  - first:
+      213: 4368942903224628765
+    second: Map02_GuardRoom_12
+  - first:
+      213: 1430769922295397097
+    second: Map02_GuardRoom_13
+  - first:
+      213: 8476245920519987908
+    second: Map02_GuardRoom_14
+  - first:
+      213: 697881537963151709
+    second: Map02_GuardRoom_15
+  - first:
+      213: 132725010254274058
+    second: Map02_GuardRoom_16
+  - first:
+      213: 112045990711596291
+    second: Map02_GuardRoom_17
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Map02_GuardRoom_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 2604
+        height: 1660
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a948f8ee262d5d80800000000000000
+      internalID: -8260404158608684631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map02_GuardRoom_1
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 1544
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abefe08ef4a352c70800000000000000
+      internalID: 8945620349711482554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map02_GuardRoom_2
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 1413
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62dbb5626fdcbfec0800000000000000
+      internalID: -3532003025652826842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map02_GuardRoom_3
+      rect:
+        serializedVersion: 2
+        x: 2502
+        y: 1379
+        width: 51
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edbbc876d788dc4a0800000000000000
+      internalID: -6571446209074119714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map02_GuardRoom_4
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 1309
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3f9cc79f7a744e10800000000000000
+      internalID: 2181002807980367676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map02_GuardRoom_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1187
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 186ea7b75e6f842e0800000000000000
+      internalID: -2141190157335075199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map02_GuardRoom_6
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1187
+        width: 27
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ffd0b7be43629040800000000000000
+      internalID: 4652890554767564791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map02_GuardRoom_7
+      rect:
+        serializedVersion: 2
+        x: 2590
+        y: 1114
+        width: 7
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac130c49e99a542c0800000000000000
+      internalID: -4447962558392946230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map02_GuardRoom_8
+      rect:
+        serializedVersion: 2
+        x: 2591
+        y: 1177
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6291f0c14612bb800800000000000000
+      internalID: 629133286799513894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map02_GuardRoom_9
+      rect:
+        serializedVersion: 2
+        x: 2590
+        y: 1075
+        width: 8
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d8f94a8bf221a980800000000000000
+      internalID: -8529497755510769451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map02_GuardRoom_10
+      rect:
+        serializedVersion: 2
+        x: 2593
+        y: 1071
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48944185faab42800800000000000000
+      internalID: 586799113724774788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map02_GuardRoom_11
+      rect:
+        serializedVersion: 2
+        x: 2589
+        y: 1031
+        width: 9
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ca8a932e7e837a70800000000000000
+      internalID: 8823552767363287744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map02_GuardRoom_12
+      rect:
+        serializedVersion: 2
+        x: 2590
+        y: 953
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d16faae3c6a91ac30800000000000000
+      internalID: 4368942903224628765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map02_GuardRoom_13
+      rect:
+        serializedVersion: 2
+        x: 2591
+        y: 937
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eafabde9ad1bd310800000000000000
+      internalID: 1430769922295397097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map02_GuardRoom_14
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 896
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c2a27171cca1a570800000000000000
+      internalID: 8476245920519987908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map02_GuardRoom_15
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 760
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d51d89daf8f5fa900800000000000000
+      internalID: 697881537963151709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map02_GuardRoom_16
+      rect:
+        serializedVersion: 2
+        x: 581
+        y: 7
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0e140191b887d100800000000000000
+      internalID: 132725010254274058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map02_GuardRoom_17
+      rect:
+        serializedVersion: 2
+        x: 2339
+        y: 0
+        width: 9
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3051fd22c311e8100800000000000000
+      internalID: 112045990711596291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Map02_GuardRoom_0: -8260404158608684631
+      Map02_GuardRoom_1: 8945620349711482554
+      Map02_GuardRoom_10: 586799113724774788
+      Map02_GuardRoom_11: 8823552767363287744
+      Map02_GuardRoom_12: 4368942903224628765
+      Map02_GuardRoom_13: 1430769922295397097
+      Map02_GuardRoom_14: 8476245920519987908
+      Map02_GuardRoom_15: 697881537963151709
+      Map02_GuardRoom_16: 132725010254274058
+      Map02_GuardRoom_17: 112045990711596291
+      Map02_GuardRoom_2: -3532003025652826842
+      Map02_GuardRoom_3: -6571446209074119714
+      Map02_GuardRoom_4: 2181002807980367676
+      Map02_GuardRoom_5: -2141190157335075199
+      Map02_GuardRoom_6: 4652890554767564791
+      Map02_GuardRoom_7: -4447962558392946230
+      Map02_GuardRoom_8: 629133286799513894
+      Map02_GuardRoom_9: -8529497755510769451
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

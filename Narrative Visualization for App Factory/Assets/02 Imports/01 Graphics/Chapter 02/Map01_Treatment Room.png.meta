@@ -1,0 +1,1599 @@
+fileFormatVersion: 2
+guid: 5e1000ef68cc09e4180455f53438df16
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6736085817177330804
+    second: Map01_Treatment Room_0
+  - first:
+      213: -2830060426771451698
+    second: Map01_Treatment Room_1
+  - first:
+      213: 6766613192990738409
+    second: Map01_Treatment Room_2
+  - first:
+      213: 339777667392863175
+    second: Map01_Treatment Room_3
+  - first:
+      213: -5211846577252641658
+    second: Map01_Treatment Room_4
+  - first:
+      213: -2647638565297267729
+    second: Map01_Treatment Room_5
+  - first:
+      213: -6722194432441493502
+    second: Map01_Treatment Room_6
+  - first:
+      213: -1941770517141216703
+    second: Map01_Treatment Room_7
+  - first:
+      213: -3217645205406751670
+    second: Map01_Treatment Room_8
+  - first:
+      213: -79900503686924126
+    second: Map01_Treatment Room_9
+  - first:
+      213: -2725497100402025266
+    second: Map01_Treatment Room_10
+  - first:
+      213: 2300522194680584772
+    second: Map01_Treatment Room_11
+  - first:
+      213: 7700319699837300887
+    second: Map01_Treatment Room_12
+  - first:
+      213: 5448474078608504444
+    second: Map01_Treatment Room_13
+  - first:
+      213: 1630795384737048427
+    second: Map01_Treatment Room_14
+  - first:
+      213: 5490269770428586369
+    second: Map01_Treatment Room_15
+  - first:
+      213: 5460883450271293602
+    second: Map01_Treatment Room_16
+  - first:
+      213: -1647562810658849789
+    second: Map01_Treatment Room_17
+  - first:
+      213: -2523819922698751232
+    second: Map01_Treatment Room_18
+  - first:
+      213: -3986698647137659968
+    second: Map01_Treatment Room_19
+  - first:
+      213: 3571798390628331630
+    second: Map01_Treatment Room_20
+  - first:
+      213: 6390508793752273580
+    second: Map01_Treatment Room_21
+  - first:
+      213: -4402933657103467848
+    second: Map01_Treatment Room_22
+  - first:
+      213: -2090991406622048110
+    second: Map01_Treatment Room_23
+  - first:
+      213: 5619825135905317865
+    second: Map01_Treatment Room_24
+  - first:
+      213: -112769799424563921
+    second: Map01_Treatment Room_25
+  - first:
+      213: -2781904357043312714
+    second: Map01_Treatment Room_26
+  - first:
+      213: -4434845799818584042
+    second: Map01_Treatment Room_27
+  - first:
+      213: -42263101994593112
+    second: Map01_Treatment Room_28
+  - first:
+      213: -4619313354685494289
+    second: Map01_Treatment Room_29
+  - first:
+      213: 1648857607528298279
+    second: Map01_Treatment Room_30
+  - first:
+      213: -1873734446653222398
+    second: Map01_Treatment Room_31
+  - first:
+      213: 8555124554393172859
+    second: Map01_Treatment Room_32
+  - first:
+      213: -8955822147721174763
+    second: Map01_Treatment Room_33
+  - first:
+      213: -623677071297710513
+    second: Map01_Treatment Room_34
+  - first:
+      213: 5201969761909828051
+    second: Map01_Treatment Room_35
+  - first:
+      213: -375479618580534138
+    second: Map01_Treatment Room_36
+  - first:
+      213: -7205347195725626288
+    second: Map01_Treatment Room_37
+  - first:
+      213: 7262714198175167692
+    second: Map01_Treatment Room_38
+  - first:
+      213: -6114168456810713891
+    second: Map01_Treatment Room_39
+  - first:
+      213: -4814185171747921510
+    second: Map01_Treatment Room_40
+  - first:
+      213: -8059115326754189328
+    second: Map01_Treatment Room_41
+  - first:
+      213: -8620034313162554100
+    second: Map01_Treatment Room_42
+  - first:
+      213: -4388434736699216813
+    second: Map01_Treatment Room_43
+  - first:
+      213: 7103079178453267935
+    second: Map01_Treatment Room_44
+  - first:
+      213: 3366421345783888060
+    second: Map01_Treatment Room_45
+  - first:
+      213: -7655078898084886017
+    second: Map01_Treatment Room_46
+  - first:
+      213: -4362774550825139627
+    second: Map01_Treatment Room_47
+  - first:
+      213: -5122416134270718874
+    second: Map01_Treatment Room_48
+  - first:
+      213: -4875219641862884947
+    second: Map01_Treatment Room_49
+  - first:
+      213: -3306102403852139908
+    second: Map01_Treatment Room_50
+  - first:
+      213: 7534233546649780845
+    second: Map01_Treatment Room_51
+  - first:
+      213: -5346828768613699789
+    second: Map01_Treatment Room_52
+  - first:
+      213: -6275910018158156215
+    second: Map01_Treatment Room_53
+  - first:
+      213: -3920330970143436949
+    second: Map01_Treatment Room_54
+  - first:
+      213: -6496404219264153803
+    second: Map01_Treatment Room_55
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Map01_Treatment Room_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 2600
+        height: 1660
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 474d6658c526b7d50800000000000000
+      internalID: 6736085817177330804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map01_Treatment Room_1
+      rect:
+        serializedVersion: 2
+        x: 1942
+        y: 1615
+        width: 197
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec0b561490b99b8d0800000000000000
+      internalID: -2830060426771451698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map01_Treatment Room_2
+      rect:
+        serializedVersion: 2
+        x: 2142
+        y: 1651
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e74fa419d6d7ed50800000000000000
+      internalID: 6766613192990738409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map01_Treatment Room_3
+      rect:
+        serializedVersion: 2
+        x: 2155
+        y: 1649
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7cbff8ffcf127b400800000000000000
+      internalID: 339777667392863175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map01_Treatment Room_4
+      rect:
+        serializedVersion: 2
+        x: 2166
+        y: 1644
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 684550bc62dcba7b0800000000000000
+      internalID: -5211846577252641658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map01_Treatment Room_5
+      rect:
+        serializedVersion: 2
+        x: 2168
+        y: 1650
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: febd4dda0c2b14bd0800000000000000
+      internalID: -2647638565297267729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map01_Treatment Room_6
+      rect:
+        serializedVersion: 2
+        x: 2181
+        y: 1643
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 208573787c7f5b2a0800000000000000
+      internalID: -6722194432441493502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map01_Treatment Room_7
+      rect:
+        serializedVersion: 2
+        x: 2182
+        y: 1652
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 142a87aa0027d05e0800000000000000
+      internalID: -1941770517141216703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map01_Treatment Room_8
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 1642
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a44ed76cbb0a853d0800000000000000
+      internalID: -3217645205406751670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map01_Treatment Room_9
+      rect:
+        serializedVersion: 2
+        x: 2164
+        y: 1620
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a8bd5c4ae224eef0800000000000000
+      internalID: -79900503686924126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map01_Treatment Room_10
+      rect:
+        serializedVersion: 2
+        x: 2168
+        y: 1609
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecc1e26d3d61d2ad0800000000000000
+      internalID: -2725497100402025266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map01_Treatment Room_11
+      rect:
+        serializedVersion: 2
+        x: 2169
+        y: 1633
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44a96d35fb81def10800000000000000
+      internalID: 2300522194680584772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map01_Treatment Room_12
+      rect:
+        serializedVersion: 2
+        x: 2179
+        y: 1628
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 790bebd08f70dda60800000000000000
+      internalID: 7700319699837300887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map01_Treatment Room_13
+      rect:
+        serializedVersion: 2
+        x: 2194
+        y: 1629
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c763267ae4edc9b40800000000000000
+      internalID: 5448474078608504444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map01_Treatment Room_14
+      rect:
+        serializedVersion: 2
+        x: 2203
+        y: 1625
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b67299813cfb1a610800000000000000
+      internalID: 1630795384737048427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map01_Treatment Room_15
+      rect:
+        serializedVersion: 2
+        x: 1322
+        y: 1617
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 189167b744b513c40800000000000000
+      internalID: 5490269770428586369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map01_Treatment Room_16
+      rect:
+        serializedVersion: 2
+        x: 1989
+        y: 1601
+        width: 26
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a0ea35a094f8cb40800000000000000
+      internalID: 5460883450271293602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map01_Treatment Room_17
+      rect:
+        serializedVersion: 2
+        x: 2155
+        y: 1616
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30cf8855a5ea229e0800000000000000
+      internalID: -1647562810658849789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map01_Treatment Room_18
+      rect:
+        serializedVersion: 2
+        x: 2183
+        y: 1621
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 003bc7ee62799fcd0800000000000000
+      internalID: -2523819922698751232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map01_Treatment Room_19
+      rect:
+        serializedVersion: 2
+        x: 2193
+        y: 1569
+        width: 53
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c354dee3b66ca8c0800000000000000
+      internalID: -3986698647137659968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map01_Treatment Room_20
+      rect:
+        serializedVersion: 2
+        x: 2208
+        y: 1622
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e60b6ba46b3919130800000000000000
+      internalID: 3571798390628331630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map01_Treatment Room_21
+      rect:
+        serializedVersion: 2
+        x: 2163
+        y: 1607
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca24d99b3e5afa850800000000000000
+      internalID: 6390508793752273580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map01_Treatment Room_22
+      rect:
+        serializedVersion: 2
+        x: 2340
+        y: 1076
+        width: 215
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ba7cb6aa23a5e2c0800000000000000
+      internalID: -4402933657103467848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map01_Treatment Room_23
+      rect:
+        serializedVersion: 2
+        x: 2536
+        y: 1093
+        width: 22
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29006ebe46e4bf2e0800000000000000
+      internalID: -2090991406622048110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map01_Treatment Room_24
+      rect:
+        serializedVersion: 2
+        x: 2544
+        y: 1157
+        width: 22
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e3a27d9f21adfd40800000000000000
+      internalID: 5619825135905317865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map01_Treatment Room_25
+      rect:
+        serializedVersion: 2
+        x: 2550
+        y: 1117
+        width: 39
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2528e3077c5f6ef0800000000000000
+      internalID: -112769799424563921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map01_Treatment Room_26
+      rect:
+        serializedVersion: 2
+        x: 2558
+        y: 1156
+        width: 7
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b76257f9b0b469d0800000000000000
+      internalID: -2781904357043312714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map01_Treatment Room_27
+      rect:
+        serializedVersion: 2
+        x: 2563
+        y: 1155
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6102e2ced334472c0800000000000000
+      internalID: -4434845799818584042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map01_Treatment Room_28
+      rect:
+        serializedVersion: 2
+        x: 2493
+        y: 1133
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a49182cee9d96ff0800000000000000
+      internalID: -42263101994593112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map01_Treatment Room_29
+      rect:
+        serializedVersion: 2
+        x: 2496
+        y: 1126
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: febc0c36af6e4efb0800000000000000
+      internalID: -4619313354685494289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map01_Treatment Room_30
+      rect:
+        serializedVersion: 2
+        x: 2523
+        y: 1126
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 727bced024be1e610800000000000000
+      internalID: 1648857607528298279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map01_Treatment Room_31
+      rect:
+        serializedVersion: 2
+        x: 2527
+        y: 1130
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20252dfb2782ff5e0800000000000000
+      internalID: -1873734446653222398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map01_Treatment Room_32
+      rect:
+        serializedVersion: 2
+        x: 2533
+        y: 1128
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7bb3d98478e9b670800000000000000
+      internalID: 8555124554393172859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map01_Treatment Room_33
+      rect:
+        serializedVersion: 2
+        x: 2555
+        y: 1070
+        width: 49
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 511e085e43786b380800000000000000
+      internalID: -8955822147721174763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map01_Treatment Room_34
+      rect:
+        serializedVersion: 2
+        x: 2582
+        y: 1123
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f467ebe02014857f0800000000000000
+      internalID: -623677071297710513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map01_Treatment Room_35
+      rect:
+        serializedVersion: 2
+        x: 2588
+        y: 1129
+        width: 8
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d965feefeb113840800000000000000
+      internalID: 5201969761909828051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map01_Treatment Room_36
+      rect:
+        serializedVersion: 2
+        x: 2497
+        y: 1119
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68cab1ab6470acaf0800000000000000
+      internalID: -375479618580534138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map01_Treatment Room_37
+      rect:
+        serializedVersion: 2
+        x: 2521
+        y: 1108
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 054ca6ba6e6710c90800000000000000
+      internalID: -7205347195725626288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map01_Treatment Room_38
+      rect:
+        serializedVersion: 2
+        x: 2534
+        y: 1107
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc4ba6f65185ac460800000000000000
+      internalID: 7262714198175167692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map01_Treatment Room_39
+      rect:
+        serializedVersion: 2
+        x: 2553
+        y: 1094
+        width: 9
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddc26eace2c162ba0800000000000000
+      internalID: -6114168456810713891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map01_Treatment Room_40
+      rect:
+        serializedVersion: 2
+        x: 2497
+        y: 1073
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a91230bc714903db0800000000000000
+      internalID: -4814185171747921510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map01_Treatment Room_41
+      rect:
+        serializedVersion: 2
+        x: 2502
+        y: 1031
+        width: 45
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ff09e03f45482090800000000000000
+      internalID: -8059115326754189328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map01_Treatment Room_42
+      rect:
+        serializedVersion: 2
+        x: 2525
+        y: 1079
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c05844c867c7f5880800000000000000
+      internalID: -8620034313162554100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map01_Treatment Room_43
+      rect:
+        serializedVersion: 2
+        x: 2529
+        y: 894
+        width: 75
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35cee0f9bd52913c0800000000000000
+      internalID: -4388434736699216813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map01_Treatment Room_44
+      rect:
+        serializedVersion: 2
+        x: 2535
+        y: 1061
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd53e2b01e4339260800000000000000
+      internalID: 7103079178453267935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map01_Treatment Room_45
+      rect:
+        serializedVersion: 2
+        x: 2572
+        y: 1067
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb8bdbfb06ee7be20800000000000000
+      internalID: 3366421345783888060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map01_Treatment Room_46
+      rect:
+        serializedVersion: 2
+        x: 2578
+        y: 1057
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff9cf00fc42b3c590800000000000000
+      internalID: -7655078898084886017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map01_Treatment Room_47
+      rect:
+        serializedVersion: 2
+        x: 2594
+        y: 1049
+        width: 10
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55204f639af4473c0800000000000000
+      internalID: -4362774550825139627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map01_Treatment Room_48
+      rect:
+        serializedVersion: 2
+        x: 2599
+        y: 1068
+        width: 5
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66c60156aa589e8b0800000000000000
+      internalID: -5122416134270718874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map01_Treatment Room_49
+      rect:
+        serializedVersion: 2
+        x: 2574
+        y: 1048
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da171c4d09db75cb0800000000000000
+      internalID: -4875219641862884947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map01_Treatment Room_50
+      rect:
+        serializedVersion: 2
+        x: 2577
+        y: 1040
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c720453516d5e12d0800000000000000
+      internalID: -3306102403852139908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map01_Treatment Room_51
+      rect:
+        serializedVersion: 2
+        x: 2577
+        y: 1054
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6244ea1e79fe8860800000000000000
+      internalID: 7534233546649780845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map01_Treatment Room_52
+      rect:
+        serializedVersion: 2
+        x: 2589
+        y: 1035
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33fe0fb409f3cc5b0800000000000000
+      internalID: -5346828768613699789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map01_Treatment Room_53
+      rect:
+        serializedVersion: 2
+        x: 2591
+        y: 1011
+        width: 13
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9462e55f61d77e8a0800000000000000
+      internalID: -6275910018158156215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map01_Treatment Room_54
+      rect:
+        serializedVersion: 2
+        x: 2598
+        y: 1036
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6f43a2e0cf2899c0800000000000000
+      internalID: -3920330970143436949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Map01_Treatment Room_55
+      rect:
+        serializedVersion: 2
+        x: 2480
+        y: 928
+        width: 19
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 537496138c228d5a0800000000000000
+      internalID: -6496404219264153803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Map01_Treatment Room_0: 6736085817177330804
+      Map01_Treatment Room_1: -2830060426771451698
+      Map01_Treatment Room_10: -2725497100402025266
+      Map01_Treatment Room_11: 2300522194680584772
+      Map01_Treatment Room_12: 7700319699837300887
+      Map01_Treatment Room_13: 5448474078608504444
+      Map01_Treatment Room_14: 1630795384737048427
+      Map01_Treatment Room_15: 5490269770428586369
+      Map01_Treatment Room_16: 5460883450271293602
+      Map01_Treatment Room_17: -1647562810658849789
+      Map01_Treatment Room_18: -2523819922698751232
+      Map01_Treatment Room_19: -3986698647137659968
+      Map01_Treatment Room_2: 6766613192990738409
+      Map01_Treatment Room_20: 3571798390628331630
+      Map01_Treatment Room_21: 6390508793752273580
+      Map01_Treatment Room_22: -4402933657103467848
+      Map01_Treatment Room_23: -2090991406622048110
+      Map01_Treatment Room_24: 5619825135905317865
+      Map01_Treatment Room_25: -112769799424563921
+      Map01_Treatment Room_26: -2781904357043312714
+      Map01_Treatment Room_27: -4434845799818584042
+      Map01_Treatment Room_28: -42263101994593112
+      Map01_Treatment Room_29: -4619313354685494289
+      Map01_Treatment Room_3: 339777667392863175
+      Map01_Treatment Room_30: 1648857607528298279
+      Map01_Treatment Room_31: -1873734446653222398
+      Map01_Treatment Room_32: 8555124554393172859
+      Map01_Treatment Room_33: -8955822147721174763
+      Map01_Treatment Room_34: -623677071297710513
+      Map01_Treatment Room_35: 5201969761909828051
+      Map01_Treatment Room_36: -375479618580534138
+      Map01_Treatment Room_37: -7205347195725626288
+      Map01_Treatment Room_38: 7262714198175167692
+      Map01_Treatment Room_39: -6114168456810713891
+      Map01_Treatment Room_4: -5211846577252641658
+      Map01_Treatment Room_40: -4814185171747921510
+      Map01_Treatment Room_41: -8059115326754189328
+      Map01_Treatment Room_42: -8620034313162554100
+      Map01_Treatment Room_43: -4388434736699216813
+      Map01_Treatment Room_44: 7103079178453267935
+      Map01_Treatment Room_45: 3366421345783888060
+      Map01_Treatment Room_46: -7655078898084886017
+      Map01_Treatment Room_47: -4362774550825139627
+      Map01_Treatment Room_48: -5122416134270718874
+      Map01_Treatment Room_49: -4875219641862884947
+      Map01_Treatment Room_5: -2647638565297267729
+      Map01_Treatment Room_50: -3306102403852139908
+      Map01_Treatment Room_51: 7534233546649780845
+      Map01_Treatment Room_52: -5346828768613699789
+      Map01_Treatment Room_53: -6275910018158156215
+      Map01_Treatment Room_54: -3920330970143436949
+      Map01_Treatment Room_55: -6496404219264153803
+      Map01_Treatment Room_6: -6722194432441493502
+      Map01_Treatment Room_7: -1941770517141216703
+      Map01_Treatment Room_8: -3217645205406751670
+      Map01_Treatment Room_9: -79900503686924126
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
