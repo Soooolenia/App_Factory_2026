@@ -73,6 +73,6 @@ public class FlipBook : MonoBehaviour
         //gameObject.SetActive(false);
 
         Debug.Log("Loading Credits");
-        GameManager.Instance.LoadSceneAtIndex(2);
+        GameManager.Instance.LoadSceneAdditive(2);
     }
 }
