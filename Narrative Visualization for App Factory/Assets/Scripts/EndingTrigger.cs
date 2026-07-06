@@ -8,6 +8,6 @@ public class EndingTrigger : MonoBehaviour
     {
         lastBound.SetActive(false);
         endingBound.SetActive(true);
-        Debug.Log("Ending Sequence Started!");
+        //Debug.Log("Ending Sequence Started!");
     }
 }

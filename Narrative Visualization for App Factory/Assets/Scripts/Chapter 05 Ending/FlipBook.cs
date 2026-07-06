@@ -68,8 +68,11 @@ public class FlipBook : MonoBehaviour
     }
     public void EndReading()
     {
-        Debug.Log("Game Complete :)");
-        mapBounds.SetActive(true);
-        gameObject.SetActive(false);
+        //Debug.Log("Game Complete :)");
+        //mapBounds.SetActive(true);
+        //gameObject.SetActive(false);
+
+        Debug.Log("Loading Credits");
+        GameManager.Instance.LoadSceneAtIndex(2);
     }
 }
