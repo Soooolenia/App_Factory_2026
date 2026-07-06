@@ -4,6 +4,8 @@ using UnityEngine.InputSystem;
 public class JournalToggle : MonoBehaviour
 {
     private Camera cam;
+
+    [SerializeField] private GameObject endingSequence;
     void Start()
     {
         //Reference main camera upon start up (I think for the raycast thing)
@@ -35,7 +37,7 @@ public class JournalToggle : MonoBehaviour
         //If the raycast hit something and the thing it hit is the game object
         if (hit.collider != null && hit.collider.gameObject == gameObject)
         {
-            Debug.Log("Journal Tapped!");
+            endingSequence.SetActive(true);
         }
     }
 }

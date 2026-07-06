@@ -8,6 +8,22 @@ public class FlipBook : MonoBehaviour
     [SerializeField] private GameObject nextButton;
     [SerializeField] private GameObject previousButton;
     [SerializeField] private GameObject endingButton;
+
+    [SerializeField] private GameObject mapBounds;
+    private void Start()
+    {
+        pages[currentPageIndex].SetActive(true);
+
+        foreach (var page in pages)
+        {
+            if (page != pages[currentPageIndex])
+            {
+                page.SetActive(false);
+            }
+        }
+
+        HandleButtonVisibility();
+    }
     public void NextPage()
     {
         if (currentPageIndex >= pages.Length - 1) return;
@@ -49,5 +65,11 @@ public class FlipBook : MonoBehaviour
         {
             previousButton.SetActive(true);
         }
+    }
+    public void EndReading()
+    {
+        Debug.Log("Game Complete :)");
+        mapBounds.SetActive(true);
+        gameObject.SetActive(false);
     }
 }
