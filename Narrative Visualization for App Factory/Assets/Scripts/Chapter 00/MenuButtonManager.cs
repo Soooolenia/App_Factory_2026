@@ -21,6 +21,9 @@ public class MenuButtonManager : MonoBehaviour
 
     [SerializeField] private NoteBookToggle noteBookToggle;
 
+    [SerializeField] private GameObject optionsMenu;
+    [SerializeField] private GameObject creditsMenu;
+
     private bool initialized = false;
     private void Start()
     {
@@ -71,9 +74,21 @@ public class MenuButtonManager : MonoBehaviour
                     Debug.Log($"{type} Button Pressed!");
                     break;
                 case buttonType.Quit:
-                    Debug.Log($"{type} Button Pressed!");
+                    Application.Quit();
                     break;
             }
         }
+    }
+    public void OptionsButton()
+    {
+
+    }
+    public void CreditsButton()
+    {
+
+    }
+    public void QuitButton()
+    {
+        Application.Quit();
     }
 }

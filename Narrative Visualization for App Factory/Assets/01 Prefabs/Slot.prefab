@@ -408,7 +408,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Setting of mushrooms
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 6d14f1c7a3a98034790d74a81de31ff6, type: 2}
   m_sharedMaterial: {fileID: -3465440004552210015, guid: 6d14f1c7a3a98034790d74a81de31ff6, type: 2}
