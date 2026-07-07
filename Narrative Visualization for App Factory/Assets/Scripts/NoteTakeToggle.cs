@@ -63,7 +63,7 @@ public class NoteTakeToggle : MonoBehaviour
         //Creates a raycast thing named hit, which is shot from the worldPos and has a direction of Vector2.zero (which means it will only check for collisions at that point)
         RaycastHit2D hit = Physics2D.Raycast(worldPos, Vector2.zero);
 
-        Debug.Log($"Hit collider: {hit.collider}");
+        //Debug.Log($"Hit collider: {hit.collider}");
 
         //If the raycast hit something and the thing it hit is the game object
         if (hit.collider != null && hit.collider.gameObject == gameObject)

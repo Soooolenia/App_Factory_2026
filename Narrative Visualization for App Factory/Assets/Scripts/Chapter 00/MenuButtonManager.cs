@@ -58,7 +58,6 @@ public class MenuButtonManager : MonoBehaviour
                 case buttonType.Play:
                     if (!initialized)
                     {
-                        Debug.Log($"{type} Button Pressed!");
                         chapter00.StartGame();
                         indicationArrow.SetActive(true);
                         NotebookUI.SetActive(true);
@@ -68,27 +67,16 @@ public class MenuButtonManager : MonoBehaviour
                     }
                     break;
                 case buttonType.Options:
-                    Debug.Log($"{type} Button Pressed!");
+                    optionsMenu.SetActive(true);
                     break;
                 case buttonType.Credits:
-                    Debug.Log($"{type} Button Pressed!");
+                    //Debug.Log($"{type} Button Pressed!");
                     break;
                 case buttonType.Quit:
+                    Debug.Log("Quit");
                     Application.Quit();
                     break;
             }
         }
-    }
-    public void OptionsButton()
-    {
-
-    }
-    public void CreditsButton()
-    {
-
-    }
-    public void QuitButton()
-    {
-        Application.Quit();
     }
 }
