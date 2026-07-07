@@ -70,7 +70,7 @@ public class MenuButtonManager : MonoBehaviour
                     optionsMenu.SetActive(true);
                     break;
                 case buttonType.Credits:
-                    //Debug.Log($"{type} Button Pressed!");
+                    creditsMenu.SetActive(true);
                     break;
                 case buttonType.Quit:
                     Debug.Log("Quit");
