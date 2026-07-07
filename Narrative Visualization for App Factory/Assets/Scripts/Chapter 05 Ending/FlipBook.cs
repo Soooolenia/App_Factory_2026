@@ -10,6 +10,8 @@ public class FlipBook : MonoBehaviour
     [SerializeField] private GameObject endingButton;
 
     [SerializeField] private GameObject mapBounds;
+
+    [SerializeField] private GameObject mainGameCamera;
     private void Start()
     {
         pages[currentPageIndex].SetActive(true);
@@ -68,11 +70,10 @@ public class FlipBook : MonoBehaviour
     }
     public void EndReading()
     {
-        //Debug.Log("Game Complete :)");
-        //mapBounds.SetActive(true);
-        //gameObject.SetActive(false);
-
         Debug.Log("Loading Credits");
         GameManager.Instance.LoadSceneAdditive(2);
+        mainGameCamera.SetActive(false);
+        mapBounds.SetActive(true);
+        gameObject.SetActive(false);
     }
 }

@@ -137,11 +137,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2921393562479626323, guid: a8108d0475091f940b99f8f8a244f4f6, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 21.8088
+      value: 44.6243
       objectReference: {fileID: 0}
     - target: {fileID: 2921393562479626323, guid: a8108d0475091f940b99f8f8a244f4f6, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -31.4154
       objectReference: {fileID: 0}
     - target: {fileID: 2921393562479626323, guid: a8108d0475091f940b99f8f8a244f4f6, type: 3}
       propertyPath: m_LocalPosition.z
@@ -179,6 +179,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Camera Bounds 01
       objectReference: {fileID: 0}
+    - target: {fileID: 3908007201868059932, guid: a8108d0475091f940b99f8f8a244f4f6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 3908007201868059932, guid: a8108d0475091f940b99f8f8a244f4f6, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -200,7 +208,7 @@ GameObject:
   - component: {fileID: 804958606}
   - component: {fileID: 804958608}
   - component: {fileID: 804958607}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Credits (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -381,7 +389,7 @@ GameObject:
   - component: {fileID: 1243792046}
   - component: {fileID: 1243792048}
   - component: {fileID: 1243792047}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Credits (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -560,7 +568,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1296391117}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Credits
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -576,7 +584,7 @@ Transform:
   m_GameObject: {fileID: 1296391116}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 31.98, y: 0.12711, z: 0}
+  m_LocalPosition: {x: 54.795498, y: -31.28829, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -597,7 +605,7 @@ GameObject:
   - component: {fileID: 1447494749}
   - component: {fileID: 1447494748}
   - component: {fileID: 1447494747}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Credits
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -778,7 +786,7 @@ GameObject:
   - component: {fileID: 1717741622}
   - component: {fileID: 1717741621}
   - component: {fileID: 1717741623}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Credit End
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -840,7 +848,7 @@ Transform:
   m_GameObject: {fileID: 1717741620}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 44.04, y: 0, z: 0}
+  m_LocalPosition: {x: 66.8555, y: -31.4154, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -869,7 +877,7 @@ GameObject:
   - component: {fileID: 1792110348}
   - component: {fileID: 1792110350}
   - component: {fileID: 1792110349}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Credits (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1049,7 +1057,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1850172402}
   - component: {fileID: 1850172401}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Drawer Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1124,7 +1132,7 @@ Transform:
   m_GameObject: {fileID: 1850172400}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 22.9845, y: 0.1154, z: 0}
+  m_LocalPosition: {x: 45.8, y: -31.3, z: 0}
   m_LocalScale: {x: 54.704884, y: 15.095445, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1146,17 +1154,25 @@ PrefabInstance:
       propertyPath: 'boxColliders.Array.data[0]'
       value: 
       objectReference: {fileID: 534201659}
+    - target: {fileID: 3794024316696427953, guid: ce3cd3ef79bea7e4884107a8c14f2f7b, type: 3}
+      propertyPath: m_CullingMask.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 6560633884629069448, guid: ce3cd3ef79bea7e4884107a8c14f2f7b, type: 3}
       propertyPath: m_Name
       value: Main Camera
       objectReference: {fileID: 0}
+    - target: {fileID: 6560633884629069448, guid: ce3cd3ef79bea7e4884107a8c14f2f7b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8479538543893310243, guid: ce3cd3ef79bea7e4884107a8c14f2f7b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0
+      value: 22.815498
       objectReference: {fileID: 0}
     - target: {fileID: 8479538543893310243, guid: ce3cd3ef79bea7e4884107a8c14f2f7b, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -31.4154
       objectReference: {fileID: 0}
     - target: {fileID: 8479538543893310243, guid: ce3cd3ef79bea7e4884107a8c14f2f7b, type: 3}
       propertyPath: m_LocalPosition.z

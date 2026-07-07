@@ -8,6 +8,9 @@ public class GameManager : MonoBehaviour
 
     public static GameManager Instance;
 
+    public delegate void OnCloseCreditsHandler();
+    public event OnCloseCreditsHandler OnCloseCredits;
+
     private void Awake()
     {
         if (Instance == null)
@@ -19,9 +22,7 @@ public class GameManager : MonoBehaviour
         {
             Destroy(gameObject);
         }
-
     }
-
     private void Start()
     {
         //Load Main Menu
@@ -40,5 +41,10 @@ public class GameManager : MonoBehaviour
     public void LoadSceneAdditive(int index)
     {
         SceneManager.LoadSceneAsync(index, LoadSceneMode.Additive);
+    }
+    public void CloseCredits()
+    {
+        SceneManager.UnloadSceneAsync(2);
+        OnCloseCredits?.Invoke();
     }
 }
