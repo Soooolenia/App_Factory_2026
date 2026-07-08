@@ -6,6 +6,7 @@ public class NoteBookToggle : MonoBehaviour
     private Animator animator;
 
     private bool initialized = false;
+    private bool isOpen = false;
 
     [SerializeField] private GameObject upButton;
     [SerializeField] private GameObject downButton;
@@ -25,6 +26,9 @@ public class NoteBookToggle : MonoBehaviour
             Initialize();
         }
 
+        if (isOpen) return;
+
+        isOpen = true;
         animator.SetTrigger("Up");
         downButton.SetActive(true);
         upButton.SetActive(false);
@@ -37,11 +41,9 @@ public class NoteBookToggle : MonoBehaviour
 
     public void NoteBookDown()
     {
-        if (!enabled)
-        {
-            return;
-        }
+        if (!enabled || !isOpen) return;
 
+        isOpen = false;
         animator = GetComponent<Animator>();
         animator.SetTrigger("Down");
 
