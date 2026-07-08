@@ -74,4 +74,9 @@ public class IndicationAnimation : MonoBehaviour
     {
         arrow.fillOrigin = (int)Image.OriginHorizontal.Right;
     }
+
+    public void Finish()
+    {
+        arrow.fillAmount = 1f;
+    }
 }

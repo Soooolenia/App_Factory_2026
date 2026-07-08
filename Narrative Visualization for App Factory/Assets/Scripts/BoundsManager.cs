@@ -5,7 +5,8 @@ public class BoundsManager : MonoBehaviour
     [SerializeField] private ClueManager clueManager;
     [SerializeField] private GameObject nextMapBound;
     [SerializeField] private GameObject nextBoundManager;
-    [SerializeField] private IndicationSystem indicationSystem;
+    [SerializeField] private GameObject indicationSystem;
+    [SerializeField] private NagivationVisualManager lastIndicationSystem;
 
     [SerializeField] private int nextSecondaryClueAmount;
 
@@ -51,7 +52,8 @@ public class BoundsManager : MonoBehaviour
 
             if (indicationSystem != null)
             {
-                indicationSystem.IndicationOn();
+                indicationSystem.SetActive(true);
+                lastIndicationSystem.StopUIAnimation();
             }
         }
     }

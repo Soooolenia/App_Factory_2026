@@ -77,4 +77,8 @@ public class RadialUIAnimation : MonoBehaviour
         }
 
     }
+    public void Finish()
+    {
+        outline.fillAmount = 1f;
+    }
 }
