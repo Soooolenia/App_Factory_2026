@@ -972,7 +972,7 @@ Transform:
   m_GameObject: {fileID: 115296206}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.5600004, y: -1.9364052, z: -0.31}
+  m_LocalPosition: {x: 6.5600004, y: -1.35, z: -0.31}
   m_LocalScale: {x: 0.23632, y: 0.23632, z: 0.23632}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -11819,6 +11819,8 @@ GameObject:
   - component: {fileID: 862411506}
   - component: {fileID: 862411507}
   - component: {fileID: 862411508}
+  - component: {fileID: 862411510}
+  - component: {fileID: 862411509}
   m_Layer: 0
   m_Name: C1 Patient Intake Form 3-1
   m_TagString: Untagged
@@ -11917,6 +11919,70 @@ MonoBehaviour:
   holdCounter: 0
   noteIsTaken: 0
   canInteract: 1
+--- !u!114 &862411509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 862411505}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52ee7e70561876646ba3ca3f538b6d39, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObjectDrag
+  dragThreshold: 0.1
+  dragAxis: {x: 0.2, y: 0.8}
+  maxDragDistance: 2
+  bounceBack: 1
+  bounceSpeed: 100
+  bounceDamping: 15
+--- !u!61 &862411510
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 862411505}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 26.04, y: 16.605587}
+    newSize: {x: 26.04, y: 16.605587}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Size: {x: 26.04, y: 16.605587}
+  m_EdgeRadius: 0
 --- !u!1001 &865591416
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12540,8 +12606,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObjectDrag
   dragThreshold: 0.1
-  dragAxis: {x: 1, y: 0}
-  maxDragDistance: 0.5
+  dragAxis: {x: -1, y: 0}
+  maxDragDistance: 2
   bounceBack: 1
   bounceSpeed: 100
   bounceDamping: 15
@@ -12679,7 +12745,7 @@ Transform:
   m_GameObject: {fileID: 929306426}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 14.619999, y: 5.21, z: -0.24}
+  m_LocalPosition: {x: 14.619999, y: 5.86, z: -0.24}
   m_LocalScale: {x: 0.58988, y: 0.58988, z: 0.58988}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -12759,7 +12825,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ObjectDrag
   dragThreshold: 0.1
   dragAxis: {x: 0, y: -1}
-  maxDragDistance: 2
+  maxDragDistance: 3
   bounceBack: 1
   bounceSpeed: 100
   bounceDamping: 15
@@ -16006,7 +16072,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ObjectDrag
   dragThreshold: 0.1
   dragAxis: {x: -0.9, y: -0.1}
-  maxDragDistance: 0.75
+  maxDragDistance: 3
   bounceBack: 1
   bounceSpeed: 100
   bounceDamping: 15
@@ -16248,11 +16314,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 858316325923925899, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.48
+      value: 0.79
       objectReference: {fileID: 0}
     - target: {fileID: 858316325923925899, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.38
+      value: -2.19
       objectReference: {fileID: 0}
     - target: {fileID: 858316325923925899, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: m_LocalPosition.z
@@ -17524,7 +17590,7 @@ Transform:
   m_GameObject: {fileID: 1340641569}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.7115146, w: 0.70267135}
-  m_LocalPosition: {x: -0.0049999664, y: -0.1064012, z: -0.06}
+  m_LocalPosition: {x: -0.082, y: -0.106, z: -0.06}
   m_LocalScale: {x: 0.05, y: 0.05934248, z: 0.21674289}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -24027,7 +24093,7 @@ Transform:
   m_GameObject: {fileID: 1808714958}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.00011211632, w: 1}
-  m_LocalPosition: {x: -0.241, y: 0.009140723, z: -0.28489}
+  m_LocalPosition: {x: -0.241, y: 0.006, z: -0.051}
   m_LocalScale: {x: 0.060816426, y: 0.051241893, z: 0.22212626}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -25519,7 +25585,7 @@ Transform:
   m_GameObject: {fileID: 1893428705}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.00011211632, w: 1}
-  m_LocalPosition: {x: 0.054076612, y: -0.0034086998, z: -0.16511}
+  m_LocalPosition: {x: 0.054076612, y: -0.0065494413, z: -0.05}
   m_LocalScale: {x: 0.060816426, y: 0.051241893, z: 0.22212626}
   m_ConstrainProportionsScale: 0
   m_Children:

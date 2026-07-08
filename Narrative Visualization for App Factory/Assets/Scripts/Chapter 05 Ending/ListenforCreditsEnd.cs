@@ -7,11 +7,15 @@ public class ListenforCreditsEnd : MonoBehaviour
 
     private void OnEnable()
     {
+        if (mainGameCamera == null) return;
+        if (GameManager.Instance == null) return;
         //Adds listener
         GameManager.Instance.OnCloseCredits += HandleCreditsClosed;
     }
     private void OnDisable()
     {
+        if (mainGameCamera == null) return;
+        if (GameManager.Instance == null) return;
         //Removes listener
         GameManager.Instance.OnCloseCredits -= HandleCreditsClosed;
     }
