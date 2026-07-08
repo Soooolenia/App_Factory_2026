@@ -10,6 +10,10 @@ public class CameraControl : MonoBehaviour
     [SerializeField] private Camera cam;
     [SerializeField] private List<BoxCollider2D> boxColliders;
 
+    [SerializeField] private GameObject optionsMenu;
+    [SerializeField] private GameObject creditsMenu;
+    [SerializeField] private NoteBookToggle noteBookToggle;
+
     private Vector3 dragOrigin;
     private bool hasDragOrigin = false;
 
@@ -36,6 +40,12 @@ public class CameraControl : MonoBehaviour
     {
         //Check if player is dragging something
         if (ObjectDrag.IsDragging) return;
+
+        if (noteBookToggle != null || optionsMenu != null || creditsMenu != null)
+        {
+            //Check if notebook is up or options or credits menu is open
+            if (noteBookToggle.isOpen || optionsMenu.activeSelf || creditsMenu.activeSelf) return;
+        }
 
         //Early return, check if current active touches are zero
         if (Touch.activeTouches.Count == 0)

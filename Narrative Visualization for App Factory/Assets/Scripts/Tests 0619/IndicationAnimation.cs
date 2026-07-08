@@ -19,9 +19,11 @@ public class IndicationAnimation : MonoBehaviour
 
     private void Update()
     {
+        float deltaTime = fillSpeed * 150f * Time.deltaTime;
+
         if (isFillOriginLeft)
         {
-            fillAmount += fillSpeed;
+            fillAmount += deltaTime;
             arrow.fillAmount = Mathf.Clamp01(fillAmount);
 
             if (fillAmount >= 1f)
@@ -44,7 +46,7 @@ public class IndicationAnimation : MonoBehaviour
 
         else
         {
-            fillAmount -= fillSpeed;
+            fillAmount -= deltaTime;
             arrow.fillAmount = Mathf.Clamp01(fillAmount);
 
             if (fillAmount <= 0)

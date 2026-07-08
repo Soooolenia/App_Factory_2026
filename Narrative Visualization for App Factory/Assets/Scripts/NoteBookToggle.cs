@@ -6,7 +6,7 @@ public class NoteBookToggle : MonoBehaviour
     private Animator animator;
 
     private bool initialized = false;
-    private bool isOpen = false;
+    public bool isOpen = false;
 
     [SerializeField] private GameObject upButton;
     [SerializeField] private GameObject downButton;

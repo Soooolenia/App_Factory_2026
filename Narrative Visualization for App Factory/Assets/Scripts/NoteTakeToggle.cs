@@ -9,7 +9,9 @@ public class NoteTakeToggle : MonoBehaviour
 
     private Camera cam;
 
-    [SerializeField] private int holdCounter = 0;
+    [SerializeField] private float holdTimer = 0f;
+    [SerializeField] private float holdThresholdV2 = 0.6f;
+
     [SerializeField] private bool noteIsTaken = false;
 
     private Coroutine turnOffButtonCoroutine;
@@ -36,7 +38,7 @@ public class NoteTakeToggle : MonoBehaviour
 
             if (Touchscreen.current.primaryTouch.press.wasReleasedThisFrame)
             {
-                holdCounter = 0;
+                holdTimer = 0f;
             }
         }
         //Else if, there is a mouse and left mouse button is being pressed
@@ -46,13 +48,13 @@ public class NoteTakeToggle : MonoBehaviour
 
             if (Mouse.current.leftButton.wasReleasedThisFrame)
             {
-                holdCounter = 0;
+                holdTimer = 0f;
             }
         }
 
         else
         {
-            holdCounter = 0;
+            holdTimer = 0f;
         }
     }
     public void CheckTap(Vector2 screenPos)
@@ -72,9 +74,9 @@ public class NoteTakeToggle : MonoBehaviour
 
             if (ObjectDrag.IsDragging || CameraControl.IsPanning) return;
 
-            holdCounter += 1;
+            holdTimer += Time.deltaTime;
 
-            if (holdCounter >= 60)
+            if (holdTimer >= holdThresholdV2)
             {
                 if (turnOffButtonCoroutine != null)
                 {
@@ -82,9 +84,8 @@ public class NoteTakeToggle : MonoBehaviour
                     turnOffButtonCoroutine = null;
                 }
 
-                holdCounter = 0;
+                holdTimer = 0;
                 takeNotesButton.SetActive(true);
-
                 turnOffButtonCoroutine = StartCoroutine(TurnOffButton());
             }
         }

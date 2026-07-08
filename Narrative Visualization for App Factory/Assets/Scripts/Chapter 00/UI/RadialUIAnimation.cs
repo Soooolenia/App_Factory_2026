@@ -20,9 +20,11 @@ public class RadialUIAnimation : MonoBehaviour
     }
     private void Update()
     {
+        float deltaTime = fillSpeed * 150f * Time.deltaTime;   
+
         if (isClockwise)
         {
-            fillAmount += fillSpeed;
+            fillAmount += deltaTime;
             outline.fillAmount = Mathf.Clamp01(fillAmount);
 
             if (fillAmount >= 1f)
@@ -50,7 +52,7 @@ public class RadialUIAnimation : MonoBehaviour
 
         else
         {
-            fillAmount -= fillSpeed;
+            fillAmount -= deltaTime;
             outline.fillAmount = Mathf.Clamp01(fillAmount);
 
             if (fillAmount <= 0f)

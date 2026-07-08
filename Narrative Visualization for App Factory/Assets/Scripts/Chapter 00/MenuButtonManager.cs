@@ -53,6 +53,12 @@ public class MenuButtonManager : MonoBehaviour
         //If the raycast hit something and the thing it hit is the game object
         if (hit.collider != null && hit.collider.gameObject == gameObject)
         {
+            //Check if notebook is open || options menu is open || credits menu is open
+            if (noteBookToggle.isOpen || optionsMenu.activeSelf || creditsMenu.activeSelf)
+            {
+                return;
+            }   
+
             switch (type)
             {
                 case buttonType.Play:
