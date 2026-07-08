@@ -10,13 +10,15 @@ public class NoteTakeToggle : MonoBehaviour
     private Camera cam;
 
     [SerializeField] private float holdTimer = 0f;
-    [SerializeField] private float holdThresholdV2 = 0.6f;
+    [SerializeField] private float holdThresholdV3 = 0.3f;
 
     [SerializeField] private bool noteIsTaken = false;
 
     private Coroutine turnOffButtonCoroutine;
 
     [SerializeField] private bool canInteract;
+
+    public SpriteRenderer spriteRenderer;
 
     void Awake()
     {
@@ -26,6 +28,7 @@ public class NoteTakeToggle : MonoBehaviour
     {
         cam = Camera.main;
         takeNotesButton.SetActive(false);
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
     void Update()
     {
@@ -76,7 +79,7 @@ public class NoteTakeToggle : MonoBehaviour
 
             holdTimer += Time.deltaTime;
 
-            if (holdTimer >= holdThresholdV2)
+            if (holdTimer >= holdThresholdV3)
             {
                 if (turnOffButtonCoroutine != null)
                 {
@@ -93,10 +96,12 @@ public class NoteTakeToggle : MonoBehaviour
     public void NoteTaken()
     {
         noteIsTaken = true;
+        spriteRenderer.color = Color.gray;
     }
     public void NoteUnTaken()
     {
         noteIsTaken = false;
+        spriteRenderer.color = Color.white;
     }
 
     IEnumerator TurnOffButton()
