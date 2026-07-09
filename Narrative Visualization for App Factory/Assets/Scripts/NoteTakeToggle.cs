@@ -18,6 +18,8 @@ public class NoteTakeToggle : MonoBehaviour
 
     [SerializeField] private bool canInteract;
 
+    [SerializeField] private AudioSource click;
+
     public SpriteRenderer spriteRenderer;
 
     void Awake()
@@ -89,6 +91,8 @@ public class NoteTakeToggle : MonoBehaviour
 
                 holdTimer = 0;
                 takeNotesButton.SetActive(true);
+                click.Play();
+
                 turnOffButtonCoroutine = StartCoroutine(TurnOffButton());
             }
         }

@@ -21,6 +21,9 @@ public class NoteContentManager : MonoBehaviour
     [SerializeField] private Button[] replaceButtons = new Button[15];
 
     [SerializeField] private TMP_Text[] noteSlots = new TMP_Text[15];
+
+    [SerializeField] private AudioSource noteWritten;
+    [SerializeField] private AudioSource noteErased;
     private void Start()
     {
         //eraseButton.SetActive(true);
@@ -56,6 +59,8 @@ public class NoteContentManager : MonoBehaviour
                     Slot slotComponent = slot.GetComponent<Slot>();
                     slotComponent.StatusUpdate(clueType);
                     slotComponent.ownerToggle = owner;
+
+                    noteWritten.Play();
 
                     //Run function
                     onNoteWritten?.Invoke();
@@ -119,6 +124,8 @@ public class NoteContentManager : MonoBehaviour
 
         noteSlots[index].text = "";
 
+        noteErased.Play();
+
         //Sets slot status to empty
         slotComponent.StatusUpdate(Slot.SlotStatus.Empty);
     }
@@ -147,6 +154,8 @@ public class NoteContentManager : MonoBehaviour
         slotComponent.ownerToggle = pendingOwner;
         pendingNote = "";
         pendingOwner = null;
+
+        noteWritten.Play();
 
         //Exit replace mode after replacing a line
         foreach (Button button in replaceButtons)

@@ -9,6 +9,9 @@ public class LightToggle : MonoBehaviour
 
     [SerializeField] private NoteTakeToggle interactable;
 
+    [SerializeField] private AudioSource click;
+    [SerializeField] private AudioSource lightAmb;
+
     void Start()
     {
         //Reference main camera upon start up (I think for the raycast thing)
@@ -42,6 +45,18 @@ public class LightToggle : MonoBehaviour
         {
             light.SetActive(!light.activeSelf);
             interactable.ToggleInteractability();
+            click.Play();
+
+            if (light.activeSelf == true)
+            {
+                lightAmb.Play();
+                Debug.Log("Light is on");
+            }
+            else
+            {
+                lightAmb.Stop();
+                Debug.Log("Light is off");
+            }
         }
     }
 }
