@@ -296,6 +296,9 @@ MonoBehaviour:
   bounceBack: 1
   bounceSpeed: 100
   bounceDamping: 15
+  audioSource: {fileID: 0}
+  openClip: {fileID: 0}
+  closeClip: {fileID: 0}
 --- !u!1 &18189070
 GameObject:
   m_ObjectHideFlags: 0
@@ -1098,6 +1101,9 @@ MonoBehaviour:
   bounceBack: 1
   bounceSpeed: 100
   bounceDamping: 15
+  audioSource: {fileID: 0}
+  openClip: {fileID: 0}
+  closeClip: {fileID: 0}
 --- !u!61 &115296210
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2118,6 +2124,9 @@ MonoBehaviour:
   bounceBack: 1
   bounceSpeed: 100
   bounceDamping: 15
+  audioSource: {fileID: 0}
+  openClip: {fileID: 0}
+  closeClip: {fileID: 0}
 --- !u!61 &162101531
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3060,6 +3069,9 @@ MonoBehaviour:
   bounceBack: 1
   bounceSpeed: 100
   bounceDamping: 15
+  audioSource: {fileID: 0}
+  openClip: {fileID: 0}
+  closeClip: {fileID: 0}
 --- !u!1 &206974808
 GameObject:
   m_ObjectHideFlags: 0
@@ -3495,6 +3507,9 @@ MonoBehaviour:
   bounceBack: 1
   bounceSpeed: 100
   bounceDamping: 15
+  audioSource: {fileID: 0}
+  openClip: {fileID: 0}
+  closeClip: {fileID: 0}
 --- !u!1 &232103079
 GameObject:
   m_ObjectHideFlags: 0
@@ -4752,6 +4767,9 @@ MonoBehaviour:
   bounceBack: 1
   bounceSpeed: 100
   bounceDamping: 15
+  audioSource: {fileID: 0}
+  openClip: {fileID: 0}
+  closeClip: {fileID: 0}
 --- !u!60 &271359733
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -5683,6 +5701,9 @@ MonoBehaviour:
   bounceBack: 1
   bounceSpeed: 100
   bounceDamping: 15
+  audioSource: {fileID: 0}
+  openClip: {fileID: 0}
+  closeClip: {fileID: 0}
 --- !u!1 &311887410
 GameObject:
   m_ObjectHideFlags: 0
@@ -6441,6 +6462,9 @@ MonoBehaviour:
   bounceBack: 1
   bounceSpeed: 100
   bounceDamping: 15
+  audioSource: {fileID: 0}
+  openClip: {fileID: 0}
+  closeClip: {fileID: 0}
 --- !u!114 &387577670
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6914,6 +6938,9 @@ MonoBehaviour:
   bounceBack: 1
   bounceSpeed: 100
   bounceDamping: 15
+  audioSource: {fileID: 0}
+  openClip: {fileID: 0}
+  closeClip: {fileID: 0}
 --- !u!61 &409862335
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11954,6 +11981,9 @@ MonoBehaviour:
   bounceBack: 1
   bounceSpeed: 100
   bounceDamping: 15
+  audioSource: {fileID: 0}
+  openClip: {fileID: 0}
+  closeClip: {fileID: 0}
 --- !u!114 &755087700
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13035,6 +13065,9 @@ MonoBehaviour:
   bounceBack: 1
   bounceSpeed: 100
   bounceDamping: 15
+  audioSource: {fileID: 0}
+  openClip: {fileID: 0}
+  closeClip: {fileID: 0}
 --- !u!1 &805212490
 GameObject:
   m_ObjectHideFlags: 0
@@ -13919,6 +13952,9 @@ MonoBehaviour:
   bounceBack: 1
   bounceSpeed: 100
   bounceDamping: 15
+  audioSource: {fileID: 0}
+  openClip: {fileID: 0}
+  closeClip: {fileID: 0}
 --- !u!61 &862411510
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14336,6 +14372,9 @@ MonoBehaviour:
   bounceBack: 1
   bounceSpeed: 100
   bounceDamping: 15
+  audioSource: {fileID: 0}
+  openClip: {fileID: 0}
+  closeClip: {fileID: 0}
 --- !u!1 &891723334
 GameObject:
   m_ObjectHideFlags: 0
@@ -14607,6 +14646,9 @@ MonoBehaviour:
   bounceBack: 1
   bounceSpeed: 100
   bounceDamping: 15
+  audioSource: {fileID: 0}
+  openClip: {fileID: 0}
+  closeClip: {fileID: 0}
 --- !u!212 &901728231
 SpriteRenderer:
   serializedVersion: 2
@@ -14825,6 +14867,9 @@ MonoBehaviour:
   bounceBack: 1
   bounceSpeed: 100
   bounceDamping: 15
+  audioSource: {fileID: 0}
+  openClip: {fileID: 0}
+  closeClip: {fileID: 0}
 --- !u!114 &929306430
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15818,6 +15863,9 @@ MonoBehaviour:
   bounceBack: 1
   bounceSpeed: 100
   bounceDamping: 15
+  audioSource: {fileID: 0}
+  openClip: {fileID: 0}
+  closeClip: {fileID: 0}
 --- !u!114 &1031495696
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17027,6 +17075,9 @@ MonoBehaviour:
   bounceBack: 1
   bounceSpeed: 100
   bounceDamping: 15
+  audioSource: {fileID: 0}
+  openClip: {fileID: 0}
+  closeClip: {fileID: 0}
 --- !u!114 &1139119696
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19071,6 +19122,9 @@ MonoBehaviour:
   bounceBack: 1
   bounceSpeed: 100
   bounceDamping: 15
+  audioSource: {fileID: 0}
+  openClip: {fileID: 0}
+  closeClip: {fileID: 0}
 --- !u!212 &1249583616
 SpriteRenderer:
   serializedVersion: 2
@@ -20663,6 +20717,9 @@ MonoBehaviour:
   bounceBack: 1
   bounceSpeed: 100
   bounceDamping: 15
+  audioSource: {fileID: 0}
+  openClip: {fileID: 0}
+  closeClip: {fileID: 0}
 --- !u!114 &1340641572
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22998,6 +23055,9 @@ MonoBehaviour:
   bounceBack: 1
   bounceSpeed: 100
   bounceDamping: 15
+  audioSource: {fileID: 0}
+  openClip: {fileID: 0}
+  closeClip: {fileID: 0}
 --- !u!61 &1472168881
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -24012,6 +24072,9 @@ MonoBehaviour:
   bounceBack: 1
   bounceSpeed: 100
   bounceDamping: 15
+  audioSource: {fileID: 0}
+  openClip: {fileID: 0}
+  closeClip: {fileID: 0}
 --- !u!60 &1561904254
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -24367,6 +24430,9 @@ MonoBehaviour:
   bounceBack: 1
   bounceSpeed: 100
   bounceDamping: 15
+  audioSource: {fileID: 0}
+  openClip: {fileID: 0}
+  closeClip: {fileID: 0}
 --- !u!61 &1563402572
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -26986,6 +27052,9 @@ MonoBehaviour:
   bounceBack: 1
   bounceSpeed: 100
   bounceDamping: 15
+  audioSource: {fileID: 0}
+  openClip: {fileID: 0}
+  closeClip: {fileID: 0}
 --- !u!212 &1725596679
 SpriteRenderer:
   serializedVersion: 2
@@ -27823,6 +27892,9 @@ MonoBehaviour:
   bounceBack: 1
   bounceSpeed: 100
   bounceDamping: 15
+  audioSource: {fileID: 0}
+  openClip: {fileID: 0}
+  closeClip: {fileID: 0}
 --- !u!1 &1775188641
 GameObject:
   m_ObjectHideFlags: 0
@@ -28103,6 +28175,108 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4711787340944159242, guid: 0dfe9ee50b895d84fb1a7d5c755d8205, type: 3}
   m_PrefabInstance: {fileID: 1803503131}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1804779704 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3255656223214236570, guid: 0dfe9ee50b895d84fb1a7d5c755d8205, type: 3}
+  m_PrefabInstance: {fileID: 6029387561452686178}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &1804779708
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1804779704}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
 --- !u!1 &1808714958
 GameObject:
   m_ObjectHideFlags: 0
@@ -28203,6 +28377,9 @@ MonoBehaviour:
   bounceBack: 1
   bounceSpeed: 100
   bounceDamping: 15
+  audioSource: {fileID: 0}
+  openClip: {fileID: 0}
+  closeClip: {fileID: 0}
 --- !u!212 &1808714962
 SpriteRenderer:
   serializedVersion: 2
@@ -28393,6 +28570,9 @@ MonoBehaviour:
   bounceBack: 1
   bounceSpeed: 100
   bounceDamping: 15
+  audioSource: {fileID: 0}
+  openClip: {fileID: 0}
+  closeClip: {fileID: 0}
 --- !u!114 &1813790772
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29003,6 +29183,9 @@ MonoBehaviour:
   bounceBack: 1
   bounceSpeed: 100
   bounceDamping: 15
+  audioSource: {fileID: 0}
+  openClip: {fileID: 0}
+  closeClip: {fileID: 0}
 --- !u!212 &1852271998
 SpriteRenderer:
   serializedVersion: 2
@@ -29713,6 +29896,9 @@ MonoBehaviour:
   bounceBack: 1
   bounceSpeed: 100
   bounceDamping: 15
+  audioSource: {fileID: 0}
+  openClip: {fileID: 0}
+  closeClip: {fileID: 0}
 --- !u!61 &1891131761
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -29906,6 +30092,9 @@ MonoBehaviour:
   bounceBack: 1
   bounceSpeed: 100
   bounceDamping: 15
+  audioSource: {fileID: 0}
+  openClip: {fileID: 0}
+  closeClip: {fileID: 0}
 --- !u!61 &1893428708
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -31261,6 +31450,9 @@ MonoBehaviour:
   bounceBack: 1
   bounceSpeed: 100
   bounceDamping: 15
+  audioSource: {fileID: 0}
+  openClip: {fileID: 0}
+  closeClip: {fileID: 0}
 --- !u!114 &1956944222
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -33196,6 +33388,9 @@ MonoBehaviour:
   bounceBack: 1
   bounceSpeed: 100
   bounceDamping: 15
+  audioSource: {fileID: 0}
+  openClip: {fileID: 0}
+  closeClip: {fileID: 0}
 --- !u!61 &2099704839
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -33923,6 +34118,9 @@ MonoBehaviour:
   bounceBack: 1
   bounceSpeed: 100
   bounceDamping: 15
+  audioSource: {fileID: 0}
+  openClip: {fileID: 0}
+  closeClip: {fileID: 0}
 --- !u!114 &2136882974
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35117,6 +35315,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: Nametag
       objectReference: {fileID: 0}
+    - target: {fileID: 4586294708877088298, guid: 0dfe9ee50b895d84fb1a7d5c755d8205, type: 3}
+      propertyPath: openClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 256cc8fc92a59b849865d00638cd3152, type: 3}
+    - target: {fileID: 4586294708877088298, guid: 0dfe9ee50b895d84fb1a7d5c755d8205, type: 3}
+      propertyPath: closeClip
+      value: 
+      objectReference: {fileID: 8300000, guid: da83cae29d9330b49843d52b684c3d94, type: 3}
+    - target: {fileID: 4586294708877088298, guid: 0dfe9ee50b895d84fb1a7d5c755d8205, type: 3}
+      propertyPath: audioSource
+      value: 
+      objectReference: {fileID: 1804779708}
     - target: {fileID: 4711787340944159242, guid: 0dfe9ee50b895d84fb1a7d5c755d8205, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.4499998
@@ -35177,6 +35387,9 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 2099704837}
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3255656223214236570, guid: 0dfe9ee50b895d84fb1a7d5c755d8205, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1804779708}
     - targetCorrespondingSourceObject: {fileID: 3805231613409134681, guid: 0dfe9ee50b895d84fb1a7d5c755d8205, type: 3}
       insertIndex: -1
       addedObject: {fileID: 0}

@@ -14,7 +14,16 @@ public class ObjectDrag : MonoBehaviour
     [Header("Bounce Back")]
     [SerializeField] private bool bounceBack = true;
     [SerializeField] private float bounceSpeed = 10f;
-    [SerializeField] private float bounceDamping = 0.5f; 
+    [SerializeField] private float bounceDamping = 0.5f;
+
+    [Header("Drag Audio")]
+    [SerializeField] private AudioSource audioSource;
+    [SerializeField] private AudioClip openClip;
+    [SerializeField] private AudioClip closeClip;
+    [SerializeField] private float scrubCatchUpSpeed = 15f;
+    [SerializeField] private float maxScrubPitch = 4f;
+
+    private float lastNormalizedDistance = 0f;
 
     private Camera cam;
     private Vector3 startLocalPosition;
@@ -121,6 +130,8 @@ public class ObjectDrag : MonoBehaviour
         float distanceAlongAxis = Vector3.Dot(displacement, dragAxis);
         distanceAlongAxis = Mathf.Clamp(distanceAlongAxis, 0f, maxDragDistance);
         transform.localPosition = startLocalPosition + (Vector3)(dragAxis * distanceAlongAxis);
+
+        UpdateDragAudio(distanceAlongAxis / maxDragDistance);
     }
 
     private void EndDrag()
@@ -134,7 +145,10 @@ public class ObjectDrag : MonoBehaviour
             bouncingBack = true;
             velocity = Vector3.zero;
         }
-        
+        else
+        {
+            audioSource.Pause();
+        }
     }
 
     private void BounceTowardsStart()
@@ -151,6 +165,7 @@ public class ObjectDrag : MonoBehaviour
         {
             transform.localPosition = startLocalPosition;
             bouncingBack = false;
+            audioSource.Pause();
         }
     }
 
@@ -169,5 +184,40 @@ public class ObjectDrag : MonoBehaviour
             dragging = false;
             IsDragging = false;
         }
+    }
+    private void UpdateDragAudio(float normalizedDistance)
+    {
+        normalizedDistance = Mathf.Clamp01(normalizedDistance);
+        bool isOpening = normalizedDistance > lastNormalizedDistance;
+        AudioClip targetClip = isOpening ? openClip : closeClip;
+
+        float targetTime = normalizedDistance * targetClip.length;
+
+        if (audioSource.clip != targetClip)
+        {
+            // Direction changed — hard snap is unavoidable here, but it's a single
+            // clean cut rather than a stream of them, so it reads as a direction change, not a glitch.
+            audioSource.clip = targetClip;
+            audioSource.time = Mathf.Clamp(targetTime, 0f, targetClip.length - 0.01f);
+            audioSource.pitch = 1f;
+            audioSource.Play();
+        }
+        else
+        {
+            if (!audioSource.isPlaying) audioSource.Play();
+
+            // Instead of snapping .time, nudge pitch so playback catches up smoothly
+            float error = targetTime - audioSource.time;
+            float pitch = Mathf.Clamp(error * scrubCatchUpSpeed, -maxScrubPitch, maxScrubPitch);
+            audioSource.pitch = pitch;
+
+            // If we've drifted too far (e.g. big frame hitch), allow a snap as a safety net
+            if (Mathf.Abs(error) > targetClip.length * 0.3f)
+            {
+                audioSource.time = Mathf.Clamp(targetTime, 0f, targetClip.length - 0.01f);
+            }
+        }
+
+        lastNormalizedDistance = normalizedDistance;
     }
 }
