@@ -14,7 +14,10 @@ public class ObjectDrag : MonoBehaviour
     [Header("Bounce Back")]
     [SerializeField] private bool bounceBack = true;
     [SerializeField] private float bounceSpeed = 10f;
-    [SerializeField] private float bounceDamping = 0.5f; 
+    [SerializeField] private float bounceDamping = 0.5f;
+
+    [Header("Audio")]
+    [SerializeField] private AudioSource drag;
 
     private Camera cam;
     private Vector3 startLocalPosition;
@@ -108,6 +111,11 @@ public class ObjectDrag : MonoBehaviour
             pendingDrag = false;
             dragging = true;
             IsDragging = true;
+
+            if (drag != null && !drag.isPlaying)
+            {
+                drag.Play();
+            }
         }
 
         if (!dragging) return;

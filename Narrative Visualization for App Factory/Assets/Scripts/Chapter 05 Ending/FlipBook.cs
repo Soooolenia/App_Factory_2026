@@ -19,6 +19,7 @@ public class FlipBook : MonoBehaviour
     [SerializeField] private int currentVolumeLevel = 0;
     [SerializeField] private VolumeControl volumeControl;
     [SerializeField] private AudioSource buttonClick;
+    [SerializeField] private AudioSource finishReadingButton;
     private void Start()
     {
         pages[currentPageIndex].SetActive(true);
@@ -84,6 +85,8 @@ public class FlipBook : MonoBehaviour
     public void EndReading()
     {
         Debug.Log("Loading Credits");
+
+        finishReadingButton.Play();
 
         if (GameManager.Instance != null)
         {

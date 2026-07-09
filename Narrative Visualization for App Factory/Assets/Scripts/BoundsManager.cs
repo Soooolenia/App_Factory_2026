@@ -10,6 +10,8 @@ public class BoundsManager : MonoBehaviour
 
     [SerializeField] private int nextSecondaryClueAmount;
 
+    [SerializeField] private AudioSource boundUnlockSound;
+
     private bool isUnlocked = false;
 
     private void OnEnable()
@@ -43,6 +45,8 @@ public class BoundsManager : MonoBehaviour
     private void UnlockNextBound()
     {
         isUnlocked = true;
+
+        boundUnlockSound.Play();
 
         if (nextMapBound != null)
         {
