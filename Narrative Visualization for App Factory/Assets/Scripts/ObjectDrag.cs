@@ -147,7 +147,8 @@ public class ObjectDrag : MonoBehaviour
         }
         else
         {
-            audioSource.Pause();
+            if (audioSource != null)
+                audioSource.Pause();
         }
     }
 
@@ -165,7 +166,7 @@ public class ObjectDrag : MonoBehaviour
         {
             transform.localPosition = startLocalPosition;
             bouncingBack = false;
-            audioSource.Pause();
+            if (audioSource != null) audioSource.Pause();
         }
     }
 
@@ -187,6 +188,8 @@ public class ObjectDrag : MonoBehaviour
     }
     private void UpdateDragAudio(float normalizedDistance)
     {
+        if (audioSource == null || openClip == null || closeClip == null) return;
+
         normalizedDistance = Mathf.Clamp01(normalizedDistance);
         bool isOpening = normalizedDistance > lastNormalizedDistance;
         AudioClip targetClip = isOpening ? openClip : closeClip;
