@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class FlipBook : MonoBehaviour
@@ -14,6 +15,9 @@ public class FlipBook : MonoBehaviour
     [SerializeField] private GameObject mainGameCamera;
 
     [SerializeField] private GameObject endingText;
+
+    [SerializeField] private int currentVolumeLevel = 0;
+    [SerializeField] private VolumeControl volumeControl;
     private void Start()
     {
         pages[currentPageIndex].SetActive(true);
@@ -31,6 +35,8 @@ public class FlipBook : MonoBehaviour
     public void NextPage()
     {
         if (currentPageIndex >= pages.Length - 1) return;
+
+        VolumeIncrease();
 
         pages[currentPageIndex].SetActive(false);
         currentPageIndex++;
@@ -78,5 +84,18 @@ public class FlipBook : MonoBehaviour
         mapBounds.SetActive(true);
         endingText.SetActive(true);
         gameObject.SetActive(false);
+    }
+    private void VolumeIncrease()
+    {
+        if (currentVolumeLevel < currentPageIndex) return;
+
+        currentVolumeLevel += 1;
+
+        VolumeUpdate();
+    }
+
+    private void VolumeUpdate()
+    {
+        volumeControl.FadeToVolume(currentVolumeLevel * 0.2f, 1f);
     }
 }

@@ -24,6 +24,8 @@ public class MenuButtonManager : MonoBehaviour
     [SerializeField] private GameObject optionsMenu;
     [SerializeField] private GameObject creditsMenu;
 
+    [SerializeField] private VolumeControl mainTrack;
+
     private bool initialized = false;
     private void Start()
     {
@@ -70,6 +72,11 @@ public class MenuButtonManager : MonoBehaviour
                         noteBookToggle.enabled = true;
 
                         initialized = true;
+
+                        if (mainTrack != null)
+                        {
+                            mainTrack.FadeToVolume(0.1f, 1f);
+                        }
                     }
                     break;
                 case buttonType.Options:
