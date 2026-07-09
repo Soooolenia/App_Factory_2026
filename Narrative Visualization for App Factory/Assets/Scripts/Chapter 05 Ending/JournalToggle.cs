@@ -6,6 +6,8 @@ public class JournalToggle : MonoBehaviour
     private Camera cam;
 
     [SerializeField] private GameObject endingSequence;
+
+    [SerializeField] private AudioSource buttonClick;
     void Start()
     {
         //Reference main camera upon start up (I think for the raycast thing)
@@ -38,6 +40,7 @@ public class JournalToggle : MonoBehaviour
         if (hit.collider != null && hit.collider.gameObject == gameObject)
         {
             endingSequence.SetActive(true);
+            buttonClick.Play();
         }
     }
 }

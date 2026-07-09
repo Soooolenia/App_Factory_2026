@@ -77,7 +77,7 @@ public class MenuButtonManager : MonoBehaviour
 
                         if (mainTrack != null)
                         {
-                            mainTrack.FadeToVolume(0.1f, 1f);
+                            mainTrack.FadeToVolume(0.15f, 3f);
                         }
 
                         buttoneClick.Play();
