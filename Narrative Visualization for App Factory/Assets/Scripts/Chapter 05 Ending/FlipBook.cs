@@ -12,6 +12,8 @@ public class FlipBook : MonoBehaviour
     [SerializeField] private GameObject mapBounds;
 
     [SerializeField] private GameObject mainGameCamera;
+
+    [SerializeField] private GameObject endingText;
     private void Start()
     {
         pages[currentPageIndex].SetActive(true);
@@ -74,6 +76,7 @@ public class FlipBook : MonoBehaviour
         GameManager.Instance.LoadSceneAdditive(2);
         mainGameCamera.SetActive(false);
         mapBounds.SetActive(true);
+        endingText.SetActive(true);
         gameObject.SetActive(false);
     }
 }
