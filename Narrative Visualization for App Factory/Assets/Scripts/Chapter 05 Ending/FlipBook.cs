@@ -18,6 +18,7 @@ public class FlipBook : MonoBehaviour
 
     [SerializeField] private int currentVolumeLevel = 0;
     [SerializeField] private VolumeControl volumeControl;
+    [SerializeField] private AudioSource buttonClick;
     private void Start()
     {
         pages[currentPageIndex].SetActive(true);
@@ -42,6 +43,8 @@ public class FlipBook : MonoBehaviour
         currentPageIndex++;
         pages[currentPageIndex].SetActive(true);
 
+        buttonClick.Play();
+
         HandleButtonVisibility();
     }
     public void PreviousPage()
@@ -51,6 +54,8 @@ public class FlipBook : MonoBehaviour
         pages[currentPageIndex].SetActive(false);
         currentPageIndex--;
         pages[currentPageIndex].SetActive(true);
+
+        buttonClick.Play();
 
         HandleButtonVisibility();
     }
