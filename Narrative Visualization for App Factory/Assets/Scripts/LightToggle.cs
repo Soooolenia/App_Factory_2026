@@ -47,7 +47,7 @@ public class LightToggle : MonoBehaviour
             interactable.ToggleInteractability();
             click.Play();
 
-            if (light.activeSelf == true)
+            if (light.activeSelf == false)
             {
                 lightAmb.Play();
                 Debug.Log("Light is on");
