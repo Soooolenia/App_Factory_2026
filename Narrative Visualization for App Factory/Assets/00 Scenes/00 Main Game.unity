@@ -388,8 +388,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: SAMPLE TEST DECORATIVE SAMPLE TEST DECORATIVE SAMPLE TEST DECORATIVE SAMPLE
-    TEST DECORATIVE SAMPLE TEST DECORATIVE S
+  m_text: 'I YEARN FOR MY HEALTH. FOR NORMAL, BLANKETED COMFORTS.
+
+    MEANWHILE
+    I MUST DIE.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7edea8eef8a45f44dae9520327a86015, type: 2}
   m_sharedMaterial: {fileID: 3842701044063793796, guid: 7edea8eef8a45f44dae9520327a86015, type: 2}
@@ -548,7 +550,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -477.3756, y: 771.9636}
+  m_AnchoredPosition: {x: -315, y: -642}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &32601746
@@ -855,7 +857,7 @@ PrefabInstance:
       objectReference: {fileID: 387577670}
     - target: {fileID: 1097741121449798743, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: clueDescription
-      value: Daniel's Profile
+      value: <u>Patient profile of Daniel Helm</u>
       objectReference: {fileID: 0}
     - target: {fileID: 1097741121449798743, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: noteContentManager
@@ -1696,7 +1698,7 @@ PrefabInstance:
       objectReference: {fileID: 17527482}
     - target: {fileID: 1097741121449798743, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: clueDescription
-      value: patient B's profile
+      value: Patient profile of Jonah Gravener
       objectReference: {fileID: 0}
     - target: {fileID: 1097741121449798743, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: noteContentManager
@@ -1850,14 +1852,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 162101527}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 13.94, y: 1.36, z: -0.04}
-  m_LocalScale: {x: 0.58988, y: 0.58988, z: 0.58988}
+  m_LocalRotation: {x: -0, y: -0, z: -0.67421514, w: 0.7385351}
+  m_LocalPosition: {x: 13.23, y: -4.69, z: -0.06999999}
+  m_LocalScale: {x: 0.4679495, y: 0.4679495, z: 0.4679495}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 779201787}
   m_Father: {fileID: 1301685202}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -84.786}
 --- !u!212 &162101529
 SpriteRenderer:
   serializedVersion: 2
@@ -1907,7 +1909,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: ecd0b2027541a88498b67553b775c881, type: 3}
+  m_Sprite: {fileID: 21300000, guid: de8123b186e71b2418046c6a35a60fcf, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -1930,8 +1932,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObjectDrag
   dragThreshold: 0.1
-  dragAxis: {x: 1, y: 0}
-  maxDragDistance: 4
+  dragAxis: {x: -0.1, y: 0.9}
+  maxDragDistance: 5
   bounceBack: 1
   bounceSpeed: 100
   bounceDamping: 15
@@ -1973,7 +1975,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 13.87, y: 9.42}
+    oldSize: {x: 13.87, y: 20.15}
     newSize: {x: 13.87, y: 9.42}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -3628,12 +3630,24 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 830387108}
     - target: {fileID: 1506968329076297339, guid: 3b635fa1daa4562459a6870a1a188877, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1506968329076297339, guid: 3b635fa1daa4562459a6870a1a188877, type: 3}
       propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1506968329076297339, guid: 3b635fa1daa4562459a6870a1a188877, type: 3}
+      propertyPath: m_AnchorMin.x
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1506968329076297339, guid: 3b635fa1daa4562459a6870a1a188877, type: 3}
       propertyPath: m_AnchorMin.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1506968329076297339, guid: 3b635fa1daa4562459a6870a1a188877, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 769.1599
       objectReference: {fileID: 0}
     - target: {fileID: 1506968329076297339, guid: 3b635fa1daa4562459a6870a1a188877, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -3846,6 +3860,10 @@ PrefabInstance:
     - target: {fileID: 5959946238819049330, guid: 3b635fa1daa4562459a6870a1a188877, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6142714715314721280, guid: 3b635fa1daa4562459a6870a1a188877, type: 3}
+      propertyPath: m_text
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 6313291359380932021, guid: 3b635fa1daa4562459a6870a1a188877, type: 3}
       propertyPath: m_AnchorMax.y
@@ -6078,7 +6096,7 @@ PrefabInstance:
       objectReference: {fileID: 307678852}
     - target: {fileID: 1097741121449798743, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: clueDescription
-      value: Treatment room photo
+      value: <u>An old photo of a crude looking treatment room</u>
       objectReference: {fileID: 0}
     - target: {fileID: 1097741121449798743, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: noteContentManager
@@ -7170,6 +7188,81 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 430931413}
   m_CullTransparentMesh: 1
+--- !u!1 &433459823
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 433459824}
+  - component: {fileID: 433459826}
+  - component: {fileID: 433459825}
+  m_Layer: 5
+  m_Name: 'Handle Collider '
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &433459824
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 433459823}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1172509920}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1101.52, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &433459825
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 433459823}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 0, b: 0, a: 0}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &433459826
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 433459823}
+  m_CullTransparentMesh: 1
 --- !u!1 &439554157
 GameObject:
   m_ObjectHideFlags: 0
@@ -7234,27 +7327,27 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 858316325923925899, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.6555746
+      value: 2.3931332
       objectReference: {fileID: 0}
     - target: {fileID: 858316325923925899, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.6555746
+      value: 2.3931332
       objectReference: {fileID: 0}
     - target: {fileID: 858316325923925899, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.6555743
+      value: 2.3931327
       objectReference: {fileID: 0}
     - target: {fileID: 858316325923925899, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.95
+      value: 2.12
       objectReference: {fileID: 0}
     - target: {fileID: 858316325923925899, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.43
+      value: -2.85
       objectReference: {fileID: 0}
     - target: {fileID: 858316325923925899, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.2648919
+      value: 0.08543
       objectReference: {fileID: 0}
     - target: {fileID: 858316325923925899, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: m_LocalRotation.w
@@ -7298,7 +7391,7 @@ PrefabInstance:
       objectReference: {fileID: 1813790772}
     - target: {fileID: 1097741121449798743, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: clueDescription
-      value: A Random Photo
+      value: A random photo
       objectReference: {fileID: 0}
     - target: {fileID: 1097741121449798743, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: noteContentManager
@@ -7484,7 +7577,7 @@ PrefabInstance:
       objectReference: {fileID: 1725596677}
     - target: {fileID: 1097741121449798743, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: clueDescription
-      value: Daniel's Journal Post Lobotomy
+      value: <u>A note by Daniel, hard to tell for the shakey handwriting</u>
       objectReference: {fileID: 0}
     - target: {fileID: 1097741121449798743, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: noteContentManager
@@ -8460,7 +8553,7 @@ PrefabInstance:
       objectReference: {fileID: 929306430}
     - target: {fileID: 1097741121449798743, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: clueDescription
-      value: Daniel's cause of death
+      value: "<u>\xABDaniel's cause of death\xBB</u>"
       objectReference: {fileID: 0}
     - target: {fileID: 1097741121449798743, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: noteContentManager
@@ -8709,7 +8802,7 @@ PrefabInstance:
       objectReference: {fileID: 1561904255}
     - target: {fileID: 1097741121449798743, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: clueDescription
-      value: Someone's escape plan!
+      value: "<u>\xABSomeone's escape plan\xBB</u>"
       objectReference: {fileID: 0}
     - target: {fileID: 1097741121449798743, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: noteContentManager
@@ -8803,8 +8896,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: SAMPLE TEST DECORATIVE SAMPLE TEST DECORATIVE SAMPLE TEST DECORATIVE SAMPLE
-    TEST DECORATIVE SAMPLE TEST DECORATIVE SAMPLE TE
+  m_text: MOTHER, LITTLE HEART OF MINE, MY JOY, BELIEVE ME, EVERYONE IS REALLY RESPONSIBLE
+    TO ALL MEN FOR ALL MEN AND FOR EVERYTHING.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7edea8eef8a45f44dae9520327a86015, type: 2}
   m_sharedMaterial: {fileID: 3842701044063793796, guid: 7edea8eef8a45f44dae9520327a86015, type: 2}
@@ -10345,7 +10438,7 @@ Transform:
   m_GameObject: {fileID: 735577552}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.70725435, w: -0.7069592}
-  m_LocalPosition: {x: 37.66, y: -7.56, z: 0.28}
+  m_LocalPosition: {x: 37.66, y: -5.2, z: 0.28}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -10575,7 +10668,7 @@ PrefabInstance:
       objectReference: {fileID: 1249583614}
     - target: {fileID: 1097741121449798743, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: clueDescription
-      value: Artist's Note
+      value: <u>An estatic note of seeing Daniel</u>
       objectReference: {fileID: 0}
     - target: {fileID: 1097741121449798743, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: noteContentManager
@@ -10853,7 +10946,7 @@ PrefabInstance:
       objectReference: {fileID: 862411508}
     - target: {fileID: 1097741121449798743, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: clueDescription
-      value: Patient Intake Form that isn't important :(
+      value: A random old patient intake form
       objectReference: {fileID: 0}
     - target: {fileID: 1097741121449798743, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: noteContentManager
@@ -11476,31 +11569,31 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 858316325923925899, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.6952602
+      value: 2.297668
       objectReference: {fileID: 0}
     - target: {fileID: 858316325923925899, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.6952602
+      value: 2.297668
       objectReference: {fileID: 0}
     - target: {fileID: 858316325923925899, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.6952602
+      value: 2.297668
       objectReference: {fileID: 0}
     - target: {fileID: 858316325923925899, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.721
+      value: -5.34
       objectReference: {fileID: 0}
     - target: {fileID: 858316325923925899, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.749
+      value: 7.08
       objectReference: {fileID: 0}
     - target: {fileID: 858316325923925899, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.30514684
+      value: -0.3152
       objectReference: {fileID: 0}
     - target: {fileID: 858316325923925899, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: m_LocalRotation.w
-      value: 1
+      value: 0.71188945
       objectReference: {fileID: 0}
     - target: {fileID: 858316325923925899, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: m_LocalRotation.x
@@ -11512,7 +11605,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 858316325923925899, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0
+      value: 0.70229155
       objectReference: {fileID: 0}
     - target: {fileID: 858316325923925899, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -11524,7 +11617,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 858316325923925899, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
+      value: 89.222
       objectReference: {fileID: 0}
     - target: {fileID: 1097741121449798743, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: clueType
@@ -11540,7 +11633,7 @@ PrefabInstance:
       objectReference: {fileID: 162101532}
     - target: {fileID: 1097741121449798743, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: clueDescription
-      value: Doctor suggesting lobotomy on Daniel
+      value: <u>A diagnosis of Daniel's Schizophrenia</u>
       objectReference: {fileID: 0}
     - target: {fileID: 1097741121449798743, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: noteContentManager
@@ -11885,7 +11978,7 @@ PrefabInstance:
       objectReference: {fileID: 271359735}
     - target: {fileID: 1097741121449798743, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: clueDescription
-      value: A torn of piece of map
+      value: A torned off piece of map
       objectReference: {fileID: 0}
     - target: {fileID: 1097741121449798743, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: noteContentManager
@@ -12646,7 +12739,7 @@ PrefabInstance:
       objectReference: {fileID: 638423308}
     - target: {fileID: 1097741121449798743, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: clueDescription
-      value: Daniel's empty drawer
+      value: <u>Daniel's empty drawer</u>
       objectReference: {fileID: 0}
     - target: {fileID: 1097741121449798743, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: noteContentManager
@@ -12791,7 +12884,7 @@ PrefabInstance:
       objectReference: {fileID: 226665533}
     - target: {fileID: 1097741121449798743, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: clueDescription
-      value: Daniel's diagnosis
+      value: <u>A treatment order for Daniel's lobotomy</u>
       objectReference: {fileID: 0}
     - target: {fileID: 1097741121449798743, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: noteContentManager
@@ -12902,7 +12995,7 @@ PrefabInstance:
       objectReference: {fileID: 901728229}
     - target: {fileID: 1097741121449798743, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: clueDescription
-      value: Artist's Notes
+      value: <u>An obsession that seems to reach across time?</u>
       objectReference: {fileID: 0}
     - target: {fileID: 1097741121449798743, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: noteContentManager
@@ -13219,7 +13312,7 @@ PrefabInstance:
       objectReference: {fileID: 891723338}
     - target: {fileID: 1097741121449798743, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: clueDescription
-      value: First Main Clue, emplyee handbook
+      value: "<u>\xABAn employee handbook explaining my job\xBB</u>"
       objectReference: {fileID: 0}
     - target: {fileID: 1097741121449798743, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: noteContentManager
@@ -13929,7 +14022,7 @@ Transform:
   m_GameObject: {fileID: 929306426}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 14.619999, y: 5.86, z: -0.24}
+  m_LocalPosition: {x: 14.619999, y: 6.62, z: -0.24}
   m_LocalScale: {x: 0.58988, y: 0.58988, z: 0.58988}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -13985,7 +14078,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: 24d177b2f3f8a3e4dbd950fe0d778342, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fee8b4f5fcdc4094ea1b2eb76435e767, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -14364,7 +14457,7 @@ PrefabInstance:
       objectReference: {fileID: 888524682}
     - target: {fileID: 1097741121449798743, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: clueDescription
-      value: A love letter for Daniel...
+      value: <u>An oddly obsessive love letter to Daniel</u>
       objectReference: {fileID: 0}
     - target: {fileID: 1097741121449798743, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: noteContentManager
@@ -14528,7 +14621,7 @@ PrefabInstance:
       objectReference: {fileID: 755087700}
     - target: {fileID: 1097741121449798743, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: clueDescription
-      value: PIF 3-2 that isn't important :(
+      value: An old piece of patient intake form
       objectReference: {fileID: 0}
     - target: {fileID: 1097741121449798743, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: noteContentManager
@@ -15304,7 +15397,7 @@ PrefabInstance:
       objectReference: {fileID: 1891131764}
     - target: {fileID: 1097741121449798743, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: clueDescription
-      value: A brochure of beaconhouse modern
+      value: <u>A brochure of the current beaconhouse</u>
       objectReference: {fileID: 0}
     - target: {fileID: 1097741121449798743, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: noteContentManager
@@ -16363,6 +16456,7 @@ RectTransform:
   - {fileID: 1708972917}
   - {fileID: 279345121}
   - {fileID: 1769549021}
+  - {fileID: 433459824}
   m_Father: {fileID: 1442162838}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -17214,7 +17308,7 @@ PrefabInstance:
       objectReference: {fileID: 135603500}
     - target: {fileID: 1097741121449798743, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: clueDescription
-      value: A cutout of an old beaconhouse ad
+      value: <u>A cutout of an old beaconhouse ad</u>
       objectReference: {fileID: 0}
     - target: {fileID: 1097741121449798743, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: noteContentManager
@@ -18170,7 +18264,7 @@ PrefabInstance:
       objectReference: {fileID: 2099704840}
     - target: {fileID: 1097741121449798743, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: clueDescription
-      value: A missing poster of Daniel!
+      value: <u>A missing poster of Daniel</u>
       objectReference: {fileID: 0}
     - target: {fileID: 1097741121449798743, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: noteContentManager
@@ -18281,7 +18375,7 @@ PrefabInstance:
       objectReference: {fileID: 1519482245}
     - target: {fileID: 1097741121449798743, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: clueDescription
-      value: Daniel's Room, Secondary Clue
+      value: <u>A photo of Daniel's messy room</u>
       objectReference: {fileID: 0}
     - target: {fileID: 1097741121449798743, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: noteContentManager
@@ -18487,7 +18581,7 @@ PrefabInstance:
       objectReference: {fileID: 1031495696}
     - target: {fileID: 1097741121449798743, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: clueDescription
-      value: C1 3-5 Not A Clue Intake Form
+      value: An old patient intake form from 1954
       objectReference: {fileID: 0}
     - target: {fileID: 1097741121449798743, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: noteContentManager
@@ -19734,7 +19828,7 @@ PrefabInstance:
       objectReference: {fileID: 1340641572}
     - target: {fileID: 1097741121449798743, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: clueDescription
-      value: Patient A's profile
+      value: Patient profile of Agatha White
       objectReference: {fileID: 0}
     - target: {fileID: 1097741121449798743, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: noteContentManager
@@ -20570,7 +20664,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 745.15, y: -42.900024}
+  m_AnchoredPosition: {x: 745.15, y: -42.899902}
   m_SizeDelta: {x: 1424.45, y: 617}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1001 &1429938571
@@ -20906,7 +21000,7 @@ PrefabInstance:
       objectReference: {fileID: 1893428710}
     - target: {fileID: 1097741121449798743, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: clueDescription
-      value: A weird redacted finance report
+      value: <u>A heavily redacted finance report</u>
       objectReference: {fileID: 0}
     - target: {fileID: 1097741121449798743, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: noteContentManager
@@ -20922,7 +21016,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4563053569447857176, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5021661251122668216, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: m_LocalPosition.z
@@ -20931,10 +21025,7 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 350376208232759157, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 0}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
 --- !u!4 &1440214472 stripped
 Transform:
@@ -21517,7 +21608,7 @@ PrefabInstance:
       objectReference: {fileID: 1852271996}
     - target: {fileID: 1097741121449798743, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: clueDescription
-      value: Daniel's Journal when first admitted
+      value: <u>Daniel's Journal when first admitted</u>
       objectReference: {fileID: 0}
     - target: {fileID: 1097741121449798743, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: noteContentManager
@@ -22394,7 +22485,7 @@ PrefabInstance:
       objectReference: {fileID: 1472168882}
     - target: {fileID: 1097741121449798743, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: clueDescription
-      value: C1 Main Clue!
+      value: "<u>\xABA poem about this odd young man named Daniel\xBB</u>"
       objectReference: {fileID: 0}
     - target: {fileID: 1097741121449798743, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: noteContentManager
@@ -23522,7 +23613,7 @@ PrefabInstance:
       objectReference: {fileID: 1774162394}
     - target: {fileID: 1097741121449798743, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: clueDescription
-      value: A Sketch of Daniel!
+      value: "<u>\xABA blurry sketch of Daniel\xBB</u>"
       objectReference: {fileID: 0}
     - target: {fileID: 1097741121449798743, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: noteContentManager
@@ -23947,7 +24038,7 @@ PrefabInstance:
       objectReference: {fileID: 804278774}
     - target: {fileID: 1097741121449798743, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: clueDescription
-      value: A sketch of a swollen eye
+      value: <u>A sketch of a swollen eye with a red stamp</u>
       objectReference: {fileID: 0}
     - target: {fileID: 1097741121449798743, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: noteContentManager
@@ -25348,7 +25439,7 @@ PrefabInstance:
       objectReference: {fileID: 409862333}
     - target: {fileID: 1097741121449798743, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: clueDescription
-      value: Patient Intake Form 2-1
+      value: <u>A poem about feeling trapped here</u>
       objectReference: {fileID: 0}
     - target: {fileID: 1097741121449798743, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: noteContentManager
@@ -25509,7 +25600,7 @@ Transform:
   m_GameObject: {fileID: 1725596675}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: 0.1283895, w: -0.99172384}
-  m_LocalPosition: {x: 26.55, y: -0.059999943, z: 0}
+  m_LocalPosition: {x: 25.46, y: 0.45, z: 0}
   m_LocalScale: {x: 0.253176, y: 0.253176, z: 0.253176}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -25547,8 +25638,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObjectDrag
   dragThreshold: 0.1
-  dragAxis: {x: 0.8, y: -0.2}
-  maxDragDistance: 0.75
+  dragAxis: {x: -0.2, y: -0.8}
+  maxDragDistance: 2
   bounceBack: 1
   bounceSpeed: 100
   bounceDamping: 15
@@ -25601,7 +25692,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: dfe482b9aef1050448e47e8787d16824, type: 3}
+  m_Sprite: {fileID: 21300000, guid: df41004ffdee0b54c933456feeb3f7e9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -26934,8 +27025,8 @@ Transform:
   m_GameObject: {fileID: 1813790768}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.09555181, w: 0.9954245}
-  m_LocalPosition: {x: -6.2, y: 0, z: 0}
-  m_LocalScale: {x: 0.60401994, y: 0.60401994, z: 0.60402}
+  m_LocalPosition: {x: -7.19, y: 2.48, z: 0}
+  m_LocalScale: {x: 0.43744937, y: 0.43744937, z: 0.4374494}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 443501200}
@@ -26954,7 +27045,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObjectDrag
   dragThreshold: 0.1
-  dragAxis: {x: -0.2, y: -0.8}
+  dragAxis: {x: -0.8, y: 0.2}
   maxDragDistance: 3
   bounceBack: 1
   bounceSpeed: 100
@@ -27230,11 +27321,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5936551189245200895, guid: a8108d0475091f940b99f8f8a244f4f6, type: 3}
       propertyPath: m_Color.b
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5936551189245200895, guid: a8108d0475091f940b99f8f8a244f4f6, type: 3}
       propertyPath: m_Color.g
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5936551189245200895, guid: a8108d0475091f940b99f8f8a244f4f6, type: 3}
       propertyPath: m_Color.r
@@ -27564,8 +27655,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObjectDrag
   dragThreshold: 0.1
-  dragAxis: {x: 1, y: 0}
-  maxDragDistance: 0.75
+  dragAxis: {x: -0.1, y: 0.9}
+  maxDragDistance: 2
   bounceBack: 1
   bounceSpeed: 100
   bounceDamping: 15
@@ -27618,7 +27709,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 21300000, guid: dfe482b9aef1050448e47e8787d16824, type: 3}
+  m_Sprite: {fileID: 21300000, guid: d41d0c81dcc533f4898ef5e709d7434e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -27994,10 +28085,14 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5936551189245200895, guid: a8108d0475091f940b99f8f8a244f4f6, type: 3}
       propertyPath: m_Color.b
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5936551189245200895, guid: a8108d0475091f940b99f8f8a244f4f6, type: 3}
       propertyPath: m_Color.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5936551189245200895, guid: a8108d0475091f940b99f8f8a244f4f6, type: 3}
+      propertyPath: m_Color.r
       value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -28543,7 +28638,7 @@ Transform:
   m_GameObject: {fileID: 1902781326}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0.7070822, w: 0.70713145}
-  m_LocalPosition: {x: 25.266958, y: 5.75, z: 0.08}
+  m_LocalPosition: {x: 25.266958, y: 4, z: 0.08}
   m_LocalScale: {x: 1.4383999, y: 1.4383999, z: 1.4384}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -29363,7 +29458,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 3294, y: -1509}
+  m_AnchoredPosition: {x: 4830, y: -321}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1942229657
@@ -29617,7 +29712,7 @@ PrefabInstance:
       objectReference: {fileID: 1139119696}
     - target: {fileID: 1097741121449798743, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: clueDescription
-      value: 'C1 2-2 Intake Form Clue '
+      value: <u>A haiku about the war and his dispair</u>
       objectReference: {fileID: 0}
     - target: {fileID: 1097741121449798743, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: noteContentManager
@@ -30460,7 +30555,7 @@ PrefabInstance:
       objectReference: {fileID: 115296211}
     - target: {fileID: 1097741121449798743, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: clueDescription
-      value: C1 3-4 Random Pic No Clue
+      value: Just a blurry photo...
       objectReference: {fileID: 0}
     - target: {fileID: 1097741121449798743, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: noteContentManager
@@ -31707,7 +31802,7 @@ PrefabInstance:
       objectReference: {fileID: 202390740}
     - target: {fileID: 1097741121449798743, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: clueDescription
-      value: C1 3-3 None Clue
+      value: A patient intake form of Edith
       objectReference: {fileID: 0}
     - target: {fileID: 1097741121449798743, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: noteContentManager
@@ -31801,8 +31896,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: SAMPLE TEST DECORATIVE SAMPLE TEST DECORATIVE SAMPLE TEST DECORATIVE SAMPLE
-    TEST DECORATIVE SAMPLE TEST DECORATIVE SAMPLE TE
+  m_text: 'A FRIEND WHOM I DANCED, WHOSE EYES SHONE WITH EMPATHY.
+
+    NOW SHREDDED.
+    DEAD. BLANK.'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7edea8eef8a45f44dae9520327a86015, type: 2}
   m_sharedMaterial: {fileID: 3842701044063793796, guid: 7edea8eef8a45f44dae9520327a86015, type: 2}
@@ -32135,6 +32232,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 234553622}
     - target: {fileID: 3354124476372333172, guid: dffe44084dfbfb046b3c8129d6692eaa, type: 3}
+      propertyPath: clueDescription
+      value: A torned off piece of map
+      objectReference: {fileID: 0}
+    - target: {fileID: 3354124476372333172, guid: dffe44084dfbfb046b3c8129d6692eaa, type: 3}
       propertyPath: noteContentManager
       value: 
       objectReference: {fileID: 234553623}
@@ -32242,7 +32343,7 @@ PrefabInstance:
       objectReference: {fileID: 2136882974}
     - target: {fileID: 1097741121449798743, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: clueDescription
-      value: Not a clue, just random photo
+      value: A random photo...
       objectReference: {fileID: 0}
     - target: {fileID: 1097741121449798743, guid: 609059b45e5dcc34582ab97246fa17c9, type: 3}
       propertyPath: noteContentManager

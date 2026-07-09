@@ -96,7 +96,7 @@ public class NoteTakeToggle : MonoBehaviour
     public void NoteTaken()
     {
         noteIsTaken = true;
-        spriteRenderer.color = Color.gray;
+        spriteRenderer.color = new Color(0.8f, 0.8f, 0.8f, 1f);
     }
     public void NoteUnTaken()
     {
