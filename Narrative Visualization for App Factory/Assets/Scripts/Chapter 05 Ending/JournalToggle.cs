@@ -8,6 +8,9 @@ public class JournalToggle : MonoBehaviour
     [SerializeField] private GameObject endingSequence;
 
     [SerializeField] private AudioSource buttonClick;
+    [SerializeField] private AudioSource endCreditsMusic;
+
+    [SerializeField] private VolumeControl volumeControl;
     void Start()
     {
         //Reference main camera upon start up (I think for the raycast thing)
@@ -39,8 +42,10 @@ public class JournalToggle : MonoBehaviour
         //If the raycast hit something and the thing it hit is the game object
         if (hit.collider != null && hit.collider.gameObject == gameObject)
         {
+            volumeControl.FadeToVolume(0.3f, 1f);
             endingSequence.SetActive(true);
             buttonClick.Play();
+            endCreditsMusic.Play();
         }
     }
 }

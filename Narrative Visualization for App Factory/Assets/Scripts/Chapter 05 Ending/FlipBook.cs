@@ -16,10 +16,15 @@ public class FlipBook : MonoBehaviour
 
     [SerializeField] private GameObject endingText;
 
-    [SerializeField] private int currentVolumeLevel = 0;
+    [SerializeField] private float currentVolumeLevel = 0;
+    [SerializeField] private float actualVolumeLevel = 0;
+
     [SerializeField] private VolumeControl volumeControl;
     [SerializeField] private AudioSource buttonClick;
     [SerializeField] private AudioSource finishReadingButton;
+
+    [SerializeField] private VolumeControl endCreditMusic;
+
     private void Start()
     {
         pages[currentPageIndex].SetActive(true);
@@ -87,6 +92,8 @@ public class FlipBook : MonoBehaviour
         Debug.Log("Loading Credits");
 
         finishReadingButton.Play();
+        endCreditMusic.FadeToVolume(1f, 2f);
+        volumeControl.FadeToVolume(0f, 2f);
 
         if (GameManager.Instance != null)
         {
@@ -104,11 +111,13 @@ public class FlipBook : MonoBehaviour
 
         currentVolumeLevel += 1;
 
+        actualVolumeLevel = currentVolumeLevel + 0.3f;
+
         VolumeUpdate();
     }
 
     private void VolumeUpdate()
     {
-        volumeControl.FadeToVolume(currentVolumeLevel * 0.2f, 1f);
+        volumeControl.FadeToVolume(actualVolumeLevel * 0.25f, 1f);
     }
 }
