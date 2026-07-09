@@ -12,6 +12,9 @@ public class NoteBookToggle : MonoBehaviour
     [SerializeField] private GameObject downButton;
 
     [SerializeField] private GameObject NotebookUI;
+
+    [SerializeField] private AudioSource notebookUp;
+    [SerializeField] private AudioSource notebookDown;
     private void Start()
     {
         animator = GetComponent<Animator>();
@@ -32,6 +35,8 @@ public class NoteBookToggle : MonoBehaviour
         animator.SetTrigger("Up");
         downButton.SetActive(true);
         upButton.SetActive(false);
+
+        notebookUp.Play();
     }
 
     private void Initialize()
@@ -49,6 +54,8 @@ public class NoteBookToggle : MonoBehaviour
 
         downButton.SetActive(false);
         upButton.SetActive(true);
+
+        notebookDown.Play();
     }
     public void AddNotes()
     {

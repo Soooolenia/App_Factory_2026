@@ -79,7 +79,12 @@ public class FlipBook : MonoBehaviour
     public void EndReading()
     {
         Debug.Log("Loading Credits");
-        GameManager.Instance.LoadSceneAdditive(2);
+
+        if (GameManager.Instance != null)
+        {
+            GameManager.Instance.LoadSceneAdditive(2);
+        }
+        
         mainGameCamera.SetActive(false);
         mapBounds.SetActive(true);
         endingText.SetActive(true);

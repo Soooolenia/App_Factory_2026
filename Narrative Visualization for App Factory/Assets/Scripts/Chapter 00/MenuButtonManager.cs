@@ -26,6 +26,8 @@ public class MenuButtonManager : MonoBehaviour
 
     [SerializeField] private VolumeControl mainTrack;
 
+    [SerializeField] private AudioSource buttoneClick;
+
     private bool initialized = false;
     private void Start()
     {
@@ -77,16 +79,21 @@ public class MenuButtonManager : MonoBehaviour
                         {
                             mainTrack.FadeToVolume(0.1f, 1f);
                         }
+
+                        buttoneClick.Play();
                     }
                     break;
                 case buttonType.Options:
                     optionsMenu.SetActive(true);
+                    buttoneClick.Play();
                     break;
                 case buttonType.Credits:
                     creditsMenu.SetActive(true);
+                    buttoneClick.Play();
                     break;
                 case buttonType.Quit:
                     Debug.Log("Quit");
+                    buttoneClick.Play();
                     Application.Quit();
                     break;
             }
