@@ -1,4 +1,3 @@
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class FlipBook : MonoBehaviour
@@ -16,14 +15,15 @@ public class FlipBook : MonoBehaviour
 
     [SerializeField] private GameObject endingText;
 
-    [SerializeField] private float currentVolumeLevel = 0;
-    [SerializeField] private float actualVolumeLevel = 0;
-
     [SerializeField] private VolumeControl volumeControl;
     [SerializeField] private AudioSource buttonClick;
     [SerializeField] private AudioSource finishReadingButton;
 
     [SerializeField] private VolumeControl endCreditMusic;
+
+    [SerializeField] private float startVolume = 0.3f;
+    private float volumeIncrement = 0.075f;
+    private int furthestPageReached = 0;
 
     private void Start()
     {
@@ -42,16 +42,23 @@ public class FlipBook : MonoBehaviour
     public void NextPage()
     {
         if (currentPageIndex >= pages.Length - 1) return;
-
-        VolumeIncrease();
-
         pages[currentPageIndex].SetActive(false);
         currentPageIndex++;
         pages[currentPageIndex].SetActive(true);
 
-        buttonClick.Play();
+        if (currentPageIndex > furthestPageReached)
+        {
+            furthestPageReached = currentPageIndex;
+            UpdateVolume();
+        }
 
+        buttonClick.Play();
         HandleButtonVisibility();
+    }
+    private void UpdateVolume()
+    {
+        float targetVolume = Mathf.Clamp(startVolume + furthestPageReached * volumeIncrement, startVolume, 1f);
+        volumeControl.FadeToVolume(targetVolume, 1f);
     }
     public void PreviousPage()
     {
@@ -92,8 +99,8 @@ public class FlipBook : MonoBehaviour
         Debug.Log("Loading Credits");
 
         finishReadingButton.Play();
-        endCreditMusic.FadeToVolume(1f, 2f);
-        volumeControl.FadeToVolume(0f, 2f);
+        endCreditMusic.FadeToVolume(1f, 3f);
+        volumeControl.FadeToVolume(0f, 3f);
 
         if (GameManager.Instance != null)
         {
@@ -105,19 +112,19 @@ public class FlipBook : MonoBehaviour
         endingText.SetActive(true);
         gameObject.SetActive(false);
     }
-    private void VolumeIncrease()
-    {
-        if (currentVolumeLevel < currentPageIndex) return;
+    //private void VolumeIncrease()
+    //{
+    //    if (currentVolumeLevel < currentPageIndex) return;
 
-        currentVolumeLevel += 1;
+    //    currentVolumeLevel += 1;
 
-        actualVolumeLevel = currentVolumeLevel + 0.3f;
+    //    actualVolumeLevel = currentVolumeLevel + 0.3f;
 
-        VolumeUpdate();
-    }
+    //    VolumeUpdate();
+    //}
 
-    private void VolumeUpdate()
-    {
-        volumeControl.FadeToVolume(actualVolumeLevel * 0.25f, 1f);
-    }
+    //private void VolumeUpdate()
+    //{
+    //    volumeControl.FadeToVolume(actualVolumeLevel * 0.25f, 1f);
+    //}
 }

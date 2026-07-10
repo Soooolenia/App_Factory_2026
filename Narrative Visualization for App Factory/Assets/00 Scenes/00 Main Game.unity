@@ -12110,11 +12110,11 @@ MonoBehaviour:
   mapBounds: {fileID: 361063522}
   mainGameCamera: {fileID: 785755455}
   endingText: {fileID: 124769992}
-  currentVolumeLevel: 0
   volumeControl: {fileID: 1345595109}
   buttonClick: {fileID: 593301006}
   finishReadingButton: {fileID: 1961592523}
   endCreditMusic: {fileID: 960628084}
+  startVolume: 0.3
 --- !u!1001 &747004225
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22527,7 +22527,7 @@ AudioSource:
   m_audioClip: {fileID: 0}
   m_Resource: {fileID: 8300000, guid: 80eec74a5ca6c5f4c9333daccd101028, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 1
   Mute: 0
