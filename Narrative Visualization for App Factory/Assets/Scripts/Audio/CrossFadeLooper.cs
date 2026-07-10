@@ -1,9 +1,11 @@
-using UnityEngine;
 using System.Collections;
+using UnityEngine;
+using UnityEngine.Audio;
 
 public class CrossfadeLooper : MonoBehaviour
 {
     [SerializeField] private AudioClip musicClip;
+    [SerializeField] private AudioMixerGroup outputMixerGroup;
     [SerializeField] private float crossfadeDuration = 0.5f;
     [SerializeField][Range(0f, 1f)] private float startingVolume = 1f;
 
@@ -34,6 +36,7 @@ public class CrossfadeLooper : MonoBehaviour
         src.loop = false;
         src.playOnAwake = false;
         src.volume = 0f;
+        src.outputAudioMixerGroup = outputMixerGroup;
     }
 
     void Start()

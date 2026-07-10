@@ -16280,6 +16280,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CrossfadeLooper
   musicClip: {fileID: 8300000, guid: 0fa553419c0d98f4cad76101246d97dc, type: 3}
+  outputMixerGroup: {fileID: 24300002, guid: 33538c5231579024aa7bfa96823daa2c, type: 2}
   crossfadeDuration: 0.5
   startingVolume: 0
 --- !u!1 &966912125
@@ -22458,6 +22459,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: '::'
   musicClip: {fileID: 8300000, guid: 2dfa1e851a3f5ad4885dcebc97f7dc5e, type: 3}
+  outputMixerGroup: {fileID: 24300002, guid: 33538c5231579024aa7bfa96823daa2c, type: 2}
   crossfadeDuration: 0.5
   startingVolume: 1
 --- !u!1 &1356775342
